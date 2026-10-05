@@ -67,12 +67,9 @@ telegram:
 # =====================================================================
 sources:
   html_links:
-    # [à tester] portail de recrutement BNP (le site group.bnpparibas bloque GitHub : 403)
-    - company: "BNP Paribas"
-      url: "https://bwelcome.hr.bnpparibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100"
-      link_contains: "/JobDetail"
-      id_regex: '(?:jobId=|/)([0-9]{3,})(?:$|[&/?#])'
-      pages: 1
+    # BNP Paribas : désactivé. group.bnpparibas bloque les serveurs GitHub (403) et le
+    # portail bwelcome.hr.bnpparibas n'a pas de liste publique (404).
+    # -> utiliser l'alerte e-mail officielle sur la page des stages BNP.
 
     # [vérifié] une page = les 400 offres les plus récentes (tous contrats)
     - company: "Société Générale"
