@@ -63,6 +63,8 @@ def main(config_path=None, collectors=None):
         seeded = health.get(key, {}).get("seeded", False)
         health[key] = {"fails": 0, "last_error": "", "seeded": True}
         ok_companies.add(c["company"])
+        kept = sum(1 for j in jobs if matches(j, cfg["filters"]))
+        print(f"[OK] {c['company']:<28} {len(jobs):>4} offres lues, {kept:>3} gardées par les filtres")
         for j in jobs:
             if not matches(j, cfg["filters"]):
                 continue
@@ -80,7 +82,7 @@ def main(config_path=None, collectors=None):
         if j["company"] in ok_companies and jid not in seen_ids:
             j["active"] = False
 
-    print(f"{len(tasks)} sources, {len(new)} nouvelles offres, {time.time() - t0:.1f}s")
+    print(f"{len(tasks)} sources, {sum(1 for j in store.values() if j.get('active'))} offres suivies, {len(new)} nouvelles signalées, {time.time() - t0:.1f}s")
 
     if new:
         notify.new_jobs(sorted(new, key=lambda j: j["company"]), cfg.get("telegram", {}).get("max_detailed", 10))

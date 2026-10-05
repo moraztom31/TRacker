@@ -7,8 +7,7 @@ import requests
 def send(text):
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
     if not token or not chat:
-        print("[telegram] non configuré, message ignoré :\n" + text)
-        return
+        return  # Telegram facultatif : alertes visibles sur le site
     r = requests.post(
         f"https://api.telegram.org/bot{token}/sendMessage",
         json={"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True},

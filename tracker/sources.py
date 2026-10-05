@@ -1,10 +1,18 @@
 """Un collecteur par plateforme ATS. Chaque collecteur renvoie une liste de dicts :
 {id, company, title, location, url, posted}"""
 import re
+import warnings
 
 import requests
+from bs4 import XMLParsedAsHTMLWarning
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; stage-tracker personal use)"}
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+UA = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+}
 TIMEOUT = 15
 
 
@@ -246,6 +254,15 @@ def _container(a, link_contains):
     return node
 
 
+def _stable_id(cfg, href):
+    """Identifiant stable : certains sites (Oleeo) mettent un code de session dans l'URL."""
+    if cfg.get("id_regex"):
+        m = re.search(cfg["id_regex"], href)
+        if m:
+            return f"hl:{cfg['company']}:{m.group(1)}"
+    return f"hl:{href}"
+
+
 def html_links(cfg):
     """Liste d'offres rendue côté serveur (BNP, SG, Crédit Agricole, Barclays, Citi...).
     Repère les liens dont l'URL contient `link_contains`. Titre = premier bloc de texte
@@ -288,7 +305,7 @@ def html_links(cfg):
             location = " · ".join(rest)
             out.append(
                 {
-                    "id": f"hl:{href}",
+                    "id": _stable_id(cfg, href),
                     "company": cfg["company"],
                     "title": title,
                     "location": re.sub(r"(\s*·\s*)+", " · ", location)[:220],
