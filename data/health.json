@@ -33,6 +33,10 @@
   "fails": 3,
   "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
  },
+ "html_links:BNP Paribas:ibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100": {
+  "fails": 1,
+  "last_error": "HTTPError: 404 Client Error: Not Found for url: https://bwelcome.hr.bnpparibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100"
+ },
  "html_links:Citi:s.citi.com/location/paris-jobs/287/3017382-3012874-2988507/4": {
   "fails": 0,
   "last_error": "",
