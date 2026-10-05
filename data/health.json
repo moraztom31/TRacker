@@ -1,0 +1,161 @@
+{
+ "greenhouse:Bridgewater:bridgewater89": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:EQT:eqtpartners": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:Man Group:mangroup": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:Marshall Wace:marshallwace": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:Point72:point72": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:TPG:tpgcareers": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:BNP Paribas:/group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage": {
+  "fails": 1,
+  "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
+ },
+ "html_links:Citi:s.citi.com/location/paris-jobs/287/3017382-3012874-2988507/4": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:Morgan Stanley:e-0/brand-2/xf-53515a97a3a0/candidate/jobboard/vacancy/1/adv": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:Société Générale://careers.societegenerale.com/fr/Technical/toutes-les-offres": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "lever:Apax Partners:apax": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "oleeo_feed:Bank of America:bile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "oleeo_feed:Lazard:bile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "oracle_hcm:Goldman Sachs:hdpc.fa.us2.oraclecloud.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "oracle_hcm:Schroders:ekbq.fa.em2.oraclecloud.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Apollo:athene.wd5.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Ardian:ardian.wd103.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Barclays:barclays.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:BlackRock:blackrock.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Blackstone:blackstone.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Deutsche Bank:db.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Fidelity International:fil.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Houlihan Lokey:hl.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Invesco:invesco.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Santander:santandercareers.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:State Street:statestreet.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ }
+}
