@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offres de stage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1f4; --panel: #ffffff; --ink: #14202b; --muted: #5d6b79;
+    --line: #d5dce3; --accent: #0b6b66; --accent-soft: #dff1ef; --focus: #1d4ed8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1820; --panel: #17222d; --ink: #e6ecf1; --muted: #93a2b0; --line: #2a3a49; --accent: #4fc3bb; --accent-soft: #123a3a; --focus: #7aa2ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 "IBM Plex Sans", system-ui, sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; margin-bottom: 20px; }
+  h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; margin: 0; }
+  .meta { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+  input[type=search], select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; min-height: 38px; }
+  input[type=search] { flex: 1 1 220px; }
+  label.chk { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 14px; }
+  button { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; min-height: 38px; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  ul { list-style: none; margin: 0; padding: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  li { display: grid; grid-template-columns: 150px 1fr 170px 90px 140px; gap: 12px; align-items: center; padding: 12px 16px 12px 13px; border-bottom: 1px solid var(--line); border-left: 3px solid transparent; }
+  li:last-child { border-bottom: 0; }
+  li.new { border-left-color: var(--accent); background: var(--accent-soft); }
+  li.closed { opacity: .55; }
+  .co { font-weight: 600; }
+  .title a { color: var(--ink); text-decoration-color: var(--line); text-underline-offset: 3px; }
+  .title a:hover { text-decoration-color: var(--accent); }
+  .badge { color: var(--accent); font-weight: 600; font-size: 13px; margin-right: 6px; }
+  .ent { color: var(--muted); font-size: 13px; }
+  .loc, .age { color: var(--muted); font-size: 14px; }
+  .age { font-variant-numeric: tabular-nums; }
+  .banner { display: block; width: 100%; text-align: left; margin-bottom: 12px; padding: 12px 16px; background: var(--accent); color: #fff; border: 0; border-radius: 8px; font-weight: 600; cursor: pointer; }
+  .banner:hover { filter: brightness(1.08); }
+  .empty { padding: 40px 20px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; }
+  @media (max-width: 760px) {
+    li { grid-template-columns: 1fr auto; row-gap: 4px; }
+    .title { grid-column: 1 / -1; order: 2; }
+    .loc { order: 3; } .age { order: 1; text-align: right; } .co { order: 1; }
+    .st { grid-column: 1 / -1; order: 4; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Offres de stage</h1>
+    <div class="meta" id="meta" aria-live="polite">Chargement…</div>
+  </header>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Rechercher un poste, une entreprise, une ville" aria-label="Rechercher">
+    <select id="co" aria-label="Entreprise"><option value="">Toutes les entreprises</option></select>
+    <select id="st" aria-label="Statut">
+      <option value="">Tous les statuts</option>
+      <option value="todo">À postuler</option>
+      <option value="applied">Postulé</option>
+      <option value="followup">Relancé</option>
+      <option value="interview">Entretien</option>
+      <option value="rejected">Refus</option>
+      <option value="ignored">Ignoré</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="onlynew"> Nouvelles uniquement</label>
+    <label class="chk"><input type="checkbox" id="closed"> Afficher les clôturées</label>
+    <button id="seen" type="button">Tout marquer comme vu</button>
+    <button id="notif" type="button" hidden>Activer les alertes</button>
+  </div>
+  <button id="banner" type="button" class="banner" hidden></button>
+  <ul id="list"></ul>
+  <div class="empty" id="empty" hidden>Aucune offre ne correspond à ces filtres.</div>
+</main>
+<script>
+const STATUS = {"": "Statut", todo: "À postuler", applied: "Postulé", followup: "Relancé", interview: "Entretien", rejected: "Refus", ignored: "Ignoré"};
+const $ = (id) => document.getElementById(id);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+let jobs = [], statuses = store.get("statuses", {}), lastSeen = store.get("lastSeen", null);
+
+function ago(iso) {
+  const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (m < 1) return "à l'instant";
+  if (m < 60) return m + " min";
+  if (m < 1440) return Math.floor(m / 60) + " h";
+  return Math.floor(m / 1440) + " j";
+}
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function render() {
+  const q = $("q").value.trim().toLowerCase(), co = $("co").value, st = $("st").value;
+  const onlyNew = $("onlynew").checked, showClosed = $("closed").checked;
+  const rows = jobs.filter((j) => {
+    if (!showClosed && !j.active) return false;
+    if (co && j.company !== co) return false;
+    if (st && (statuses[j.id] || "") !== st) return false;
+    if (onlyNew && !isNew(j)) return false;
+    return !q || (j.title + " " + j.company + " " + (j.location || "")).toLowerCase().includes(q);
+  });
+  const list = $("list"); list.replaceChildren();
+  rows.forEach((j) => {
+    const li = el("li", (isNew(j) ? "new " : "") + (j.active ? "" : "closed"));
+    li.append(el("div", "co", j.company));
+    const t = el("div", "title");
+    if (isNew(j)) t.append(el("span", "badge", "Nouveau"));
+    const a = el("a", null, j.title); a.href = j.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+    t.append(a);
+    if (j.entity) t.append(el("div", "ent", j.entity));
+    li.append(t);
+    li.append(el("div", "loc", j.location || "Lieu non précisé"));
+    li.append(el("div", "age", j.active ? ago(j.first_seen) : "clôturée"));
+    const sel = el("select", "st"); sel.setAttribute("aria-label", "Statut de " + j.title);
+    Object.entries(STATUS).forEach(([v, l]) => { const o = el("option", null, l); o.value = v; sel.append(o); });
+    sel.value = statuses[j.id] || "";
+    sel.onchange = () => { statuses[j.id] = sel.value; store.set("statuses", statuses); };
+    li.append(sel); list.append(li);
+  });
+  $("empty").hidden = rows.length > 0; list.hidden = rows.length === 0;
+}
+function isNew(j) { return j.active && (!lastSeen ? false : j.first_seen > lastSeen) && !statuses[j.id]; }
+
+let known = null, generatedAt = null;
+const baseTitle = document.title;
+
+function fillCompanies() {
+  const sel = $("co"), cur = sel.value;
+  sel.replaceChildren(Object.assign(el("option", null, "Toutes les entreprises"), { value: "" }));
+  [...new Set(jobs.map((j) => j.company))].sort().forEach((c) => { const o = el("option", null, c); o.value = c; sel.append(o); });
+  sel.value = cur;
+}
+function updateMeta() {
+  const open = jobs.filter((j) => j.active).length;
+  const fresh = jobs.filter(isNew).length;
+  $("meta").textContent = open + " offres ouvertes · dernière nouveauté il y a " + ago(generatedAt);
+  document.title = fresh ? "(" + fresh + ") " + baseTitle : baseTitle;
+}
+function beep() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.frequency.value = 880; g.gain.setValueAtTime(0.15, ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+    o.connect(g); g.connect(ctx.destination); o.start(); o.stop(ctx.currentTime + 0.4);
+  } catch (e) {}
+}
+function alertNew(added) {
+  const b = $("banner");
+  b.textContent = added.length === 1
+    ? "Nouvelle offre : " + added[0].company + " · " + added[0].title
+    : added.length + " nouvelles offres. Afficher";
+  b.hidden = false;
+  beep();
+  if ("Notification" in window && Notification.permission === "granted") {
+    added.slice(0, 5).forEach((j) => {
+      const n = new Notification(j.company + " : nouveau stage", { body: j.title, tag: j.id });
+      n.onclick = () => { window.focus(); window.open(j.url, "_blank", "noopener"); };
+    });
+  }
+}
+
+async function load() {
+  try {
+    const r = await fetch("jobs.json?t=" + Date.now(), { cache: "no-store" });
+    const d = await r.json();
+    if (d.generated_at === generatedAt) { updateMeta(); return; }
+    generatedAt = d.generated_at; jobs = d.jobs;
+    const ids = new Set(jobs.map((j) => j.id));
+    if (known) {
+      const added = jobs.filter((j) => j.active && !known.has(j.id));
+      if (added.length) alertNew(added);
+    }
+    known = ids;
+    fillCompanies(); updateMeta(); render();
+  } catch (e) {
+    if (!known) $("meta").textContent = "Impossible de charger jobs.json. Lance d'abord le workflow « scan » sur GitHub.";
+  }
+}
+load();
+setInterval(load, 60000);
+
+$("banner").onclick = () => { $("onlynew").checked = true; $("banner").hidden = true; render(); window.scrollTo({ top: 0 }); };
+if ("Notification" in window && Notification.permission === "default") {
+  $("notif").hidden = false;
+  $("notif").onclick = () => Notification.requestPermission().then((p) => { $("notif").hidden = p !== "default"; });
+}
+
+["q", "co", "st", "onlynew", "closed"].forEach((id) => $(id).addEventListener("input", render));
+$("seen").onclick = () => { lastSeen = new Date().toISOString().replace(/\.\d+Z$/, "Z"); store.set("lastSeen", lastSeen); $("banner").hidden = true; render(); updateMeta(); };
+if (!lastSeen) { lastSeen = new Date().toISOString().replace(/\.\d+Z$/, "Z"); store.set("lastSeen", lastSeen); }
+</script>
+</body>
+</html>

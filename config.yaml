@@ -1,0 +1,161 @@
+# =====================================================================
+# Tracker d'offres de stage : banque / finance de marché / asset management
+# Tu ne modifies que ce fichier. Teste une source :
+#   python -m tracker.check config "Barclays"
+# =====================================================================
+
+filters:
+  # Contrat : au moins un de ces mots dans le titre ou la carte de l'offre
+  # (ignoré pour les sources marquées all_internships: true)
+  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement]
+
+  # Sujet : au moins un de ces mots dans le titre ou la carte (entité, métier...)
+  topic_keywords:
+    - sales
+    - trading
+    - trader
+    - structur          # structuring, structured, structureur, structuré
+    - derivative
+    - dérivé
+    - "fixed income"
+    - equity
+    - equities
+    - "rates"
+    - " fx"
+    - forex
+    - commodit
+    - "markets"
+    - "marchés"
+    - "front office"
+    - "asset management"
+    - "gestion d'actifs"
+    - "gestion de portefeuille"
+    - "portfolio"
+    - "fund"
+    - "investment"
+    - "wealth"
+    - "banque privée"
+    - "private bank"
+    - "capital markets"
+    - "quant"
+    - "multi-asset"
+    - "cross-asset"
+    - "product specialist"
+    - "investment banking"
+    - "m&a"
+    # Entités asset management / banque privée : toutes leurs offres de stage passent
+    - amundi
+    - indosuez
+    - "cpr am"
+    - "bnp paribas asset management"
+    - "bnp paribas wealth management"
+
+  # Un de ces mots dans le TITRE = offre ignorée
+  exclude_keywords: [senior, director, "vice president", "managing director", audit, comptab, accounting, juridique, juriste, legal, "ressources humaines", " rh ", "human resources", recrutement, "talent acquisition", développeur, developer, devops, "software", "conseiller clientèle", "conseil aux particuliers", "conseil marché", communication, marketing, achats, procurement, fiscal]
+
+  # Localisation (mot entier, cherché dans la carte de l'offre). Vide = partout.
+  locations: [paris, "la defense", "la défense", puteaux, courbevoie, montrouge, "île-de-france", "ile-de-france", monaco, "monte-carlo", london, londres, genève, geneva, zurich, luxembourg, nice, sophia, lyon, france]
+
+telegram:
+  max_detailed: 10
+
+# =====================================================================
+# SOURCES
+#   [vérifié]  = structure lue sur le site le 05/10/2026
+#   [à tester] = identifiant connu mais pas testé depuis ici :
+#                lance `python -m tracker.check config "Nom"` avant de compter dessus
+# =====================================================================
+sources:
+  html_links:
+    # [vérifié] 267 stages, 10 par page, plus récents en premier
+    - company: "BNP Paribas"
+      url: "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
+      link_contains: "/emploi-carriere/offre-emploi/"
+      pages: 4
+      all_internships: true
+
+    # [vérifié] une page = les 400 offres les plus récentes (tous contrats)
+    - company: "Société Générale"
+      url: "https://careers.societegenerale.com/fr/Technical/toutes-les-offres"
+      link_contains: "/offres-d-emploi/"
+      pages: 1
+
+    # [vérifié] CA CIB, Amundi, Indosuez, CACEIS, LCL : ~33 offres/page
+    - company: "Crédit Agricole / Amundi"
+      url: "https://groupecreditagricole.jobs/fr/nos-offres/"
+      page_url: "https://groupecreditagricole.jobs/fr/nos-offres/page/{page}/"
+      link_contains: "/nos-offres-emploi/"
+      pages: 3
+
+    # [vérifié] toutes les offres Citi à Paris
+    - company: "Citi"
+      url: "https://jobs.citi.com/location/paris-jobs/287/3017382-3012874-2988507/4"
+      link_contains: "/job/"
+      pages: 1
+
+    # [à tester] portails Oleeo (liste HTML, liens /opp/)
+    - company: "Morgan Stanley"
+      url: "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-53515a97a3a0/candidate/jobboard/vacancy/1/adv"
+      link_contains: "/opp/"
+      pages: 1
+    - company: "Evercore"
+      url: "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv"
+      link_contains: "/opp/"
+      pages: 1
+
+  # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
+  workday:
+    - {company: "Barclays", host: "barclays.wd3.myworkdayjobs.com", tenant: "barclays", site: "External_Career_Site_Barclays"}   # [vérifié]
+    - {company: "Rothschild & Co", host: "rothschildandco.wd3.myworkdayjobs.com", tenant: "rothschildandco", site: "RothschildAndCo_Lateral"}   # [vérifié]
+    - {company: "Ardian", host: "ardian.wd103.myworkdayjobs.com", tenant: "ardian", site: "ArdianCareers"}   # [vérifié]
+    - {company: "Houlihan Lokey", host: "hl.wd1.myworkdayjobs.com", tenant: "hl", site: "Campus"}   # [vérifié]
+    - {company: "Deutsche Bank", host: "db.wd3.myworkdayjobs.com", tenant: "db", site: "DBWebsite"}   # [à tester]
+    - {company: "Santander", host: "santandercareers.wd3.myworkdayjobs.com", tenant: "santander", site: "SantanderCareers"}   # [à tester]
+    - {company: "Lombard Odier", host: "lombardodier.wd3.myworkdayjobs.com", tenant: "lombardodier", site: "Lombard_Odier_Careers"}   # [à tester]
+    - {company: "Julius Baer", host: "juliusbaer.wd3.myworkdayjobs.com", tenant: "juliusbaer", site: "External"}   # [à tester]
+    - {company: "BlackRock", host: "blackrock.wd1.myworkdayjobs.com", tenant: "blackrock", site: "BlackRock_Professional"}   # [à tester]
+    - {company: "Fidelity International", host: "fil.wd3.myworkdayjobs.com", tenant: "fil", site: "001"}   # [à tester]
+    - {company: "State Street", host: "statestreet.wd1.myworkdayjobs.com", tenant: "statestreet", site: "Global"}   # [à tester]
+    - {company: "Invesco", host: "invesco.wd1.myworkdayjobs.com", tenant: "invesco", site: "IVZ"}   # [à tester]
+    - {company: "Blackstone", host: "blackstone.wd1.myworkdayjobs.com", tenant: "blackstone", site: "Blackstone_Campus_Careers"}   # [à tester]
+    - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [à tester]
+
+  # API Oracle Recruiting Cloud
+  oracle_hcm:
+    - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001"}   # [à tester]
+    - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring"}   # [à tester]
+    - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [à tester]
+
+  # Flux Atom Oleeo
+  oleeo_feed:
+    - {company: "Bank of America", url: "https://bankcampuscareers.tal.net/vx/mobile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed"}   # [à tester]
+    - {company: "Lazard", url: "https://lazard-careers.tal.net/vx/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed"}   # [à tester]
+
+  # Hedge funds & private equity (API Greenhouse / Lever)
+  greenhouse:
+    - {company: "Point72", slug: "point72"}   # [à tester]
+    - {company: "Man Group", slug: "mangroup"}   # [à tester]
+    - {company: "Marshall Wace", slug: "marshallwace"}   # [à tester]
+    - {company: "Bridgewater", slug: "bridgewater89"}   # [à tester]
+    - {company: "EQT", slug: "eqtpartners"}   # [à tester]
+    - {company: "TPG", slug: "tpgcareers"}   # [à tester]
+  lever:
+    - {company: "Apax Partners", slug: "apax"}   # [à tester]
+
+  smartrecruiters: []
+  generic_json: []
+
+  # ===================================================================
+  # NON BRANCHÉS (sites 100 % JavaScript, sans API repérée) :
+  #   Natixis/BPCE, HSBC, UBS, Edmond de Rothschild, Pictet, Oddo BHF.
+  # Méthode pour en ajouter un : F12 > Réseau > Fetch/XHR sur la page de
+  # résultats, repère la requête qui renvoie la liste en JSON, puis :
+  #  generic_json:
+  #    - company: "Exemple"
+  #      url: "https://careers.exemple.com/api/jobs"
+  #      method: GET                 # ou POST avec body: {...}
+  #      params: {q: "intern"}
+  #      items_path: "data.jobs"
+  #      url_prefix: "https://careers.exemple.com/job/"
+  #      fields: {id: "id", title: "title", location: "city", url: "slug", posted: "date"}
+  # ===================================================================
