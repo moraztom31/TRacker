@@ -7,7 +7,7 @@
 filters:
   # Contrat : au moins un de ces mots dans le titre ou la carte de l'offre
   # (ignoré pour les sources marquées all_internships: true)
-  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement]
+  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", praktik, becari, stagiair]
 
   # Sujet : au moins un de ces mots dans le titre ou la carte (entité, métier...)
   topic_keywords:
@@ -67,12 +67,12 @@ telegram:
 # =====================================================================
 sources:
   html_links:
-    # [vérifié] 267 stages, 10 par page, plus récents en premier
+    # [à tester] portail de recrutement BNP (le site group.bnpparibas bloque GitHub : 403)
     - company: "BNP Paribas"
-      url: "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
-      link_contains: "/emploi-carriere/offre-emploi/"
-      pages: 4
-      all_internships: true
+      url: "https://bwelcome.hr.bnpparibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100"
+      link_contains: "/JobDetail"
+      id_regex: '(?:jobId=|/)([0-9]{3,})(?:$|[&/?#])'
+      pages: 1
 
     # [vérifié] une page = les 400 offres les plus récentes (tous contrats)
     - company: "Société Générale"
@@ -124,20 +124,21 @@ sources:
 
   # API Oracle Recruiting Cloud
   oracle_hcm:
-    - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001"}   # [à tester]
-    - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring"}   # [à tester]
+    - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001", queries: ["intern Paris", "intern London", "off-cycle", "Paris"]}   # [à tester]
+    - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring", queries: ["Paris", "London", "off-cycle"]}   # [à tester]
     - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [à tester]
 
   # Flux Atom Oleeo
   oleeo_feed:
     - {company: "Bank of America", url: "https://bankcampuscareers.tal.net/vx/mobile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed"}   # [à tester]
-    - {company: "Lazard", url: "https://lazard-careers.tal.net/vx/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed"}   # [à tester]
+    # 0 offre lue le 05/10 : adresse à retrouver
+    # - {company: "Lazard", url: "https://lazard-careers.tal.net/vx/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed"}   # [à tester]
 
   # Hedge funds & private equity (API Greenhouse / Lever)
   greenhouse:
     - {company: "Point72", slug: "point72"}   # [à tester]
     - {company: "Man Group", slug: "mangroup"}   # [à tester]
-    - {company: "Marshall Wace", slug: "marshallwace"}   # [à tester]
+    # - {company: "Marshall Wace", slug: "marshallwace"}   # 0 offre lue le 05/10   # [à tester]
     - {company: "Bridgewater", slug: "bridgewater89"}   # [à tester]
     - {company: "EQT", slug: "eqtpartners"}   # [à tester]
     - {company: "TPG", slug: "tpgcareers"}   # [à tester]
