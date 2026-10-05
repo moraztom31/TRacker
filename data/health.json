@@ -30,7 +30,7 @@
   "seeded": true
  },
  "html_links:BNP Paribas:/group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
  },
  "html_links:Citi:s.citi.com/location/paris-jobs/287/3017382-3012874-2988507/4": {
