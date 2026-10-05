@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T22:34:25Z",
+ "generated_at": "2026-10-05T22:48:24Z",
  "jobs": [
   {
    "active": false,
@@ -991,7 +991,7 @@
    "url": "https://careers.societegenerale.com/offres-d-emploi/stagiaire-banque-privee-client-service-advisor-h-f-26000J5O-fr"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-127-junior-investment-management-support-stage-6-mois-hf-reference--2024-93231--/",
