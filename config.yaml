@@ -97,10 +97,12 @@ sources:
     - company: "Morgan Stanley"
       url: "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-53515a97a3a0/candidate/jobboard/vacancy/1/adv"
       link_contains: "/opp/"
+      id_regex: '/opp/([0-9]+)'
       pages: 1
     - company: "Evercore"
       url: "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv"
       link_contains: "/opp/"
+      id_regex: '/opp/([0-9]+)'
       pages: 1
 
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
