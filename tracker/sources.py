@@ -82,7 +82,7 @@ def workday(cfg):
     """API JSON publique de Workday (myworkdayjobs.com)."""
     base = f"https://{cfg['host']}/wday/cxs/{cfg['tenant']}/{cfg['site']}/jobs"
     seen, out = set(), []
-    for q in cfg.get("queries", ["internship", "intern", "stage"]):
+    for q in cfg.get("queries", ["internship", "intern", "stage", "Paris"]):
         for page in range(int(cfg.get("max_pages", 2))):
             r = requests.post(
                 base,
