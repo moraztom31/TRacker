@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T21:58:23Z",
+ "generated_at": "2026-10-06T22:01:11Z",
  "jobs": [
   {
    "active": true,
@@ -381,7 +381,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1"
   },
   {
-   "active": false,
+   "active": true,
    "company": "MUFG",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1",
@@ -421,7 +421,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1"
   },
   {
-   "active": false,
+   "active": true,
    "company": "MUFG",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1",
