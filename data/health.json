@@ -10,7 +10,7 @@
   "seeded": true
  },
  "greenhouse:DRW:drw": {
-  "fails": 145,
+  "fails": 146,
   "last_error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/drw/jobs"
  },
  "greenhouse:EQT:eqtpartners": {
@@ -34,7 +34,7 @@
   "seeded": true
  },
  "greenhouse:IMC Trading:imc": {
-  "fails": 145,
+  "fails": 146,
   "last_error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/imc/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api."
  },
  "greenhouse:Jump Trading:jumptrading": {
@@ -176,8 +176,8 @@
   "seeded": true
  },
  "workable:Capula:capula-investment-management-ltd": {
-  "fails": 1,
-  "last_error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/capula-investment-management-ltd",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Apollo:athene.wd5.myworkdayjobs.com": {
