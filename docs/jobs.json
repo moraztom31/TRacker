@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-06T21:30:58Z",
+ "generated_at": "2026-10-06T21:58:23Z",
  "jobs": [
   {
    "active": true,
    "company": "PIMCO",
    "first_seen": "2026-10-06T21:30:58Z",
-   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1",
+   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804",
    "location": "London, GBR",
    "posted": "Offre publiée il y a 30 jours ou plus",
-   "title": "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London",
-   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1"
+   "title": "2027 Summer Intern - Client Solutions & Analytics Quantitative Research Analyst (MFE), London",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804"
   },
   {
    "active": true,
@@ -25,11 +25,11 @@
    "active": true,
    "company": "PIMCO",
    "first_seen": "2026-10-06T21:30:58Z",
-   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804",
+   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1",
    "location": "London, GBR",
    "posted": "Offre publiée il y a 30 jours ou plus",
-   "title": "2027 Summer Intern - Client Solutions & Analytics Quantitative Research Analyst (MFE), London",
-   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804"
+   "title": "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1"
   },
   {
    "active": true,
@@ -381,7 +381,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "MUFG",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1",
@@ -421,7 +421,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "MUFG",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1",
