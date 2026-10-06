@@ -609,7 +609,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---fund-manager-operations-officer-612-months-hf-reference--2026-114757--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ai-data-analyst-hf-reference--2026-116188--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-06T08:31:03Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ai-data-analyst-hf-reference--2026-116188--/",
@@ -620,7 +620,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ai-data-analyst-hf-reference--2026-116188--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---support-de-la-ventes-etf-france-hf-reference--2026-116185--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-06T08:31:03Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---support-de-la-ventes-etf-france-hf-reference--2026-116185--/",
@@ -631,7 +631,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---support-de-la-ventes-etf-france-hf-reference--2026-116185--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-charge-d-affaires-financements-structures-hf-reference--2026-115046--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-06T09:31:38Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-charge-d-affaires-financements-structures-hf-reference--2026-115046--/",
@@ -662,6 +662,17 @@
   "posted": "",
   "title": "Data & Reporting Analyst H/F",
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/"
+ },
+ "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/": {
+  "active": true,
+  "company": "Crédit Agricole / Amundi",
+  "first_seen": "2026-10-06T23:10:39Z",
+  "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/",
+  "internship_source": false,
+  "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Risques / Contrôles permanents",
+  "posted": "",
+  "title": "Stage - Ingénieur quantitatif – Challenge des techniques de validation des performances de modèles H/F",
+  "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-credit--financements-structures-lbo-et-tmt-hf-reference--2026-112179--/": {
   "active": false,

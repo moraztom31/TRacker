@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-06T23:01:11Z",
+ "generated_at": "2026-10-06T23:10:39Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-06T23:10:39Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Risques / Contrôles permanents",
+   "posted": "",
+   "title": "Stage - Ingénieur quantitatif – Challenge des techniques de validation des performances de modèles H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/"
+  },
   {
    "active": true,
    "company": "PIMCO",
@@ -105,7 +116,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/ACT-Amsterdam---Acanthus/WO-Meewerkstage-Structured-Acquisition-Finance-Mid-Corporates_REQ-10122386"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T09:31:38Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-charge-d-affaires-financements-structures-hf-reference--2026-115046--/",
@@ -461,7 +472,7 @@
    "url": "https://apply.workable.com/j/A15A62A8BE"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T08:31:03Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ai-data-analyst-hf-reference--2026-116188--/",
@@ -472,7 +483,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ai-data-analyst-hf-reference--2026-116188--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T08:31:03Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---support-de-la-ventes-etf-france-hf-reference--2026-116185--/",
