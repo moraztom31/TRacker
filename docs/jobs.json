@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T22:01:11Z",
+ "generated_at": "2026-10-06T22:32:24Z",
  "jobs": [
   {
    "active": true,
@@ -62,7 +62,7 @@
    "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Luxembourg-Luxembourg/Fund-Valuations-intern_R-14602"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T12:30:58Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
@@ -73,7 +73,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T12:30:58Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-credit--financements-structures-lbo-et-tmt-hf-reference--2026-112179--/",
