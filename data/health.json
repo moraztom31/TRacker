@@ -10,7 +10,7 @@
   "seeded": true
  },
  "greenhouse:DRW:drw": {
-  "fails": 383,
+  "fails": 384,
   "last_error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/drw/jobs"
  },
  "greenhouse:EQT:eqtpartners": {
@@ -34,7 +34,7 @@
   "seeded": true
  },
  "greenhouse:IMC Trading:imc": {
-  "fails": 383,
+  "fails": 384,
   "last_error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/imc/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api."
  },
  "greenhouse:Jump Trading:jumptrading": {
@@ -136,7 +136,7 @@
   "seeded": true
  },
  "html_links:Oddo BHF://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 404 Client Error: Not Found for url: https://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx"
  },
  "html_links:Pictet:quepict&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH": {
@@ -185,7 +185,7 @@
   "seeded": true
  },
  "workday:AllianceBernstein:alliancebernstein.wd1.myworkdayjobs.com": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://alliancebernstein.wd1.myworkdayjobs.com/wday/cxs/alliancebernstein/alliancebernsteincareers/jobs"
  },
  "workday:Apollo:athene.wd5.myworkdayjobs.com": {
@@ -244,7 +244,7 @@
   "seeded": true
  },
  "workday:Jefferies:jefferies.wd1.myworkdayjobs.com": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://jefferies.wd1.myworkdayjobs.com/wday/cxs/jefferies/JefferiesCareers/jobs"
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com": {
@@ -253,7 +253,7 @@
   "seeded": true
  },
  "workday:KKR:kkr.wd1.myworkdayjobs.com": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://kkr.wd1.myworkdayjobs.com/wday/cxs/kkr/KKR/jobs"
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
@@ -272,7 +272,7 @@
   "seeded": true
  },
  "workday:Nomura:nomura.wd3.myworkdayjobs.com": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nomura.wd3.myworkdayjobs.com/wday/cxs/nomura/Nomura_Campus/jobs"
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com": {
