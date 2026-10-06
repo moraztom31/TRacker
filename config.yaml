@@ -121,6 +121,13 @@ sources:
       id_regex: 'career_job_req_id=([0-9]+)'
       pages: 1
 
+    # [à tester] Oddo BHF : portail probablement Talentsoft (Cegid)
+    - company: "Oddo BHF"
+      url: "https://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx"
+      link_contains: "/offre-de-emploi/emploi-"
+      id_regex: '_([0-9]+)\.aspx'
+      pages: 1
+
     - company: "Evercore"
       url: "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv"
       link_contains: "/opp/"
@@ -145,6 +152,16 @@ sources:
     - {company: "ING", host: "ing.wd3.myworkdayjobs.com", tenant: "ing", site: "ICSGBLCOR"}   # [vérifié]
     - {company: "MUFG", host: "mufgub.wd3.myworkdayjobs.com", tenant: "mufgub", site: "MUFG-Careers"}   # [vérifié]
     - {company: "PJT Partners", host: "pjtpartners.wd1.myworkdayjobs.com", tenant: "pjtpartners", site: "Students"}   # [vérifié]
+    # Lot "à tester" : identifiants Workday probables (gestion d'actifs, PE, banques)
+    - {company: "Nomura", host: "nomura.wd3.myworkdayjobs.com", tenant: "nomura", site: "Nomura_Campus"}   # [à tester]
+    - {company: "Macquarie", host: "mq.wd3.myworkdayjobs.com", tenant: "mq", site: "CareersatMQ"}   # [à tester]
+    - {company: "Jefferies", host: "jefferies.wd1.myworkdayjobs.com", tenant: "jefferies", site: "JefferiesCareers"}   # [à tester]
+    - {company: "PIMCO", host: "pimco.wd1.myworkdayjobs.com", tenant: "pimco", site: "pimco-careers"}   # [à tester]
+    - {company: "T. Rowe Price", host: "troweprice.wd5.myworkdayjobs.com", tenant: "troweprice", site: "TRowePrice"}   # [à tester]
+    - {company: "Wellington Management", host: "wellington.wd5.myworkdayjobs.com", tenant: "wellington", site: "External"}   # [à tester]
+    - {company: "AllianceBernstein", host: "alliancebernstein.wd1.myworkdayjobs.com", tenant: "alliancebernstein", site: "alliancebernsteincareers"}   # [à tester]
+    - {company: "KKR", host: "kkr.wd1.myworkdayjobs.com", tenant: "kkr", site: "KKR"}   # [à tester]
+    - {company: "Carlyle", host: "carlyle.wd1.myworkdayjobs.com", tenant: "carlyle", site: "Carlyle"}   # [à tester]
     - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [à tester]
 
   # API Oracle Recruiting Cloud
@@ -186,6 +203,10 @@ sources:
     - {company: "Apax Partners", slug: "apax"}   # [à tester]
 
   smartrecruiters: []
+
+  # Flux RSS officiels (BNP : à générer sur leur site, voir README)
+  rss: []
+  #  - {company: "BNP Paribas", url: "COLLE_ICI_L_ADRESSE_DU_FLUX_RSS_BNP"}
 
   # API Workable
   workable:
