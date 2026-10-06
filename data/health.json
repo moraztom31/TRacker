@@ -281,8 +281,8 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nomura.wd3.myworkdayjobs.com/wday/cxs/nomura/Nomura_Campus/jobs"
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='pimco.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:PJT Partners:pjtpartners.wd1.myworkdayjobs.com": {
