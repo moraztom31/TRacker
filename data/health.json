@@ -120,6 +120,11 @@
   "last_error": "",
   "seeded": true
  },
+ "html_links:IMC Trading:https://job-boards.eu.greenhouse.io/imc": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "html_links:Kepler Cheuvreux:https://keplercheuvreux.teamtailor.com/jobs": {
   "fails": 0,
   "last_error": "",
