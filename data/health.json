@@ -10,7 +10,7 @@
   "seeded": true
  },
  "greenhouse:DRW:drw": {
-  "fails": 98,
+  "fails": 99,
   "last_error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/drw/jobs"
  },
  "greenhouse:EQT:eqtpartners": {
@@ -34,7 +34,7 @@
   "seeded": true
  },
  "greenhouse:IMC Trading:imc": {
-  "fails": 98,
+  "fails": 99,
   "last_error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/imc/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api."
  },
  "greenhouse:Jump Trading:jumptrading": {
@@ -111,8 +111,8 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
@@ -196,8 +196,8 @@
   "seeded": true
  },
  "workday:BlackRock:blackrock.wd1.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "SSLError: HTTPSConnectionPool(host='blackrock.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/blackrock/BlackRock_Professional/jobs (Caused by SSLError(SSLEOFError(8, 'EOF ",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Blackstone:blackstone.wd1.myworkdayjobs.com": {
