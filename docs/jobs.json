@@ -1,6 +1,56 @@
 {
- "generated_at": "2026-10-06T16:26:22Z",
+ "generated_at": "2026-10-06T21:30:58Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "PIMCO",
+   "first_seen": "2026-10-06T21:30:58Z",
+   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1",
+   "location": "London, GBR",
+   "posted": "Offre publiée il y a 30 jours ou plus",
+   "title": "2027 Summer Intern - Portfolio Management - Private Strategies Analyst, London",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1"
+  },
+  {
+   "active": true,
+   "company": "PIMCO",
+   "first_seen": "2026-10-06T21:30:58Z",
+   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Credit-Research-Analyst--EMEA_R106805",
+   "location": "London, GBR",
+   "posted": "Offre publiée il y a 13 jours",
+   "title": "2027 MBA Summer Intern - Credit Research Analyst, EMEA",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Credit-Research-Analyst--EMEA_R106805"
+  },
+  {
+   "active": true,
+   "company": "PIMCO",
+   "first_seen": "2026-10-06T21:30:58Z",
+   "id": "wd:pimco:/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804",
+   "location": "London, GBR",
+   "posted": "Offre publiée il y a 30 jours ou plus",
+   "title": "2027 Summer Intern - Client Solutions & Analytics Quantitative Research Analyst (MFE), London",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Strategist--London--MBA-_R106804"
+  },
+  {
+   "active": true,
+   "company": "Wellington Management",
+   "first_seen": "2026-10-06T21:30:58Z",
+   "id": "wd:wellington:/job/London-United-Kingdom/XMLNAME-2027-Investment-Platform-Industrial-Placement-Internship-Programme--London-_R94930",
+   "location": "London, United Kingdom",
+   "posted": "Posted 5 Days Ago",
+   "title": "2027 Investment Platform Industrial Placement Internship Programme (London)",
+   "url": "https://wellington.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/XMLNAME-2027-Investment-Platform-Industrial-Placement-Internship-Programme--London-_R94930"
+  },
+  {
+   "active": true,
+   "company": "Wellington Management",
+   "first_seen": "2026-10-06T21:30:58Z",
+   "id": "wd:wellington:/job/XMLNAME-2027-Infrastructure-Platform-Industrial-Placement-Internship-Programme--London-_R94932-2",
+   "location": "",
+   "posted": "Posted 8 Days Ago",
+   "title": "2027 Infrastructure Platform Industrial Placement Internship Programme (London)",
+   "url": "https://wellington.wd5.myworkdayjobs.com/External/job/XMLNAME-2027-Infrastructure-Platform-Industrial-Placement-Internship-Programme--London-_R94932-2"
+  },
   {
    "active": false,
    "company": "Invesco",
