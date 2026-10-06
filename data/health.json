@@ -98,8 +98,8 @@
   "seeded": true
  },
  "workday:Ardian:ardian.wd103.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs",
   "seeded": true
  },
  "workday:Barclays:barclays.wd3.myworkdayjobs.com": {
