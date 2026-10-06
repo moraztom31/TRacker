@@ -342,7 +342,52 @@ def workable(cfg):
     return out
 
 
+def rss(cfg):
+    """Flux RSS ou Atom d'offres (BNP Paribas, Talentsoft...)."""
+    import xml.etree.ElementTree as ET
+
+    from bs4 import BeautifulSoup
+
+    def local(tag):
+        return tag.rsplit("}", 1)[-1].lower()
+
+    def child(el, *names):
+        for c in el:
+            if local(c.tag) in names:
+                return c
+        return None
+
+    root = ET.fromstring(_get(cfg["url"]).content)
+    out = []
+    for el in root.iter():
+        if local(el.tag) not in ("item", "entry"):
+            continue
+        t_el, l_el = child(el, "title"), child(el, "link")
+        title = (t_el.text or "").strip() if t_el is not None else ""
+        link = ""
+        if l_el is not None:
+            link = (l_el.get("href") or l_el.text or "").strip()
+        g_el = child(el, "guid", "id")
+        d_el = child(el, "description", "summary", "content")
+        p_el = child(el, "pubdate", "updated", "published")
+        desc = BeautifulSoup(d_el.text or "", "html.parser").get_text(" · ", strip=True) if d_el is not None else ""
+        if not title or not link:
+            continue
+        out.append(
+            {
+                "id": f"rss:{cfg['company']}:{(g_el.text or '').strip() if g_el is not None and g_el.text else link}",
+                "company": cfg["company"],
+                "title": title,
+                "location": desc[:220],
+                "url": link,
+                "posted": (p_el.text or "").strip()[:25] if p_el is not None else "",
+            }
+        )
+    return out
+
+
 COLLECTORS = {
+    "rss": rss,
     "workable": workable,
     "oracle_hcm": oracle_hcm,
     "oleeo_feed": oleeo_feed,

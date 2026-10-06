@@ -51,6 +51,7 @@ def main(config_path=None, collectors=None):
         results = list(pool.map(run_source, tasks))
 
     new, ok_companies, seen_ids = [], set(), set()
+    known_titles = {(j["company"].lower(), j["title"].strip().lower()) for j in store.values() if j.get("active")}
     for (kind, c), jobs, err in results:
         key = f"{kind}:{c['company']}:" + str(c.get("url") or c.get("slug") or c.get("id") or c.get("host", ""))[-60:]
         if err:
@@ -71,7 +72,10 @@ def main(config_path=None, collectors=None):
             seen_ids.add(j["id"])
             if j["id"] in store:
                 store[j["id"]]["active"] = True
+            elif (j["company"].lower(), j["title"].strip().lower()) in known_titles:
+                continue  # même offre déjà suivie via une autre source
             else:
+                known_titles.add((j["company"].lower(), j["title"].strip().lower()))
                 j.update(first_seen=now, active=True)
                 store[j["id"]] = j
                 if seeded:  # pas d'alerte au tout premier passage d'une source
