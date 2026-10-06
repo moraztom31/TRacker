@@ -100,12 +100,6 @@ sources:
       link_contains: "/opp/"
       id_regex: '/opp/([0-9]+)'
       pages: 1
-    - company: "Lazard"   # [à tester]
-      url: "https://lazard-careers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-a4bba4c3553c/candidate/jobboard/vacancy/2/adv"
-      link_contains: "/opp/"
-      id_regex: '/opp/([0-9]+)'
-      pages: 1
-
     # [vérifié] Kepler Cheuvreux (Teamtailor) : broker actions, structuration, fixed income
     - company: "Kepler Cheuvreux"
       url: "https://keplercheuvreux.teamtailor.com/jobs"
@@ -114,18 +108,12 @@ sources:
       id_regex: '/jobs/([0-9]+)'
       pages: 1
 
-    # [à tester] Pictet (SAP SuccessFactors) : la page de liste peut nécessiter JavaScript
-    - company: "Pictet"
-      url: "https://career5.successfactors.eu/career?company=banquepict&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH"
-      link_contains: "career_job_req_id"
-      id_regex: 'career_job_req_id=([0-9]+)'
-      pages: 1
-
-    # [à tester] Oddo BHF : portail probablement Talentsoft (Cegid)
-    - company: "Oddo BHF"
-      url: "https://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx"
-      link_contains: "/offre-de-emploi/emploi-"
-      id_regex: '_([0-9]+)\.aspx'
+    # [à tester] IMC : page publique Greenhouse Europe
+    - company: "IMC Trading"
+      url: "https://job-boards.eu.greenhouse.io/imc"
+      link_contains: "/jobs/"
+      link_regex: '/imc/jobs/[0-9]+'
+      id_regex: '/jobs/([0-9]+)'
       pages: 1
 
     - company: "Evercore"
@@ -140,67 +128,60 @@ sources:
     - {company: "Rothschild & Co", host: "rothschildandco.wd3.myworkdayjobs.com", tenant: "rothschildandco", site: "RothschildAndCo_Lateral"}   # [vérifié]
     - {company: "Ardian", host: "ardian.wd103.myworkdayjobs.com", tenant: "ardian", site: "ArdianCareers"}   # [vérifié]
     - {company: "Houlihan Lokey", host: "hl.wd1.myworkdayjobs.com", tenant: "hl", site: "Campus"}   # [vérifié]
-    - {company: "Deutsche Bank", host: "db.wd3.myworkdayjobs.com", tenant: "db", site: "DBWebsite"}   # [à tester]
-    - {company: "Santander", host: "santandercareers.wd3.myworkdayjobs.com", tenant: "santander", site: "SantanderCareers"}   # [à tester]
-    - {company: "Lombard Odier", host: "lombardodier.wd3.myworkdayjobs.com", tenant: "lombardodier", site: "Lombard_Odier_Careers"}   # [à tester]
-    - {company: "Julius Baer", host: "juliusbaer.wd3.myworkdayjobs.com", tenant: "juliusbaer", site: "External"}   # [à tester]
-    - {company: "BlackRock", host: "blackrock.wd1.myworkdayjobs.com", tenant: "blackrock", site: "BlackRock_Professional"}   # [à tester]
-    - {company: "Fidelity International", host: "fil.wd3.myworkdayjobs.com", tenant: "fil", site: "001"}   # [à tester]
-    - {company: "State Street", host: "statestreet.wd1.myworkdayjobs.com", tenant: "statestreet", site: "Global"}   # [à tester]
-    - {company: "Invesco", host: "invesco.wd1.myworkdayjobs.com", tenant: "invesco", site: "IVZ"}   # [à tester]
-    - {company: "Blackstone", host: "blackstone.wd1.myworkdayjobs.com", tenant: "blackstone", site: "Blackstone_Campus_Careers"}   # [à tester]
+    - {company: "Deutsche Bank", host: "db.wd3.myworkdayjobs.com", tenant: "db", site: "DBWebsite"}   # [vérifié]
+    - {company: "Santander", host: "santandercareers.wd3.myworkdayjobs.com", tenant: "santander", site: "SantanderCareers"}   # [vérifié]
+    - {company: "Lombard Odier", host: "lombardodier.wd3.myworkdayjobs.com", tenant: "lombardodier", site: "Lombard_Odier_Careers"}   # [vérifié]
+    - {company: "Julius Baer", host: "juliusbaer.wd3.myworkdayjobs.com", tenant: "juliusbaer", site: "External"}   # [vérifié]
+    - {company: "BlackRock", host: "blackrock.wd1.myworkdayjobs.com", tenant: "blackrock", site: "BlackRock_Professional"}   # [vérifié]
+    - {company: "Fidelity International", host: "fil.wd3.myworkdayjobs.com", tenant: "fil", site: "001"}   # [vérifié]
+    - {company: "State Street", host: "statestreet.wd1.myworkdayjobs.com", tenant: "statestreet", site: "Global"}   # [vérifié]
+    - {company: "Invesco", host: "invesco.wd1.myworkdayjobs.com", tenant: "invesco", site: "IVZ"}   # [vérifié]
+    - {company: "Blackstone", host: "blackstone.wd1.myworkdayjobs.com", tenant: "blackstone", site: "Blackstone_Campus_Careers"}   # [vérifié]
     - {company: "ING", host: "ing.wd3.myworkdayjobs.com", tenant: "ing", site: "ICSGBLCOR"}   # [vérifié]
     - {company: "MUFG", host: "mufgub.wd3.myworkdayjobs.com", tenant: "mufgub", site: "MUFG-Careers"}   # [vérifié]
     - {company: "PJT Partners", host: "pjtpartners.wd1.myworkdayjobs.com", tenant: "pjtpartners", site: "Students"}   # [vérifié]
-    # Lot "à tester" : identifiants Workday probables (gestion d'actifs, PE, banques)
-    - {company: "Nomura", host: "nomura.wd3.myworkdayjobs.com", tenant: "nomura", site: "Nomura_Campus"}   # [à tester]
-    - {company: "Macquarie", host: "mq.wd3.myworkdayjobs.com", tenant: "mq", site: "CareersatMQ"}   # [à tester]
-    - {company: "Jefferies", host: "jefferies.wd1.myworkdayjobs.com", tenant: "jefferies", site: "JefferiesCareers"}   # [à tester]
-    - {company: "PIMCO", host: "pimco.wd1.myworkdayjobs.com", tenant: "pimco", site: "pimco-careers"}   # [à tester]
-    - {company: "T. Rowe Price", host: "troweprice.wd5.myworkdayjobs.com", tenant: "troweprice", site: "TRowePrice"}   # [à tester]
-    - {company: "Wellington Management", host: "wellington.wd5.myworkdayjobs.com", tenant: "wellington", site: "External"}   # [à tester]
-    - {company: "AllianceBernstein", host: "alliancebernstein.wd1.myworkdayjobs.com", tenant: "alliancebernstein", site: "alliancebernsteincareers"}   # [à tester]
-    - {company: "KKR", host: "kkr.wd1.myworkdayjobs.com", tenant: "kkr", site: "KKR"}   # [à tester]
-    - {company: "Carlyle", host: "carlyle.wd1.myworkdayjobs.com", tenant: "carlyle", site: "Carlyle"}   # [à tester]
-    - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [à tester]
+    # Gestion d'actifs, PE (vérifiés le 06/10)
+    - {company: "Macquarie", host: "mq.wd3.myworkdayjobs.com", tenant: "mq", site: "CareersatMQ"}   # [vérifié]
+    - {company: "PIMCO", host: "pimco.wd1.myworkdayjobs.com", tenant: "pimco", site: "pimco-careers"}   # [vérifié]
+    - {company: "T. Rowe Price", host: "troweprice.wd5.myworkdayjobs.com", tenant: "troweprice", site: "TRowePrice"}   # [vérifié]
+    - {company: "Wellington Management", host: "wellington.wd5.myworkdayjobs.com", tenant: "wellington", site: "External"}   # [vérifié]
+    - {company: "Carlyle", host: "carlyle.wd1.myworkdayjobs.com", tenant: "carlyle", site: "Carlyle"}   # [vérifié]
+    - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [vérifié]
 
   # API Oracle Recruiting Cloud
   oracle_hcm:
-    - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001", queries: ["intern Paris", "intern London", "off-cycle", "Paris"]}   # [à tester]
-    - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring", queries: ["Paris", "London", "off-cycle"]}   # [à tester]
-    - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [à tester]
+    - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001", queries: ["intern Paris", "intern London", "off-cycle", "Paris"]}   # [vérifié]
+    - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring", queries: ["Paris", "London", "off-cycle"]}   # [vérifié]
+    - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [vérifié]
 
   # Flux Atom Oleeo
   oleeo_feed:
-    - {company: "Bank of America", url: "https://bankcampuscareers.tal.net/vx/mobile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed"}   # [à tester]
+    - {company: "Bank of America", url: "https://bankcampuscareers.tal.net/vx/mobile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed"}   # [vérifié]
     # Lazard : remplacé par la liste HTML (section html_links)
     # - {company: "Lazard", url: "https://lazard-careers.tal.net/vx/mobile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed"}   # [à tester]
 
   # Hedge funds & private equity (API Greenhouse / Lever)
   greenhouse:
-    - {company: "Point72", slug: "point72"}   # [à tester]
-    - {company: "Man Group", slug: "mangroup"}   # [à tester]
+    - {company: "Point72", slug: "point72"}   # [vérifié]
+    - {company: "Man Group", slug: "mangroup"}   # [vérifié]
     # - {company: "Marshall Wace", slug: "marshallwace"}   # 0 offre lue le 05/10   # [à tester]
-    - {company: "Bridgewater", slug: "bridgewater89"}   # [à tester]
-    - {company: "EQT", slug: "eqtpartners"}   # [à tester]
-    - {company: "Permira", slug: "permiraexternalprivate"}   # [à tester]
+    - {company: "Bridgewater", slug: "bridgewater89"}   # [vérifié]
+    - {company: "EQT", slug: "eqtpartners"}   # [vérifié]
+    - {company: "Permira", slug: "permiraexternalprivate"}   # [vérifié]
     - {company: "Optiver", slug: "optiverprivate"}   # [vérifié]
     - {company: "Flow Traders", slug: "flowtraders"}   # [vérifié]
-    - {company: "IMC Trading", slug: "imc", region: "eu"}   # [vérifié, Greenhouse Europe]
     # Hedge funds & trading firms
     - {company: "Schonfeld", slug: "schonfeld"}   # [vérifié]
     - {company: "Tudor", slug: "tudorgroup"}   # [vérifié]
-    - {company: "Optiver (Europe)", slug: "optiver"}   # [à tester]
-    - {company: "Jump Trading", slug: "jumptrading"}   # [à tester]
-    - {company: "Squarepoint", slug: "squarepointcapital"}   # [à tester]
-    - {company: "Tower Research", slug: "towerresearchcapital"}   # [à tester]
-    - {company: "Hudson River Trading", slug: "wehrtyou"}   # [à tester]
-    - {company: "Akuna Capital", slug: "akunacapital"}   # [à tester]
-    - {company: "DRW", slug: "drw"}   # [à tester]
-    - {company: "ExodusPoint", slug: "exoduspoint"}   # [à tester]
-    - {company: "TPG", slug: "tpgcareers"}   # [à tester]
+    - {company: "Jump Trading", slug: "jumptrading"}   # [vérifié]
+    - {company: "Squarepoint", slug: "squarepointcapital"}   # [vérifié]
+    - {company: "Tower Research", slug: "towerresearchcapital"}   # [vérifié]
+    - {company: "Hudson River Trading", slug: "wehrtyou"}   # [vérifié]
+    - {company: "Akuna Capital", slug: "akunacapital"}   # [vérifié]
+    - {company: "ExodusPoint", slug: "exoduspoint"}   # [vérifié]
+    - {company: "TPG", slug: "tpgcareers"}   # [vérifié]
   lever:
-    - {company: "Apax Partners", slug: "apax"}   # [à tester]
+    - {company: "Apax Partners", slug: "apax"}   # [vérifié]
 
   smartrecruiters: []
 
