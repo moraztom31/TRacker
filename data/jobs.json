@@ -1,4 +1,64 @@
 {
+ "gh:jumptrading:7362318": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:7362318",
+  "location": "London",
+  "posted": "2026-08-08T01:01:28-04:00",
+  "title": "Campus Crypto Researcher (Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=7362318"
+ },
+ "gh:jumptrading:7976964": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:7976964",
+  "location": "London",
+  "posted": "2026-08-18T18:20:18-04:00",
+  "title": "Campus AI Researcher, PhD/Postdoc (Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=7976964"
+ },
+ "gh:jumptrading:7977145": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:7977145",
+  "location": "London",
+  "posted": "2026-08-18T18:21:33-04:00",
+  "title": "Campus ML Research Engineer (Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=7977145"
+ },
+ "gh:jumptrading:8010307": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:8010307",
+  "location": "London; Amsterdam",
+  "posted": "2026-08-08T01:01:44-04:00",
+  "title": "Campus Quantitative Researcher (Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=8010307"
+ },
+ "gh:jumptrading:8050772": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:8050772",
+  "location": "London; Amsterdam",
+  "posted": "2026-07-24T20:00:03-04:00",
+  "title": "Campus Quantitative Trader (Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=8050772"
+ },
+ "gh:jumptrading:8059384": {
+  "active": true,
+  "company": "Jump Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:jumptrading:8059384",
+  "location": "London; Paris",
+  "posted": "2026-08-28T06:41:48-04:00",
+  "title": "Campus Quantitative Researcher (M1/M2 Intern)",
+  "url": "https://www.jumptrading.com/hr/job?gh_jid=8059384"
+ },
  "gh:mangroup:4988791101": {
   "active": true,
   "company": "Man Group",
@@ -48,6 +108,109 @@
   "posted": "2026-09-15T17:33:58-04:00",
   "title": "Fundamental Researcher, MI-Canvas International",
   "url": "https://boards.greenhouse.io/point72/jobs/8135956002?gh_jid=8135956002"
+ },
+ "gh:schonfeld:8172072": {
+  "active": true,
+  "company": "Schonfeld",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:schonfeld:8172072",
+  "location": "London, England, United Kingdom",
+  "posted": "2026-09-30T11:04:07-04:00",
+  "title": "2027 Equity Middle Office Intern",
+  "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8172072"
+ },
+ "gh:schonfeld:8187178": {
+  "active": true,
+  "company": "Schonfeld",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:schonfeld:8187178",
+  "location": "London, England, United Kingdom",
+  "posted": "2026-09-30T11:04:07-04:00",
+  "title": "2027 DMFI Quant Research Intern",
+  "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8187178"
+ },
+ "gh:squarepointcapital:243853": {
+  "active": true,
+  "company": "Squarepoint",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:squarepointcapital:243853",
+  "location": "London, Paris, New York, Singapore, Hong Kong",
+  "posted": "2026-08-06T07:00:40-04:00",
+  "title": "Intern Quant Researcher",
+  "url": "https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853"
+ },
+ "gh:towerresearchcapital:8037860": {
+  "active": true,
+  "company": "Tower Research",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:towerresearchcapital:8037860",
+  "location": "London",
+  "posted": "2026-09-01T11:43:37-04:00",
+  "title": "Quantitative Trader/Researcher Summer Internship 2027 (2028 Graduates)",
+  "url": "https://www.tower-research.com/open-positions/?gh_jid=8037860"
+ },
+ "gh:towerresearchcapital:8113986": {
+  "active": true,
+  "company": "Tower Research",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:towerresearchcapital:8113986",
+  "location": "London",
+  "posted": "2026-08-12T08:52:34-04:00",
+  "title": "Quantitative Research Internship - 6 Months, Central Execution Research",
+  "url": "https://www.tower-research.com/open-positions/?gh_jid=8113986"
+ },
+ "gh:wehrtyou:7964062": {
+  "active": true,
+  "company": "Hudson River Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:wehrtyou:7964062",
+  "location": "London, United Kingdom; New York, NY, United States; Singapore",
+  "posted": "2026-10-01T10:37:16-04:00",
+  "title": "Algorithm Development (Quant Research & Trading) Internship – Summer 2027",
+  "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062"
+ },
+ "gh:wehrtyou:8059837": {
+  "active": true,
+  "company": "Hudson River Trading",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "gh:wehrtyou:8059837",
+  "location": "London, United Kingdom; New York, NY, United States; Singapore",
+  "posted": "2026-10-01T10:37:16-04:00",
+  "title": "Algorithm Development (Quant Research & Trading) PhD Internship – Summer 2027",
+  "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837"
+ },
+ "hl:Kepler Cheuvreux:8267955": {
+  "active": true,
+  "company": "Kepler Cheuvreux",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "hl:Kepler Cheuvreux:8267955",
+  "internship_source": false,
+  "location": "Structured Solutions · France - Paris",
+  "posted": "",
+  "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - PARIS",
+  "url": "https://keplercheuvreux.teamtailor.com/jobs/8267955-internship-structured-product-financial-engineer-assistant-paris"
+ },
+ "hl:Kepler Cheuvreux:8397186": {
+  "active": true,
+  "company": "Kepler Cheuvreux",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "hl:Kepler Cheuvreux:8397186",
+  "internship_source": false,
+  "location": "Fixed income · France - Paris",
+  "posted": "",
+  "title": "INTERNSHIP - JUNIOR REPO AND MONEY MARKET SALES - PARIS",
+  "url": "https://keplercheuvreux.teamtailor.com/jobs/8397186-internship-junior-repo-and-money-market-sales-paris"
+ },
+ "hl:Kepler Cheuvreux:8476881": {
+  "active": true,
+  "company": "Kepler Cheuvreux",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "hl:Kepler Cheuvreux:8476881",
+  "internship_source": false,
+  "location": "Research · France - Paris",
+  "posted": "",
+  "title": "STAGE - EQUITY RESEARCH - RETAIL - PARIS",
+  "url": "https://keplercheuvreux.teamtailor.com/jobs/8476881-stage-equity-research-retail-paris"
  },
  "hl:Morgan Stanley:21584": {
   "active": true,
@@ -280,6 +443,17 @@
   "title": "2027 Investment Management  Off-cycle Internship – Fixed Income (London)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/22234-2027-Investment-Management-Off-cycle-Internship-Fixed-Income-London/en-GB"
  },
+ "hl:Morgan Stanley:22242": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "hl:Morgan Stanley:22242",
+  "internship_source": false,
+  "location": "Amsterdam",
+  "posted": "",
+  "title": "2027 Investment Management Off-cycle Internship - Global Sales (Amsterdam)",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-a04600e90f0a/candidate/so/pm/1/pl/1/opp/22242-2027-Investment-Management-Off-cycle-Internship-Global-Sales-Amsterdam/en-GB"
+ },
  "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr": {
   "active": true,
   "company": "Société Générale",
@@ -323,6 +497,17 @@
   "posted": "",
   "title": "Analyste Risques Structurels - Reportings Prudentiels",
   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risques-structurels-reportings-prudentiels-26000HJR-fr"
+ },
+ "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-reporting-reglementaire-pilotage-26000HWE-fr": {
+  "active": true,
+  "company": "Société Générale",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-reporting-reglementaire-pilotage-26000HWE-fr",
+  "internship_source": false,
+  "location": "La Defense, France · Stage · Finance",
+  "posted": "",
+  "title": "Assistant Analyste reporting réglementaire/pilotage",
+  "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-reporting-reglementaire-pilotage-26000HWE-fr"
  },
  "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-analyste-selection-de-fonds-actions-26000KRI-fr": {
   "active": true,
@@ -959,6 +1144,16 @@
   "title": "Investment Banking 2027 Off-Cycle Analyst - Zurich",
   "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14610-Investment-Banking-2027-Off-Cycle-Analyst-Zurich/en-GB"
  },
+ "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14660-Investment-Banking-2027-Off-Cycle-Analyst-Amsterdam/en-GB": {
+  "active": true,
+  "company": "Bank of America",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14660-Investment-Banking-2027-Off-Cycle-Analyst-Amsterdam/en-GB",
+  "location": "Program ID:14660\nTitle:Investment Banking 2027 Off-Cycle Analyst - Amsterdam\nCity:Amsterdam\nProgram closing date:11 Oct 2026 11:55 PM BST\nProgram description:Investment Banking, Off-Cycle Analyst Amsterdam, Netherlands A",
+  "posted": "2026-09-01",
+  "title": "Investment Banking 2027 Off-Cycle Analyst - Amsterdam",
+  "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14660-Investment-Banking-2027-Off-Cycle-Analyst-Amsterdam/en-GB"
+ },
  "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14665-Global-Infrastructure-Credit-2027-Summer-Analyst-London/en-GB": {
   "active": true,
   "company": "Bank of America",
@@ -1008,6 +1203,16 @@
   "posted": "2026-09-01",
   "title": "Global Markets, (Sales & Trading Private Side) Rotational Programme 2027, Summer Analyst - London",
   "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14719-Global-Markets-Sales-Trading-Private-Side-Rotational-Programme-2027-Summer-Analyst-London/en-GB"
+ },
+ "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14720-Global-Research-2027-Summer-Analyst-London/en-GB": {
+  "active": true,
+  "company": "Bank of America",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14720-Global-Research-2027-Summer-Analyst-London/en-GB",
+  "location": "Program ID:14720\nTitle:Global Research 2027 Summer Analyst - London\nCity:London\nProgram closing date:11 Oct 2026 11:55 PM BST\nProgram description:Global Research, Summer Analyst London, UK About Us At Bank of America, we",
+  "posted": "2026-09-01",
+  "title": "Global Research 2027 Summer Analyst - London",
+  "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14720-Global-Research-2027-Summer-Analyst-London/en-GB"
  },
  "ol:https://bankcampuscareers.tal.net/vx/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14722-Global-Quantitative-Research-2027-Off-Cycle-Analyst-Paris/en-GB": {
   "active": true,
@@ -1769,6 +1974,66 @@
   "title": "6 month Internship -  Sovereign Advisory, Financial Restructuring Group, January 2027",
   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Paris-France/XMLNAME-6-month-Internship----Sovereign-Advisory--Financial-Restructuring-Group_R3217-1"
  },
+ "wd:ing:/job/AME-Amsterdam---Maple/Internship-Debt-Capital-Markets---IG-Corporate-Origination_REQ-10121509": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/AME-Amsterdam---Maple/Internship-Debt-Capital-Markets---IG-Corporate-Origination_REQ-10121509",
+  "location": "AME (Amsterdam - Maple)",
+  "posted": "Offre publiée il y a 15 jours",
+  "title": "Internship Debt Capital Markets – IG Corporate Origination",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/AME-Amsterdam---Maple/Internship-Debt-Capital-Markets---IG-Corporate-Origination_REQ-10121509"
+ },
+ "wd:ing:/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Business-Management---Strategy---Private-Banking_REQ-10120999": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Business-Management---Strategy---Private-Banking_REQ-10120999",
+  "location": "Luxembourg (Siège Lux House)",
+  "posted": "Offre publiée il y a 5 jours",
+  "title": "INTERNSHIP - Business Management & Strategy - Private Banking",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Business-Management---Strategy---Private-Banking_REQ-10120999"
+ },
+ "wd:ing:/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Fund---Portfolio-Oversight_REQ-10120994": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Fund---Portfolio-Oversight_REQ-10120994",
+  "location": "Luxembourg (Siège Lux House)",
+  "posted": "Offre publiée il y a 30 jours ou plus",
+  "title": "INTERNSHIP - Fund & Portfolio Oversight",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Luxembourg-Sige-Lux-House/INTERNSHIP---Fund---Portfolio-Oversight_REQ-10120994"
+ },
+ "wd:ing:/job/Luxembourg-Sige-Lux-House/Internship---Fund-Operation-Oversight_REQ-10122343": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/Luxembourg-Sige-Lux-House/Internship---Fund-Operation-Oversight_REQ-10122343",
+  "location": "Luxembourg (Siège Lux House)",
+  "posted": "Offre publiée il y a 6 jours",
+  "title": "Internship - Fund Operation Oversight",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Luxembourg-Sige-Lux-House/Internship---Fund-Operation-Oversight_REQ-10122343"
+ },
+ "wd:ing:/job/Luxembourg-Sige-Lux-House/Internship---Sales-Support_REQ-10122484": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/Luxembourg-Sige-Lux-House/Internship---Sales-Support_REQ-10122484",
+  "location": "Luxembourg (Siège Lux House)",
+  "posted": "Offre publiée il y a 6 jours",
+  "title": "Internship - Sales Support",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Luxembourg-Sige-Lux-House/Internship---Sales-Support_REQ-10122484"
+ },
+ "wd:ing:/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:ing:/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1",
+  "location": "Paris Richelieu",
+  "posted": "Offre publiée il y a 7 jours",
+  "title": "Stagiaire Financement Structuré Immobilier Real Estate Finance H/F/X",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1"
+ },
  "wd:lombardodier:/job/Geneva/Quantitative-Analyst-Intern-Multi-Asset_R0007658": {
   "active": true,
   "company": "Lombard Odier",
@@ -1799,6 +2064,66 @@
   "title": "Internship - Infrastructure Support Specialist",
   "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Internship---Infrastructure-Support-Specialist_R0007612"
  },
+ "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1",
+  "location": "London",
+  "posted": "Offre publiée il y a 29 jours",
+  "title": "2027 MUFG UK Summer Analyst Programme: Capital Markets",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1"
+ },
+ "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Credit-Sales-and-Trading_10079355-WD-1": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Credit-Sales-and-Trading_10079355-WD-1",
+  "location": "London",
+  "posted": "Offre publiée il y a 27 jours",
+  "title": "2027 MUFG UK Summer Analyst Programme: Credit Sales and Trading",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Credit-Sales-and-Trading_10079355-WD-1"
+ },
+ "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Client-Sales_10079834-WD": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Client-Sales_10079834-WD",
+  "location": "London",
+  "posted": "Offre publiée il y a 7 jours",
+  "title": "2027 MUFG UK Summer Analyst Programme: Global Client Sales",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Client-Sales_10079834-WD"
+ },
+ "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1",
+  "location": "London",
+  "posted": "Offre publiée il y a 29 jours",
+  "title": "2027 MUFG UK Summer Analyst Programme: Global Corporate Investment Banking",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1"
+ },
+ "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1",
+  "location": "London",
+  "posted": "Offre publiée il y a 27 jours",
+  "title": "2027 MUFG UK Summer Analyst Programme: Structured Trading Group",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1"
+ },
+ "wd:pjtpartners:/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510": {
+  "active": true,
+  "company": "PJT Partners",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:pjtpartners:/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510",
+  "location": "London",
+  "posted": "",
+  "title": "2027 Summer Analyst (Strategic Advisory & Restructuring) London",
+  "url": "https://pjtpartners.wd1.myworkdayjobs.com/Students/job/London/XMLNAME-2027-Summer-Analyst--Strategic-Advisory---Restructuring--London_R0003510"
+ },
  "wd:rothschildandco:/job/Paris/Stage-Assistant-e--Conformit-GA--Markets---Ethics---Janvier-2027_JR016384": {
   "active": true,
   "company": "Rothschild & Co",
@@ -1818,6 +2143,16 @@
   "posted": "Posted 28 Days Ago",
   "title": "Stage Assistant(e) Gestion de Portefeuilles - Janvier 2027",
   "url": "https://rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral/job/Paris/Stage-Assistant-e--Gestion-de-Portefeuilles---Janvier-2027_JR016405"
+ },
+ "wd:rothschildandco:/job/Paris/Stage-Data-Manager-Reporting---Janvier-2027_JR016379": {
+  "active": true,
+  "company": "Rothschild & Co",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wd:rothschildandco:/job/Paris/Stage-Data-Manager-Reporting---Janvier-2027_JR016379",
+  "location": "Paris",
+  "posted": "Offre publiée il y a 30 jours ou plus",
+  "title": "Stage Data Manager Reporting - Octobre 2026",
+  "url": "https://rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral/job/Paris/Stage-Data-Manager-Reporting---Janvier-2027_JR016379"
  },
  "wd:rothschildandco:/job/Paris/Stage-Investment-Analyst---Janvier-2027_JR016396": {
   "active": true,
@@ -1858,5 +2193,15 @@
   "posted": "Posted 4 Days Ago",
   "title": "Stage Produits Structurés - Janvier 2027",
   "url": "https://rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral/job/Paris/Stage-Produits-Structurs---Janvier-2027_JR016532"
+ },
+ "wk:capula-investment-management-ltd:A15A62A8BE": {
+  "active": true,
+  "company": "Capula",
+  "first_seen": "2026-10-06T08:48:27Z",
+  "id": "wk:capula-investment-management-ltd:A15A62A8BE",
+  "location": "London, United Kingdom",
+  "posted": "2026-04-30",
+  "title": "2027 Trading and Research Summer Internship",
+  "url": "https://apply.workable.com/j/A15A62A8BE"
  }
 }
