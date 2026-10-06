@@ -10,7 +10,7 @@
   "seeded": true
  },
  "greenhouse:DRW:drw": {
-  "fails": 130,
+  "fails": 131,
   "last_error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/drw/jobs"
  },
  "greenhouse:EQT:eqtpartners": {
@@ -34,7 +34,7 @@
   "seeded": true
  },
  "greenhouse:IMC Trading:imc": {
-  "fails": 130,
+  "fails": 131,
   "last_error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/imc/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api."
  },
  "greenhouse:Jump Trading:jumptrading": {
