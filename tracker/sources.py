@@ -23,7 +23,8 @@ def _get(url, **kw):
 
 
 def greenhouse(cfg):
-    data = _get(f"https://boards-api.greenhouse.io/v1/boards/{cfg['slug']}/jobs").json()
+    host = "boards-api.eu.greenhouse.io" if cfg.get("region") == "eu" else "boards-api.greenhouse.io"
+    data = _get(f"https://{host}/v1/boards/{cfg['slug']}/jobs").json()
     return [
         {
             "id": f"gh:{cfg['slug']}:{j['id']}",
@@ -286,6 +287,8 @@ def html_links(cfg):
         for a in soup.find_all("a", href=True):
             if cfg["link_contains"] not in a["href"]:
                 continue
+            if cfg.get("link_regex") and not re.search(cfg["link_regex"], a["href"]):
+                continue
             href = urljoin(url, a["href"]).split("#")[0]
             if href in seen:
                 continue
@@ -319,7 +322,28 @@ def html_links(cfg):
     return out
 
 
+def workable(cfg):
+    """API publique Workable (widget)."""
+    data = _get(f"https://apply.workable.com/api/v1/widget/accounts/{cfg['slug']}").json()
+    out = []
+    for j in data.get("jobs", []) or []:
+        code = j.get("shortcode") or j.get("id") or ""
+        loc = ", ".join(x for x in [j.get("city"), j.get("country")] if x)
+        out.append(
+            {
+                "id": f"wk:{cfg['slug']}:{code}",
+                "company": cfg["company"],
+                "title": j.get("title", ""),
+                "location": loc,
+                "url": j.get("url") or f"https://apply.workable.com/{cfg['slug']}/j/{code}/",
+                "posted": j.get("published_on", ""),
+            }
+        )
+    return out
+
+
 COLLECTORS = {
+    "workable": workable,
     "oracle_hcm": oracle_hcm,
     "oleeo_feed": oleeo_feed,
     "html_links": html_links,
