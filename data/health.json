@@ -126,8 +126,8 @@
   "seeded": true
  },
  "html_links:Kepler Cheuvreux:https://keplercheuvreux.teamtailor.com/jobs": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 400 Client Error: Bad Request for url: https://keplercheuvreux.teamtailor.com/jobs",
   "seeded": true
  },
  "html_links:Lazard:e-0/brand-4/xf-a4bba4c3553c/candidate/jobboard/vacancy/2/adv": {
@@ -219,8 +219,8 @@
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs",
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com": {
