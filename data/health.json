@@ -175,8 +175,8 @@
   "seeded": true
  },
  "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='jpmc.fa.oraclecloud.com', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "oracle_hcm:Schroders:ekbq.fa.em2.oraclecloud.com": {
