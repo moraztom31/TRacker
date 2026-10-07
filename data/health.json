@@ -180,8 +180,8 @@
   "seeded": true
  },
  "oracle_hcm:Schroders:ekbq.fa.em2.oraclecloud.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='ekbq.fa.em2.oraclecloud.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workable:Capula:capula-investment-management-ltd": {
