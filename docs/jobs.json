@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T08:56:26Z",
+ "generated_at": "2026-10-07T09:50:42Z",
  "jobs": [
   {
    "active": true,
@@ -268,7 +268,7 @@
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Kepler Cheuvreux",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "hl:Kepler Cheuvreux:8267955",
