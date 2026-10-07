@@ -262,8 +262,8 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://kkr.wd1.myworkdayjobs.com/wday/cxs/kkr/KKR/jobs"
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://lombardodier.wd3.myworkdayjobs.com/wday/cxs/lombardodier/Lombard_Odier_Careers/jobs",
   "seeded": true
  },
  "workday:MUFG:mufgub.wd3.myworkdayjobs.com": {
