@@ -214,8 +214,8 @@
   "seeded": true
  },
  "workday:Blackstone:blackstone.wd1.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 520 Server Error: <none> for url: https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers/jobs",
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com": {
