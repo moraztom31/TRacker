@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T20:46:23Z",
+ "generated_at": "2026-10-07T22:26:26Z",
  "jobs": [
   {
    "active": true,
@@ -86,7 +86,7 @@
    "url": "https://keplercheuvreux.teamtailor.com/jobs/8507175-internship-equity-research-analyst-autos-utilities"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T23:10:39Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---ingenieur-quantitatif--challenge-des-techniques-de-validation-des-performances-de-modeles-hf-reference--2026-116085--/",
