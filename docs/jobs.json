@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-07T14:36:31Z",
+ "generated_at": "2026-10-07T14:38:25Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Flow Traders",
+   "first_seen": "2026-10-07T14:38:25Z",
+   "id": "gh:flowtraders:8260920",
+   "location": "Amsterdam",
+   "posted": "2026-10-07T10:37:51-04:00",
+   "title": "Summer Trading Internship",
+   "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8260920"
+  },
   {
    "active": true,
    "company": "Crédit Agricole / Amundi",
