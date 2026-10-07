@@ -111,8 +111,8 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/": {
-  "fails": 1,
-  "last_error": "ChunkedEncodingError: Response ended prematurely",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
