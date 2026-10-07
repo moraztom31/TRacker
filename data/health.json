@@ -180,8 +180,8 @@
   "seeded": true
  },
  "oracle_hcm:Schroders:ekbq.fa.em2.oraclecloud.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='ekbq.fa.em2.oraclecloud.com', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "workable:Capula:capula-investment-management-ltd": {
@@ -301,8 +301,8 @@
   "seeded": true
  },
  "workday:State Street:statestreet.wd1.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "HTTPError: 520 Server Error: <none> for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:T. Rowe Price:troweprice.wd5.myworkdayjobs.com": {
