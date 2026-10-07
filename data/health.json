@@ -224,8 +224,8 @@
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "seeded": true
  },
  "workday:Fidelity International:fil.wd3.myworkdayjobs.com": {
