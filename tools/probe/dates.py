@@ -21,3 +21,20 @@ out = subprocess.run([sys.executable, "-m", "tracker.main"], env=env, capture_ou
 for line in out.splitlines():
     if line.startswith(("[ANCIENNE]", "[WARN]", "[KO]")) or "sources," in line:
         print(line[:200])
+
+# les offres retirées mais non reconnues comme anciennes : quelle est leur date de publication ?
+import yaml
+from tracker.sources import publication_date
+cfg = yaml.safe_load(open("config.yaml", encoding="utf-8"))
+byco = {c["company"]: c for lst in cfg["sources"].values() for c in (lst or [])}
+flagged = {l.split(" : ", 1)[1].split(" (publiée")[0] for l in out.splitlines() if l.startswith("[ANCIENNE]")}
+new_store = json.load(open("data/jobs.json"))
+for k, (company, title) in removed.items():
+    v = new_store.get(k)
+    if not v or v["first_seen"][:10] != __import__("datetime").datetime.utcnow().strftime("%Y-%m-%d"):
+        continue
+    c = byco.get("Groupe BPCE" if company == "Natixis" else company)
+    try:
+        print("NOUVELLE (vérif.) :", company, "|", v["title"][:60], "| date lue :", publication_date(c, v))
+    except Exception as e:
+        print("NOUVELLE (vérif.) ERREUR", company, v["title"][:50], type(e).__name__, str(e)[:80])
