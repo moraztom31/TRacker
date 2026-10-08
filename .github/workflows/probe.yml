@@ -20,8 +20,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Collecteurs reels (BPCE, Oddo FR)
-        run: |
-          for n in BPCE Oddo; do python -m tracker.check config "$n" 2>&1 | head -12; done
-      - name: Tour 11 UBS
-        run: python tools/probe/round11.py 2>&1
+      - name: Tour 12 Credit Agricole
+        run: python tools/probe/round12.py 2>&1
+      - name: UBS (collecteur reel)
+        run: python -m tracker.check config "UBS" 2>&1 | head -14

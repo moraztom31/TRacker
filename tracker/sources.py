@@ -494,6 +494,7 @@ def wp_jobs(cfg):
 def brassring(cfg):
     """Portails BrassRing / Kenexa (UBS) : la page d'accueil donne la valeur de session et le jeton RFT,
     puis /Search/Ajax/MatchedJobs renvoie la liste (50 offres max par recherche, on croise plusieurs mots-clés)."""
+    import html
     import json
 
     from bs4 import BeautifulSoup
@@ -544,8 +545,8 @@ def brassring(cfg):
                 {
                     "id": f"br:{cfg['host']}:{jid}",
                     "company": cfg["company"],
-                    "title": f.get("jobtitle", ""),
-                    "location": " · ".join(str(f[k]) for k in cfg.get("location_fields", ["location"]) if f.get(k)),
+                    "title": html.unescape(f.get("jobtitle", "")),
+                    "location": " · ".join(html.unescape(str(f[k])) for k in cfg.get("location_fields", ["location"]) if f.get(k)),
                     "url": (job.get("Link") or "").replace("\\u0026", "&"),
                     "posted": str(f.get("lastupdated") or ""),
                 }

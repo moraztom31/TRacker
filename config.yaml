@@ -168,7 +168,7 @@ sources:
 
   # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max chacune)
   brassring:
-    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, queries: ["intern", "internship", "stage", "graduate", "trainee"]}   # [à tester]
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, queries: ["intern", "internship", "stage", "graduate", "trainee"], location_fields: ["formtext23"]}   # [vérifié] 256 offres "intern", 50 max par requête (pagination à tester)
 
   # Flux Atom Oleeo
   oleeo_feed:
