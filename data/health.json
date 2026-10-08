@@ -78,8 +78,8 @@
   "seeded": true
  },
  "greenhouse:Squarepoint:squarepointcapital": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "greenhouse:TPG:tpgcareers": {
@@ -244,8 +244,8 @@
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Jefferies:jefferies.wd1.myworkdayjobs.com": {
