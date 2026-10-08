@@ -224,13 +224,13 @@
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='db.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Fidelity International:fil.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='fil.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Houlihan Lokey:hl.wd1.myworkdayjobs.com": {
@@ -239,8 +239,8 @@
   "seeded": true
  },
  "workday:ING:ing.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='ing.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com": {
@@ -253,8 +253,8 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://jefferies.wd1.myworkdayjobs.com/wday/cxs/jefferies/JefferiesCareers/jobs"
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='juliusbaer.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:KKR:kkr.wd1.myworkdayjobs.com": {
@@ -262,18 +262,18 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://kkr.wd1.myworkdayjobs.com/wday/cxs/kkr/KKR/jobs"
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='lombardodier.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:MUFG:mufgub.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='mufgub.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Macquarie:mq.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='mq.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Nomura:nomura.wd3.myworkdayjobs.com": {
@@ -291,13 +291,13 @@
   "seeded": true
  },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='rothschildandco.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Santander:santandercareers.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='santandercareers.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:State Street:statestreet.wd1.myworkdayjobs.com": {
