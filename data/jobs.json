@@ -1128,7 +1128,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21598-2027-Sales-Trading-Off-Cycle-Internship-Frankfurt/en-GB"
  },
  "hl:Morgan Stanley:21601": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-05T20:08:12Z",
   "id": "hl:Morgan Stanley:21601",
@@ -1566,6 +1566,17 @@
   "posted": "",
   "title": "2027 Investment Management Off-cycle Internship - Global Sales (Amsterdam)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-a04600e90f0a/candidate/so/pm/1/pl/1/opp/22242-2027-Investment-Management-Off-cycle-Internship-Global-Sales-Amsterdam/en-GB"
+ },
+ "hl:Morgan Stanley:22253": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-08T17:40:41Z",
+  "id": "hl:Morgan Stanley:22253",
+  "internship_source": false,
+  "location": "Seattle",
+  "posted": "",
+  "title": "Parametric -  2027 Business Analyst Intern (Seattle)",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-9d93e8b21032/candidate/so/pm/1/pl/1/opp/22253-Parametric-2027-Business-Analyst-Intern-Seattle/en-GB"
  },
  "hl:Morgan Stanley:22261": {
   "active": true,

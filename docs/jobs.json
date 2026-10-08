@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T17:36:27Z",
+ "generated_at": "2026-10-08T17:40:41Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Morgan Stanley",
+   "first_seen": "2026-10-08T17:40:41Z",
+   "id": "hl:Morgan Stanley:22253",
+   "internship_source": false,
+   "location": "Seattle",
+   "posted": "",
+   "title": "Parametric -  2027 Business Analyst Intern (Seattle)",
+   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-9d93e8b21032/candidate/so/pm/1/pl/1/opp/22253-Parametric-2027-Business-Analyst-Intern-Seattle/en-GB"
+  },
   {
    "active": true,
    "company": "Morgan Stanley",
@@ -8236,7 +8247,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21585-2027-Institutional-Equities-Off-Cycle-Internship-Transactional-Management-Group-Paris/en-GB"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21601",
