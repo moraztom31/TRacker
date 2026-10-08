@@ -5,60 +5,23 @@
 # =====================================================================
 
 filters:
+  # MODE MAXIMUM : seul le contrat (stage) est filtré.
   # Contrat : au moins un de ces mots dans le titre ou la carte de l'offre
   # (ignoré pour les sources marquées all_internships: true)
-  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", praktik, becari, stagiair]
+  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", "summer associate", praktik, becari, stagiair, werkstudent, "working student"]
 
-  # Sujet : au moins un de ces mots dans le titre ou la carte (entité, métier...)
-  topic_keywords:
-    - sales
-    - trading
-    - trader
-    - structur          # structuring, structured, structureur, structuré
-    - derivative
-    - dérivé
-    - "fixed income"
-    - equity
-    - equities
-    - "rates"
-    - " fx"
-    - forex
-    - commodit
-    - "markets"
-    - "marchés"
-    - "front office"
-    - "asset management"
-    - "gestion d'actifs"
-    - "gestion de portefeuille"
-    - "portfolio"
-    - "fund"
-    - "investment"
-    - "wealth"
-    - "banque privée"
-    - "private bank"
-    - "capital markets"
-    - "quant"
-    - "market making"
-    - "research"
-    - "repo"
-    - "money market"
-    - "multi-asset"
-    - "cross-asset"
-    - "product specialist"
-    - "investment banking"
-    - "m&a"
-    # Entités asset management / banque privée : toutes leurs offres de stage passent
-    - amundi
-    - indosuez
-    - "cpr am"
-    - "bnp paribas asset management"
-    - "bnp paribas wealth management"
+  # Sujet : vide = tous les stages passent.
+  # Pour revenir au mode "front office", remets par exemple :
+  # [sales, trading, structur, derivative, "fixed income", equity, markets, "asset management", portfolio, fund, investment, wealth, quant, "m&a"]
+  topic_keywords: []
 
-  # Un de ces mots dans le TITRE = offre ignorée
-  exclude_keywords: [senior, director, "vice president", "managing director", audit, comptab, accounting, juridique, juriste, legal, "ressources humaines", " rh ", "human resources", recrutement, "talent acquisition", développeur, developer, devops, "software", "conseiller clientèle", "conseil aux particuliers", "conseil marché", communication, marketing, achats, procurement, fiscal]
+  # Exclusions (titre uniquement) : postes seniors et métiers sans lien avec la finance
+  exclude_keywords: [senior, director, "vice president", "managing director", "ressources humaines", " rh ", "human resources", recrutement, "talent acquisition", juridique, juriste, legal, marketing, communication, développeur, developer, devops, software, achats, procurement, "conseiller clientèle", "conseil aux particuliers"]
 
-  # Localisation (mot entier, cherché dans la carte de l'offre). Vide = partout.
-  locations: [paris, amsterdam, "la defense", "la défense", puteaux, courbevoie, montrouge, "île-de-france", "ile-de-france", monaco, "monte-carlo", london, londres, genève, geneva, zurich, luxembourg, nice, sophia, lyon, france]
+  # Lieu : vide = monde entier.
+  # Pour revenir à l'Europe, remets par exemple :
+  # [paris, "la defense", "île-de-france", france, monaco, london, genève, geneva, zurich, suisse, luxembourg, amsterdam]
+  locations: []
 
 telegram:
   max_detailed: 10
