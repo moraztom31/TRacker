@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T14:24:29Z",
+ "generated_at": "2026-10-08T14:28:29Z",
  "jobs": [
   {
    "active": true,
@@ -942,7 +942,7 @@
    "url": "https://keplercheuvreux.teamtailor.com/jobs/8507116-internship-corporate-finance-debt-advisory-paris-nyon"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21598",
@@ -953,7 +953,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21598-2027-Sales-Trading-Off-Cycle-Internship-Frankfurt/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21609",
@@ -964,7 +964,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21609-2027-Fixed-Income-Off-Cycle-Internship-Copenhagen/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21623",
@@ -975,7 +975,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21623-2027-Sales-Trading-Off-Cycle-Internship-Madrid/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21630",
@@ -986,7 +986,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21630-2027-Fixed-Income-Off-Cycle-Internship-Milan/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21758",
@@ -997,7 +997,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21758-2027-Investment-Banking-Off-Cycle-Internship-Dubai/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21766",
@@ -1008,7 +1008,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21766-2027-Investment-Management-Off-Cycle-Internship-Real-Estate-Investing-Frankfurt/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21772",
@@ -1019,7 +1019,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21772-2027-Investment-Banking-Off-Cycle-Internship-Milan/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21773",
@@ -1030,7 +1030,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21773-2027-Investment-Banking-Off-Cycle-Internship-Madrid/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21791",
@@ -1041,7 +1041,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21791-2027-Investment-Banking-Off-Cycle-Internship-Tel-Aviv/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21794",
@@ -1052,7 +1052,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21794-2027-Investment-Banking-Off-Cycle-Internship-Stockholm/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21829",
@@ -1063,7 +1063,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21829-2027-Investment-Banking-Off-Cycle-Internship-Frankfurt-or-Munich/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21837",
@@ -1074,7 +1074,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21837-2027-Investment-Banking-Summer-Associate-Program-New-York/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21846",
@@ -1085,7 +1085,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21846-2027-Investment-Banking-Summer-Associate-Program-Regions/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22001",
@@ -1096,7 +1096,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22001-2027-Investment-Banking-Internship-Program-Mexico-City/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22004",
@@ -1107,7 +1107,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22004-2027-Strats-Internship-Program-Sao-Paulo/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22047",
@@ -1118,7 +1118,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22047-2027-ISG-Central-Risk-Industrial-Placement-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22099",
@@ -1129,7 +1129,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22099-2026-Finance-Internship-Program-Mexico-City/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22191",
@@ -1140,7 +1140,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22191-2027-Investment-Management-Off-Cycle-Internship-Real-Estate-Investing-Milan/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22231",
@@ -1151,7 +1151,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22231-2027-Investment-Management-Off-cycle-Internship-Real-Estate-Investing-Madrid/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22238",
@@ -1162,7 +1162,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/22238-2027-Operations-Off-cycle-Internship-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:22261",
@@ -6932,7 +6932,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---fonds-d-infrastructure-hf-reference--2026-116035--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T09:34:25Z",
    "id": "hl:Morgan Stanley:22271",
@@ -7443,7 +7443,7 @@
    "url": "https://keplercheuvreux.teamtailor.com/jobs/8476881-stage-equity-research-retail-paris"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "hl:Morgan Stanley:22242",
@@ -7678,7 +7678,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Quantitative-Research-Intern---AI-for-Investment-Research_R0007657"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:25:04Z",
    "id": "hl:Morgan Stanley:21774",
@@ -7689,7 +7689,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-46cbf24b7d21/candidate/so/pm/1/pl/1/opp/21774-2027-Investment-Banking-Summer-Analyst-Programme-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:25:04Z",
    "id": "hl:Morgan Stanley:21776",
@@ -8122,7 +8122,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21585-2027-Institutional-Equities-Off-Cycle-Internship-Transactional-Management-Group-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21601",
@@ -8133,7 +8133,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21601-2027-Sales-Trading-Off-Cycle-Internship-Zurich/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21611",
@@ -8144,7 +8144,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21611-2027-Sales-and-Trading-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21615",
@@ -8155,7 +8155,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21615-2027-Institutional-Equities-Trading-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21635",
@@ -8166,7 +8166,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21635-2027-Quantitative-Finance-Off-Cycle-Internship-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21636",
@@ -8177,7 +8177,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21636-2027-Quantitative-Finance-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21762",
@@ -8188,7 +8188,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21762-2027-Investment-Management-Off-Cycle-Internship-Real-Estate-Investing-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21763",
@@ -8199,7 +8199,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21763-2027-Investment-Management-Off-Cycle-Internship-Parametric-EMEA-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21765",
@@ -8210,7 +8210,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21765-2027-Global-Capital-Markets-Off-Cycle-Internship-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21777",
@@ -8221,7 +8221,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21777-2027-Global-Capital-Markets-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21778",
@@ -8232,7 +8232,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21778-2027-Investment-Banking-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21953",
@@ -8243,7 +8243,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21953-2027-Fixed-Income-Research-Off-Cycle-Internship-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21966",
@@ -8254,7 +8254,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21966-2027-Investment-Management-Off-Cycle-Internship-Global-Sales-Consultant-Relations-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:21981",
@@ -8265,7 +8265,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21981-2027-Investment-Management-Off-cycle-Internship-Emerging-Markets-Trading-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:22033",
@@ -8276,7 +8276,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/22033-2027-Institutional-Equities-Trading-Off-Cycle-Internship-Paris/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:22192",
@@ -8287,7 +8287,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/22192-2027-Investment-Management-Off-Cycle-Internship-UK-Institutional-Sales-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:22233",
@@ -8298,7 +8298,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/22233-2027-Investment-Management-Off-Cycle-Internship-Private-Equity-Solutions-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-05T20:08:12Z",
    "id": "hl:Morgan Stanley:22234",
