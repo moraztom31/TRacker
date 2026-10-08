@@ -453,6 +453,33 @@ def jibe(cfg):
     return out
 
 
+def wp_routes(cfg):
+    """Sites WordPress « headless » (Natixis / BPCE) : la liste des routes contient toutes les offres
+    (/job/<titre-dans-l-adresse>). Pas de lieu : l'API de détail est protégée, le titre vient de l'adresse."""
+    routes = _get(cfg["url"]).json()
+    base = cfg["base_url"].rstrip("/")
+    out = []
+    for r in routes:
+        path = r.get("path", "")
+        if r.get("component") != cfg.get("component", "Template Job") or not path:
+            continue
+        slug = path.rstrip("/").rsplit("/", 1)[-1]
+        title = re.sub(r"-\d+$", "", slug).replace("-", " ")
+        title = re.sub(r"\b(f h|h f|f m|m f|f m d|m f d|m w d|h f x)\b", "", title)  # mention f/h de l'annonce
+        title = re.sub(r"\s+", " ", title).strip()
+        out.append(
+            {
+                "id": f"wp:{cfg['company']}:{r.get('_uid') or path}",
+                "company": cfg["company"],
+                "title": title[:1].upper() + title[1:],
+                "location": "",
+                "url": base + path,
+                "posted": "",
+            }
+        )
+    return out
+
+
 COLLECTORS = {
     "rss": rss,
     "workable": workable,
@@ -467,4 +494,5 @@ COLLECTORS = {
     "workday": workday,
     "eightfold": eightfold,
     "jibe": jibe,
+    "wp_routes": wp_routes,
 }

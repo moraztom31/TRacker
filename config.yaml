@@ -86,6 +86,15 @@ sources:
       id_regex: '/opp/([0-9]+)'
       pages: 1
 
+    # [à tester] Oddo BHF : portail altays, 237 offres, liste HTML paginée (?page=N)
+    - company: "Oddo BHF"
+      url: "https://recrutement.altays-progiciels.com/oddo/en/offres.html"
+      link_contains: "/oddo/en/offres/"
+      link_regex: '-[0-9]+\.html$'
+      id_regex: '-([0-9]+)\.html'
+      page_param: "page"
+      pages: 30
+
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
   workday:
     - {company: "Barclays", host: "barclays.wd3.myworkdayjobs.com", tenant: "barclays", site: "External_Career_Site_Barclays"}   # [vérifié]
@@ -141,6 +150,10 @@ sources:
   # API Jibe / iCIMS
   jibe:
     - {company: "AXA", host: "careers.axa.com", queries: ["intern", "stage", "internship"]}   # [vérifié] 212 offres "intern"
+
+  # Routes WordPress (Natixis / BPCE : titre lu dans l'adresse de l'offre, lieu non fourni)
+  wp_routes:
+    - {company: "Natixis / BPCE", url: "https://recrutement.natixis.com/app/wp-json/bpce/v1/routes/?lang=fr", base_url: "https://recrutement.natixis.com"}   # [à tester]
 
   # Flux Atom Oleeo
   oleeo_feed:
