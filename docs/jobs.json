@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:32:25Z",
+ "generated_at": "2026-10-08T15:36:25Z",
  "jobs": [
   {
    "active": true,
@@ -2178,7 +2178,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---data--scientist-hf-reference--2026-116110--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-corporate-banking-financial-institutions-group-fig-placement-analyst-internship-paris-franc/287/100709896848",
@@ -2189,7 +2189,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-corporate-banking-financial-institutions-group-fig-placement-analyst-internship-paris-franc/287/100709896848"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-corporate-banking-placement-analyst-internship-paris-france-2027/287/100295995168",
@@ -2200,7 +2200,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-corporate-banking-placement-analyst-internship-paris-france-2027/287/100295995168"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-corporate-banking-relationship-analyst-placement-analyst-internship-paris-france-2027/287/101320593040",
@@ -8792,7 +8792,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---assistante-sales-front-office---securities-finance-et-repo-hf-reference--2026-108692--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-financing-debt-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124304",
@@ -8803,7 +8803,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-financing-debt-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124304"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-financing-equity-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124400",
@@ -8814,7 +8814,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-financing-equity-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124400"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/100164759248",
@@ -8825,7 +8825,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/100164759248"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-investment-banking-placement-analyst-internship-paris-france-2027/287/100164759312",
@@ -8836,7 +8836,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-investment-banking-placement-analyst-internship-paris-france-2027/287/100164759312"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/markets-sales-and-trading-off-cycle-internship-paris-france-2027/287/100186099504",
