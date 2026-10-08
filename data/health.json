@@ -185,8 +185,8 @@
   "seeded": true
  },
  "workable:Capula:capula-investment-management-ltd": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/api/v1/widget/accounts/capula-investment-management-ltd",
   "seeded": true
  },
  "workday:AllianceBernstein:alliancebernstein.wd1.myworkdayjobs.com": {
