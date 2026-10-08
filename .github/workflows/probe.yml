@@ -20,8 +20,13 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: pip install curl_cffi playwright
-      - name: Tour 3
+      - run: pip install playwright
+      - name: Nouvelles sources (collecteurs reels)
+        run: |
+          for n in HSBC AXA "Edmond" Vanguard Neuberger BMO CIBC "S&P" LSEG Lloyds Rabobank Millennium BBVA abrdn Guggenheim "Raymond" "Morgan Stanley" AQR Virtu "William Blair" "Jane Street" GSA Winton "Legal"; do
+            python -m tracker.check config "$n" 2>&1 | grep -E "^\[" || true
+          done
+      - name: Tour 4
         run: |
           playwright install --with-deps chromium >/dev/null 2>&1
-          python tools/probe/round3.py 2>&1
+          python tools/probe/round4.py 2>&1

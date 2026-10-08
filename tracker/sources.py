@@ -16,8 +16,15 @@ UA = {
 TIMEOUT = 15
 
 
-def _get(url, **kw):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
+def _get(url, impersonate=None, **kw):
+    """impersonate="chrome124" : requête avec l'empreinte TLS d'un vrai navigateur (curl_cffi).
+    Nécessaire pour les sites protégés par Akamai (BNP Paribas, UBS), qui rejettent python-requests."""
+    if impersonate:
+        from curl_cffi import requests as cffi_requests
+
+        r = cffi_requests.get(url, impersonate=impersonate, timeout=TIMEOUT * 2, **kw)
+    else:
+        r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
     r.raise_for_status()
     return r
 
@@ -282,7 +289,7 @@ def html_links(cfg):
             url = cfg["page_url"].format(page=page)
         else:
             url = f"{cfg['url']}{'&' if '?' in cfg['url'] else '?'}{cfg.get('page_param', 'page')}={page}"
-        soup = BeautifulSoup(_get(url).text, "html.parser")
+        soup = BeautifulSoup(_get(url, cfg.get("impersonate")).text, "html.parser")
         found = 0
         for a in soup.find_all("a", href=True):
             if cfg["link_contains"] not in a["href"]:
@@ -357,7 +364,7 @@ def rss(cfg):
                 return c
         return None
 
-    root = ET.fromstring(_get(cfg["url"]).content)
+    root = ET.fromstring(_get(cfg["url"], cfg.get("impersonate")).content)
     out = []
     for el in root.iter():
         if local(el.tag) not in ("item", "entry"):
@@ -386,6 +393,66 @@ def rss(cfg):
     return out
 
 
+def eightfold(cfg):
+    """API publique Eightfold (HSBC...) : /api/apply/v2/jobs, 10 offres par page."""
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "stage"]):
+        start = 0
+        for _ in range(int(cfg.get("max_pages", 8))):
+            data = _get(
+                f"https://{cfg['host']}/api/apply/v2/jobs",
+                params={"domain": cfg["domain"], "query": q, "start": start, "num": 10, "sort_by": "relevance"},
+            ).json()
+            pos = data.get("positions") or []
+            for j in pos:
+                jid = str(j.get("id", ""))
+                if not jid or jid in seen:
+                    continue
+                seen.add(jid)
+                out.append(
+                    {
+                        "id": f"ef:{cfg['host']}:{jid}",
+                        "company": cfg["company"],
+                        "title": j.get("name", ""),
+                        "location": " · ".join(j.get("locations") or [j.get("location") or ""]),
+                        "url": j.get("canonicalPositionUrl") or f"https://{cfg['host']}/careers/job/{jid}",
+                        "posted": str(j.get("t_create", "")),
+                    }
+                )
+            start += len(pos)
+            if not pos or start >= int(data.get("count") or 0):
+                break
+    return out
+
+
+def jibe(cfg):
+    """API publique Jibe / iCIMS (AXA...) : /api/jobs?keywords=...&page=N."""
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "stage"]):
+        for page in range(1, int(cfg.get("max_pages", 4)) + 1):
+            data = _get(f"https://{cfg['host']}/api/jobs", params={"keywords": q, "limit": 100, "page": page}).json()
+            jobs = data.get("jobs") or []
+            for item in jobs:
+                j = item.get("data") or {}
+                rid = str(j.get("req_id") or j.get("slug") or "")
+                if not rid or rid in seen:
+                    continue
+                seen.add(rid)
+                out.append(
+                    {
+                        "id": f"jb:{cfg['host']}:{rid}",
+                        "company": cfg["company"],
+                        "title": j.get("title", ""),
+                        "location": ", ".join(x for x in [j.get("city"), j.get("country")] if x) or j.get("location_name", ""),
+                        "url": f"https://{cfg['host']}/careers-home/jobs/{j.get('slug') or rid}",
+                        "posted": (j.get("posted_date") or "")[:10],
+                    }
+                )
+            if len(jobs) < 100:
+                break
+    return out
+
+
 COLLECTORS = {
     "rss": rss,
     "workable": workable,
@@ -398,4 +465,6 @@ COLLECTORS = {
     "lever": lever,
     "smartrecruiters": smartrecruiters,
     "workday": workday,
+    "eightfold": eightfold,
+    "jibe": jibe,
 }

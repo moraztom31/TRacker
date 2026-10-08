@@ -6,9 +6,10 @@
 
 filters:
   # MODE MAXIMUM : seul le contrat (stage) est filtré.
-  # Contrat : au moins un de ces mots dans le titre ou la carte de l'offre
+  # Contrat : au moins un de ces MOTS ENTIERS dans le titre ou la carte de l'offre
+  # ("intern" ne matche pas "internal audit" ; un mot terminé par * est un préfixe : "praktik*")
   # (ignoré pour les sources marquées all_internships: true)
-  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", "summer associate", praktik, becari, stagiair, werkstudent, "working student"]
+  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", "summer associate", "praktik*", "becari*", "stagiair*", "werkstudent*", "working student", bachelorstage, masterstage, meewerkstage, afstudeerstage, stageplaats]
 
   # Sujet : vide = tous les stages passent.
   # Pour revenir au mode "front office", remets par exemple :
@@ -110,12 +111,36 @@ sources:
     - {company: "Wellington Management", host: "wellington.wd5.myworkdayjobs.com", tenant: "wellington", site: "External"}   # [vérifié]
     - {company: "Carlyle", host: "carlyle.wd1.myworkdayjobs.com", tenant: "carlyle", site: "Carlyle"}   # [vérifié]
     - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [vérifié]
+    # Ajoutés le 08/10 : site Workday trouvé et API testée depuis un runner GitHub
+    - {company: "Vanguard", host: "vanguard.wd5.myworkdayjobs.com", tenant: "vanguard", site: "vanguard_external"}   # [vérifié]
+    - {company: "Neuberger Berman", host: "nb.wd1.myworkdayjobs.com", tenant: "nb", site: "nbcareers"}   # [vérifié]
+    - {company: "BMO", host: "bmo.wd3.myworkdayjobs.com", tenant: "bmo", site: "External"}   # [vérifié]
+    - {company: "CIBC", host: "cibc.wd3.myworkdayjobs.com", tenant: "cibc", site: "Campus"}   # [vérifié]
+    - {company: "S&P Global", host: "spgi.wd5.myworkdayjobs.com", tenant: "spgi", site: "spgi_careers"}   # [vérifié]
+    - {company: "LSEG", host: "lseg.wd3.myworkdayjobs.com", tenant: "lseg", site: "Careers"}   # [vérifié]
+    - {company: "Lloyds Banking Group", host: "lbg.wd3.myworkdayjobs.com", tenant: "lbg", site: "lbg_careers"}   # [vérifié]
+    - {company: "Rabobank", host: "rabobank.wd3.myworkdayjobs.com", tenant: "rabobank", site: "jobs"}   # [vérifié]
+    - {company: "Millennium", host: "mlp.wd5.myworkdayjobs.com", tenant: "mlp", site: "mlpcareers"}   # [vérifié] 0 stage ce jour, source valide
+    - {company: "BBVA", host: "bbva.wd3.myworkdayjobs.com", tenant: "bbva", site: "bbva"}   # [vérifié]
+    - {company: "abrdn", host: "abrdn.wd3.myworkdayjobs.com", tenant: "abrdn", site: "abrdn"}   # [vérifié]
+    - {company: "Guggenheim", host: "guggenheim.wd1.myworkdayjobs.com", tenant: "guggenheim", site: "guggenheim_careers"}   # [vérifié]
+    - {company: "Raymond James", host: "raymondjames.wd1.myworkdayjobs.com", tenant: "raymondjames", site: "raymondjamescareers"}   # [vérifié]
+    - {company: "Morgan Stanley", host: "ms.wd5.myworkdayjobs.com", tenant: "ms", site: "External"}   # [vérifié] complète la source Oleeo (doublons écartés)
 
   # API Oracle Recruiting Cloud
   oracle_hcm:
     - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001", queries: ["intern Paris", "intern London", "off-cycle", "Paris"]}   # [vérifié]
     - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring", queries: ["Paris", "London", "off-cycle"]}   # [vérifié]
     - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [vérifié]
+    - {company: "Edmond de Rothschild", host: "evht.fa.ocs.oraclecloud.eu", site: "CX_2001", queries: ["stage", "intern", "internship"]}   # [à tester]
+
+  # API Eightfold (portails careers.<banque>.com)
+  eightfold:
+    - {company: "HSBC", host: "portal.careers.hsbc.com", domain: "hsbc.com", queries: ["intern", "internship", "stage", "stagiaire", "summer"]}   # [vérifié] 65 offres "intern"
+
+  # API Jibe / iCIMS
+  jibe:
+    - {company: "AXA", host: "careers.axa.com", queries: ["intern", "stage", "internship"]}   # [vérifié] 212 offres "intern"
 
   # Flux Atom Oleeo
   oleeo_feed:
