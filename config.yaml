@@ -143,10 +143,18 @@ sources:
     - {company: "Akuna Capital", slug: "akunacapital"}   # [vérifié]
     - {company: "ExodusPoint", slug: "exoduspoint"}   # [vérifié]
     - {company: "TPG", slug: "tpgcareers"}   # [vérifié]
+    # Ajoutés le 08/10 (API testée depuis un runner GitHub : offres bien lues)
+    - {company: "AQR", slug: "aqr"}   # [vérifié]
+    - {company: "Virtu Financial", slug: "virtu"}   # [vérifié]
+    - {company: "William Blair", slug: "williamblair"}   # [vérifié]
+    - {company: "Jane Street", slug: "janestreet"}   # [vérifié]
+    - {company: "GSA Capital", slug: "gsacapital"}   # [vérifié]
+    - {company: "Winton", slug: "winton"}   # [vérifié]
   lever:
     - {company: "Apax Partners", slug: "apax"}   # [vérifié]
 
-  smartrecruiters: []
+  smartrecruiters:
+    - {company: "Legal & General (LGIM)", id: "legalandgeneral"}   # [vérifié] 73 offres tous métiers, le filtre garde les stages
 
   # Flux RSS officiels (BNP : à générer sur leur site, voir README)
   rss: []
