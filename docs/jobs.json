@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T07:42:32Z",
+ "generated_at": "2026-10-08T08:16:25Z",
  "jobs": [
   {
    "active": true,
@@ -1530,7 +1530,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8135956002?gh_jid=8135956002"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Société Générale",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr",
