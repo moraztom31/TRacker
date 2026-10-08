@@ -297,6 +297,8 @@ def html_links(cfg):
             if cfg.get("link_regex") and not re.search(cfg["link_regex"], a["href"]):
                 continue
             href = urljoin(url, a["href"]).split("#")[0]
+            if cfg.get("strip_query"):  # certains portails (Oddo) ajoutent ?page=N aux liens des pages suivantes
+                href = href.split("?")[0]
             if href in seen:
                 continue
             seen.add(href)

@@ -102,8 +102,9 @@ sources:
     - company: "Oddo BHF"
       url: "https://recrutement.altays-progiciels.com/oddo/fr/offres.html"
       link_contains: "/oddo/fr/offres/"
-      link_regex: '-[0-9]+\.html$'
+      link_regex: '-[0-9]+\.html'
       id_regex: '-([0-9]+)\.html'
+      strip_query: true
       page_param: "page"
       pages: 30
 
