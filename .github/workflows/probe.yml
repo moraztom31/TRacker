@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Tour 12 Credit Agricole
-        run: python tools/probe/round12.py 2>&1
-      - name: UBS (collecteur reel)
-        run: python -m tracker.check config "UBS" 2>&1 | head -14
+      - name: Scan complet (verification finale)
+        run: |
+          python -m tracker.main 2>&1 | tail -3
+          python -m tracker.main 2>&1 | grep -E "^\[OK\]|^\[KO\]|sources," | tail -110

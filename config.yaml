@@ -45,12 +45,13 @@ sources:
       link_contains: "/offres-d-emploi/"
       pages: 1
 
-    # [vérifié] CA CIB, Amundi, Indosuez, CACEIS, LCL : ~33 offres/page
+    # [vérifié 08/10] Site carrière du groupe entier (CA CIB, Amundi, Indosuez, CACEIS, LCL, Assurances...) :
+    # 1196 offres sur 38 pages (~33 par page), dont ~174 stages. L'ancien réglage (3 pages) n'en lisait que 8 %.
     - company: "Crédit Agricole / Amundi"
       url: "https://groupecreditagricole.jobs/fr/nos-offres/"
       page_url: "https://groupecreditagricole.jobs/fr/nos-offres/page/{page}/"
       link_contains: "/nos-offres-emploi/"
-      pages: 3
+      pages: 45
 
     # [vérifié] toutes les offres Citi à Paris
     - company: "Citi"
