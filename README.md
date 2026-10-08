@@ -56,6 +56,19 @@ python -m tracker.main                 # scan complet, sans alertes Telegram si 
 Une source qui affiche une erreur ou 0 offre : commente-la dans `config.yaml`, ou envoie la sortie
 pour correction. Une source ajoutée plus tard est initialisée en silence (pas d'avalanche d'alertes).
 
+## Mode rapide (ne lire que les offres récentes)
+
+Le but est de ne pas rater les nouvelles offres, pas de relire tout un site à chaque passage. Les gros sites triés
+par date (Crédit Agricole ~1200 offres, BNP ~275, Groupe BPCE ~1400) ont une option `recent_pages` dans `config.yaml` :
+à chaque passage on ne lit que les premières pages. Un **scan complet** a lieu pendant les 5 premières minutes de
+chaque heure et au premier passage d'une source : c'est lui qui repère les offres disparues (« clôturées »).
+Un passage rapide ne clôture jamais d'offre. Résultat : ~20 s au lieu de ~70 s par passage.
+
+- Pour tester : `TRACKER_FULL=1 python -m tracker.main` force le scan complet, `TRACKER_FULL=0` force le mode rapide.
+- N'ajoute `recent_pages` qu'à un site réellement trié du plus récent au plus ancien (Oddo ne l'est pas, il n'en a pas).
+- Pour élargir la portée d'une source (plus de pages) sans déclencher une avalanche d'alertes, ajoute `seed: 2`
+  (puis `seed: 3`...) : la source est réinitialisée en silence.
+
 ## Filtre de contrat
 
 Le mot-clé doit être un **mot entier** : « intern » ne matche plus « Internal Audit » ni « International ».

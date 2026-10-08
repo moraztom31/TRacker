@@ -108,8 +108,7 @@ sources:
       id_regex: '-([0-9]+)\.html'
       strip_query: true
       page_param: "page"
-      pages: 30
-      recent_pages: 3
+      pages: 30   # pas de recent_pages : la liste Oddo n'est pas triée par date, on lit tout (24 petites pages)
 
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
   workday:
