@@ -2,20 +2,22 @@ import json
 import os
 import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
 
 from . import notify
 from .filters import matches
-from .sources import COLLECTORS
+from .sources import COLLECTORS, publication_date
 
 ROOT = Path(__file__).resolve().parent.parent
 JOBS_FILE = ROOT / "data" / "jobs.json"
 HEALTH_FILE = ROOT / "data" / "health.json"
 SITE_FILE = ROOT / "docs" / "jobs.json"
 FAIL_ALERT_AT = 3  # alerte après N échecs consécutifs d'une source
+FRESH_DAYS = 3  # une offre publiée il y a plus longtemps n'est pas une nouveauté (liste réordonnée, offre re-listée...)
+MAX_DETAIL_CHECKS = 40  # pages d'offres consultées au maximum par passage pour lire la date de publication
 FULL_SCAN_MINUTES = 5  # scan complet pendant les 5 premières minutes de chaque heure ; sinon mode rapide
 
 
@@ -55,7 +57,9 @@ def main(config_path=None, collectors=None):
     first_run = not JOBS_FILE.exists()
     store = load_json(JOBS_FILE, {})
     health = load_json(HEALTH_FILE, {})
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    now_dt = datetime.now(timezone.utc)
+    now = now_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    detail_checks = 0
 
     # Mode rapide : le but est de ne pas rater les NOUVELLES offres, pas de relire tout un site à chaque passage.
     # Une source n'est lue en partie que si elle a `recent_pages`, a déjà été initialisée, et que ce n'est pas l'heure du scan complet.
@@ -98,6 +102,20 @@ def main(config_path=None, collectors=None):
                 continue  # même offre déjà suivie via une autre source
             else:
                 known_titles.add((j["company"].lower(), j["title"].strip().lower()))
+                pub = None
+                if seeded and detail_checks < MAX_DETAIL_CHECKS and (c.get("detail_date") or c.get("posted_is_publication")):
+                    try:
+                        detail_checks += 1 if c.get("detail_date") else 0
+                        pub = publication_date(c, j)
+                    except Exception as e:  # noqa: BLE001
+                        print(f"[WARN] date de publication illisible pour {j['url']}: {type(e).__name__}")
+                if pub and now_dt - pub > timedelta(days=FRESH_DAYS):
+                    # Offre ancienne que le robot n'avait pas encore vue (liste réordonnée pendant le scan, offre re-listée) :
+                    # on la garde avec sa vraie date, sans alerte ni badge « Nouveau ».
+                    j.update(first_seen=pub.strftime("%Y-%m-%dT%H:%M:%SZ"), active=True)
+                    store[j["id"]] = j
+                    print(f"[ANCIENNE] {j['company']} : {j['title'][:60]} (publiée le {pub:%d/%m/%Y}), pas d'alerte")
+                    continue
                 j.update(first_seen=now, active=True)
                 store[j["id"]] = j
                 if seeded:  # pas d'alerte au tout premier passage d'une source
