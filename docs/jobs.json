@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T08:42:24Z",
+ "generated_at": "2026-10-08T08:54:24Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-08T08:42:24Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Gestion d'Actifs",
+   "posted": "",
+   "title": "STAGE - Cash Services Officer (Payments) H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/"
+  },
   {
    "active": true,
    "company": "Crédit Agricole / Amundi",
@@ -27,28 +38,6 @@
    "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
-   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/",
-   "internship_source": false,
-   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Financement et Investissement",
-   "posted": "",
-   "title": "STAGE - Trading Collateral Middle Officer H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/"
-  },
-  {
-   "active": true,
-   "company": "Crédit Agricole / Amundi",
-   "first_seen": "2026-10-08T08:42:24Z",
-   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/",
-   "internship_source": false,
-   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Gestion d'Actifs",
-   "posted": "",
-   "title": "STAGE - Cash Services Officer (Payments) H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/"
-  },
-  {
-   "active": true,
-   "company": "Crédit Agricole / Amundi",
-   "first_seen": "2026-10-08T08:42:24Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-pricing-officer-hf-reference--2026-116275--/",
    "internship_source": false,
    "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Financement et Investissement",
@@ -60,12 +49,12 @@
    "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
-   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---regulatory-reporting-officer-mf-hf-reference--2026-116272--/",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/",
    "internship_source": false,
-   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Gestion des opérations",
+   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Financement et Investissement",
    "posted": "",
-   "title": "STAGE - Regulatory Reporting Officer M/F H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---regulatory-reporting-officer-mf-hf-reference--2026-116272--/"
+   "title": "STAGE - Trading Collateral Middle Officer H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/"
   },
   {
    "active": true,
@@ -77,6 +66,17 @@
    "posted": "",
    "title": "STAGE - FOREX Officer H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---forex-officer-hf-reference--2026-116280--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-08T08:42:24Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---regulatory-reporting-officer-mf-hf-reference--2026-116272--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 08/10/2026 · Stage · Luxembourg - Luxembourg · Gestion des opérations",
+   "posted": "",
+   "title": "STAGE - Regulatory Reporting Officer M/F H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---regulatory-reporting-officer-mf-hf-reference--2026-116272--/"
   },
   {
    "active": true,
@@ -203,7 +203,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/HBP-Amsterdam---Haarlerbergpark/Intern--Credit-Risk-Data-LLM-Research---implementation_REQ-10119829"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Kepler Cheuvreux",
    "first_seen": "2026-10-07T08:56:26Z",
    "id": "hl:Kepler Cheuvreux:8507175",
