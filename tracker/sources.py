@@ -453,30 +453,103 @@ def jibe(cfg):
     return out
 
 
-def wp_routes(cfg):
-    """Sites WordPress « headless » (Natixis / BPCE) : la liste des routes contient toutes les offres
-    (/job/<titre-dans-l-adresse>). Pas de lieu : l'API de détail est protégée, le titre vient de l'adresse."""
-    routes = _get(cfg["url"]).json()
-    base = cfg["base_url"].rstrip("/")
-    out = []
-    for r in routes:
-        path = r.get("path", "")
-        if r.get("component") != cfg.get("component", "Template Job") or not path:
-            continue
-        slug = path.rstrip("/").rsplit("/", 1)[-1]
-        title = re.sub(r"-\d+$", "", slug).replace("-", " ")
-        title = re.sub(r"\b(f h|h f|f m|m f|f m d|m f d|m w d|h f x)\b", "", title)  # mention f/h de l'annonce
-        title = re.sub(r"\s+", " ", title).strip()
-        out.append(
-            {
-                "id": f"wp:{cfg['company']}:{r.get('_uid') or path}",
-                "company": cfg["company"],
-                "title": title[:1].upper() + title[1:],
-                "location": "",
-                "url": base + path,
-                "posted": "",
-            }
-        )
+def wp_jobs(cfg):
+    """Sites WordPress du groupe BPCE (Natixis, BPCE...) : API REST standard /wp/v2/job.
+    Contrat, ville, région et pays viennent des taxonomies (classes tax_contract-stage, tax_city-paris...)."""
+    import html
+
+    api = f"{cfg['base_url'].rstrip('/')}{cfg.get('api_path', '/app/wp-json')}/wp/v2/job"
+    out, page, pages = [], 1, 1
+    while page <= min(pages, int(cfg.get("max_pages", 30))):
+        r = _get(api, params={"per_page": 100, "page": page, **(cfg.get("params") or {})})
+        pages = int(r.headers.get("X-WP-TotalPages", 1))
+        for j in r.json():
+            tax = {}
+            for c in j.get("class_list", []):
+                m = re.match(r"tax_(contract|city|place|country|brands)-(.+)$", c)
+                if m:
+                    tax.setdefault(m.group(1), m.group(2))
+            city = tax.get("city", "").replace("-", " ").title()
+            place = tax.get("place", "").title()
+            country = tax.get("country", "").title()
+            where = ", ".join(x for x in dict.fromkeys([city, place, country]) if x and x != "International")
+            contract = tax.get("contract", "").replace("-", " ").title()
+            brand = tax.get("brands", "")
+            company = next((name for key, name in (cfg.get("brand_companies") or {}).items() if brand.startswith(key)), cfg["company"])
+            out.append(
+                {
+                    "id": f"wp:{cfg['company']}:{j['id']}",
+                    "company": company,
+                    "entity": brand.replace("-", " ").title(),
+                    "title": html.unescape(j.get("title", {}).get("rendered", "")),
+                    "location": " · ".join(x for x in [contract, where] if x),
+                    "url": j.get("link", ""),
+                    "posted": (j.get("date") or "")[:10],
+                }
+            )
+        page += 1
+    return out
+
+
+def brassring(cfg):
+    """Portails BrassRing / Kenexa (UBS) : la page d'accueil donne la valeur de session et le jeton RFT,
+    puis /Search/Ajax/MatchedJobs renvoie la liste (50 offres max par recherche, on croise plusieurs mots-clés)."""
+    import json
+
+    from bs4 import BeautifulSoup
+
+    base = f"https://{cfg['host']}"
+    home = f"{base}/TGnewUI/Search/home/Home?partnerid={cfg['partner']}&siteid={cfg['site']}"
+    sess = requests.Session()
+    sess.headers.update(UA)
+    page = sess.get(home, timeout=TIMEOUT * 2)
+    page.raise_for_status()
+    hidden = {
+        (i.get("id") or i.get("name")): (i.get("value") or "")
+        for i in BeautifulSoup(page.text, "html.parser").find_all("input", type="hidden")
+    }
+    headers = {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Accept": "*/*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": home,
+        "Origin": base,
+        "RFT": hidden.get("__RequestVerificationToken", ""),
+    }
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "internship"]):
+        body = {
+            "PartnerId": str(cfg["partner"]),
+            "SiteId": str(cfg["site"]),
+            "Keyword": q,
+            "Location": "",
+            "KeywordCustomSolrFields": "FORMTEXT2,FORMTEXT21,AutoReq,Department,JobTitle",
+            "LocationCustomSolrFields": "FORMTEXT2,FORMTEXT23,Location",
+            "FacetFilterFields": None,
+            "TurnOffHttps": False,
+            "Latitude": 0,
+            "Longitude": 0,
+            "PowerSearchOptions": {"PowerSearchOption": []},
+            "encryptedsessionvalue": hidden.get("CookieValue", ""),
+        }
+        r = sess.post(f"{base}/TgNewUI/Search/Ajax/MatchedJobs", headers=headers, data=json.dumps(body), timeout=TIMEOUT * 2)
+        r.raise_for_status()
+        for job in (r.json().get("Jobs") or {}).get("Job") or []:
+            f = {x.get("QuestionName"): x.get("Value") for x in job.get("Questions", [])}
+            jid = str(f.get("reqid") or job.get("Link"))
+            if jid in seen:
+                continue
+            seen.add(jid)
+            out.append(
+                {
+                    "id": f"br:{cfg['host']}:{jid}",
+                    "company": cfg["company"],
+                    "title": f.get("jobtitle", ""),
+                    "location": " · ".join(str(f[k]) for k in cfg.get("location_fields", ["location"]) if f.get(k)),
+                    "url": (job.get("Link") or "").replace("\\u0026", "&"),
+                    "posted": str(f.get("lastupdated") or ""),
+                }
+            )
     return out
 
 
@@ -494,5 +567,6 @@ COLLECTORS = {
     "workday": workday,
     "eightfold": eightfold,
     "jibe": jibe,
-    "wp_routes": wp_routes,
+    "wp_jobs": wp_jobs,
+    "brassring": brassring,
 }
