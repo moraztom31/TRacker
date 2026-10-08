@@ -174,9 +174,13 @@ sources:
   wp_jobs:
     - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}, recent_pages: 2, posted_is_publication: true}   # [vérifié] contrats : stage, stage-sup-a-2-mois
 
-  # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max chacune)
+  # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max par recherche,
+  # on croise plusieurs mots-clés). Deux portails : étudiants et jeunes diplômés, puis profils expérimentés.
   brassring:
-    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, queries: ["intern", "internship", "stage", "graduate", "trainee"], location_fields: ["formtext23"]}   # [vérifié] 256 offres "intern", 50 max par requête (pagination à tester)
+    # [vérifié 08/10] « UBS Job Board for Graduates » (siteid 5131) : 103 offres, 99 couvertes par ces mots-clés, ~59 stages
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5131, location_fields: ["formtext23"], queries: ["", "intern", "internship", "summer", "stage", "trainee", "analyst", "risk", "technology", "operations", "wealth", "2027"]}
+    # [vérifié] portail profils expérimentés (siteid 5012) : quelques stages y sont publiés aussi
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, location_fields: ["formtext23"], queries: ["intern", "internship"]}
 
   # Flux Atom Oleeo
   oleeo_feed:

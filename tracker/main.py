@@ -36,6 +36,8 @@ def dump_json(path, obj):
 
 def source_key(kind, c):
     key = f"{kind}:{c['company']}:" + str(c.get("url") or c.get("slug") or c.get("id") or c.get("host", ""))[-60:]
+    if c.get("site"):  # plusieurs portails d'un même hôte (UBS : étudiants / expérimentés)
+        key += f":site{c['site']}"
     if c.get("seed"):  # `seed: 2` dans config.yaml : réinitialise la source en silence (portée élargie, pas d'avalanche d'alertes)
         key += f":seed{c['seed']}"
     return key
