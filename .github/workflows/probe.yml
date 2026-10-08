@@ -20,5 +20,5 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Tour 8
-        run: python tools/probe/round8.py 2>&1
+      - name: Tour 9
+        run: python tools/probe/round9.py 2>&1
