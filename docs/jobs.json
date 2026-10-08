@@ -1,25 +1,295 @@
 {
- "generated_at": "2026-10-08T23:06:26Z",
+ "generated_at": "2026-10-08T23:08:23Z",
  "jobs": [
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352337",
-   "location": "United States - North Carolina",
-   "posted": "08-Oct-2026",
-   "title": "2027 Summer Internship - Chief Operating Office - Raleigh",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352337"
+   "id": "br:jobs.ubs.com:343939",
+   "location": "Luxembourg",
+   "posted": "04-Sep-2026",
+   "title": "Internship Corporate & Domiciliation Officer - 6 months",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=343939"
   },
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352338",
-   "location": "United States - New York",
-   "posted": "08-Oct-2026",
-   "title": "2027 Summer Internship - Chief Operating Office - New York",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352338"
+   "id": "br:jobs.ubs.com:346703",
+   "location": "France",
+   "posted": "18-Sep-2026",
+   "title": "Stage - Analyste financier/Assistant Portfolio Manager (6 mois)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=346703&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348164",
+   "location": "Philippines",
+   "posted": "29-Sep-2026",
+   "title": "2027 Off-Cycle Internship - Global Banking - Philippines",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348164"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348208",
+   "location": "Philippines",
+   "posted": "22-Sep-2026",
+   "title": "2027 Off-cycle Internship - Global Markets - Philippines",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348208"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348209",
+   "location": "Thailand",
+   "posted": "17-Sep-2026",
+   "title": "2027 Off-cycle Internship Program - Global Markets - Thailand",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348209"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348329",
+   "location": "Malaysia",
+   "posted": "17-Sep-2026",
+   "title": "2027 Off-cycle Internship - Global Research - Malaysia",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348329"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348335",
+   "location": "Philippines",
+   "posted": "17-Sep-2026",
+   "title": "2027 Off-cycle Internship - Global Research - Philippines",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348335"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348353",
+   "location": "Switzerland - Zürich ",
+   "posted": "16-Jul-2026",
+   "title": "2026 Internship – German language expert / translation specialist – ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348353"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348358",
+   "location": "Switzerland - Zürich ",
+   "posted": "05-Oct-2026",
+   "title": "2026 – Internship – French language expert/translation specialist – ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348358"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:348528",
+   "location": "France",
+   "posted": "13-Jul-2026",
+   "title": "Stage - Compliance & Contrôle Interne (6 mois)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=348528&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:349179",
+   "location": "Switzerland - Zürich ",
+   "posted": "23-Sep-2026",
+   "title": "2026 Off-cycle Internship – Governmental Affairs – Zurich",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349179"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:349656",
+   "location": "United Kingdom",
+   "posted": "25-Sep-2026",
+   "title": "2027 Off-Cycle Internship - Investment Bank Quants - London",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349656"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:349781",
+   "location": "France",
+   "posted": "12-Aug-2026",
+   "title": "Stage - Intermédiaires Financiers",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=349781&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350352",
+   "location": "United States - New Jersey, United States - New York",
+   "posted": "25-Sep-2026",
+   "title": "2027 Summer Internship - Technology - NY/ NJ",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350352"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350356",
+   "location": "United States - North Carolina",
+   "posted": "18-Sep-2026",
+   "title": "2027 Summer Internship - Group Risk Control - Raleigh",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350356"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350386",
+   "location": "Jersey ",
+   "posted": "29-Sep-2026",
+   "title": "2027 Summer Internship - Global Wealth Management - Jersey",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350386"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350406",
+   "location": "Switzerland - Aargau / Solothurn",
+   "posted": "29-Sep-2026",
+   "title": "2027 Internship – Corporate Clients - Aargau/Solothurn",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350406"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350497",
+   "location": "Luxembourg",
+   "posted": "04-Sep-2026",
+   "title": "Asset Servicing Client Onboarding Intern (6 months)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350497"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350623",
+   "location": "Switzerland - Zürich ",
+   "posted": "08-Sep-2026",
+   "title": "2027 Internship – GWM GFIW BRO Governance and Frameworks",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350623"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350647",
+   "location": "France",
+   "posted": "03-Sep-2026",
+   "title": "UBS M&A Mid-Cap - Analyste stagiaire",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=350647&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350648",
+   "location": "France",
+   "posted": "03-Sep-2026",
+   "title": "UBS M&A Mid-Cap – Analyste stagiaire",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=350648&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350660",
+   "location": "Hong Kong SAR ",
+   "posted": "03-Sep-2026",
+   "title": "2027 Off-Cycle Internship - Investment Bank Quants - Hong Kong",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350660"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350738",
+   "location": "Switzerland - Zürich ",
+   "posted": "04-Sep-2026",
+   "title": "2027 Internship - Global Financial Intermediaries Europe - ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350738"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:350903",
+   "location": "Switzerland - Western Switzerland",
+   "posted": "01-Oct-2026",
+   "title": "2027 Internship – GWM EMEA France & Belgium – Geneva",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350903"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351064",
+   "location": "Luxembourg",
+   "posted": "11-Sep-2026",
+   "title": "Intern in Wealth Management - 6 months",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351064"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351081",
+   "location": "Luxembourg",
+   "posted": "14-Sep-2026",
+   "title": "Internship in Asset Servicing GFIW EU team - 6 months",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351081"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351082",
+   "location": "Luxembourg",
+   "posted": "14-Sep-2026",
+   "title": "Internship in Asset Servicing GFIW International team - 6 months",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351082"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351083",
+   "location": "Luxembourg",
+   "posted": "14-Sep-2026",
+   "title": "Internship in Asset Servicing GFIW LATAM team - 6 months",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351083"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351254",
+   "location": "Switzerland - Zürich ",
+   "posted": "16-Sep-2026",
+   "title": "2026 Internship – Sales Office, P&C COO – Zurich",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351254"
   },
   {
    "active": true,
@@ -35,21 +305,171 @@
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352086",
-   "location": "Monaco",
-   "posted": "05-Oct-2026",
-   "title": "2027 Internship - Wealth Management - UHNW",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352086"
+   "id": "br:jobs.ubs.com:351379",
+   "location": "United States - North Carolina",
+   "posted": "18-Sep-2026",
+   "title": "2027 Summer Internship - Technology - Raleigh",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351379"
   },
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352051",
+   "id": "br:jobs.ubs.com:351432",
    "location": "Switzerland - Zürich ",
+   "posted": "21-Sep-2026",
+   "title": "2027 Internship – GWM EMEA Digital & AI  – ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351432"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351445",
+   "location": "Switzerland - Zürich ",
+   "posted": "21-Sep-2026",
+   "title": "2027 Internship - Web Development - Client Reviews - Zurich",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351445"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351502",
+   "location": "Germany",
+   "posted": "22-Sep-2026",
+   "title": "Praktikum für den Bereich Asset Management",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351508",
+   "location": "Germany",
+   "posted": "22-Sep-2026",
+   "title": "Praktikum im International Wealth Management Lateinamerika (LatAm)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351508&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351722",
+   "location": "Switzerland - Zürich ",
+   "posted": "28-Sep-2026",
+   "title": "2027 Internship – German language expert / translation specialist – ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351722"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351723",
+   "location": "Switzerland - Zürich ",
+   "posted": "28-Sep-2026",
+   "title": "2027 Internship – French language expert / translation specialist – ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351723"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351752",
+   "location": "Switzerland - Zürich ",
+   "posted": "28-Sep-2026",
+   "title": "2026 Internship - GWM Transformation - ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351777",
+   "location": "France",
+   "posted": "28-Sep-2026",
+   "title": "Stagiaire Business Development",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=351777&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351784",
+   "location": "Switzerland - Zürich ",
+   "posted": "28-Sep-2026",
+   "title": "2027 Internship - GWM Investment Suitability Methodology - ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351784"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351840",
+   "location": "Germany",
+   "posted": "29-Sep-2026",
+   "title": "Praktikum im Bereich Financial Intermediaries – Institutional Clients",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351840&frmSiteId=5131"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351847",
+   "location": "Germany",
+   "posted": "29-Sep-2026",
+   "title": "Internship 2026, UBS Europe SE Financial and Regulatory Reporting",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351847"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351958",
+   "location": "Switzerland - Zürich ",
+   "posted": "01-Oct-2026",
+   "title": "2027 Internship – GWM Client Account Manager PB UHNWI Greece & Cyprus",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351958"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351984",
+   "location": "Switzerland - Valais",
+   "posted": "02-Oct-2026",
+   "title": "2027 Internship – Corporate Clients - Valais",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351984"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:351997",
+   "location": "Switzerland - Western Switzerland",
+   "posted": "02-Oct-2026",
+   "title": "2027 Internship – LFN Wealth Management Switzerland - Geneva",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351997"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:352005",
+   "location": "Italy",
+   "posted": "02-Oct-2026",
+   "title": "Internship - Client Advisor Assistant Wealth Management - Bologna",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352005"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:352027",
+   "location": "Monaco",
    "posted": "05-Oct-2026",
-   "title": "2027 Internship – GWM International Germany & Austria UHNW – Zurich",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352051"
+   "title": "2027 Internship - Client Service Team (6 months)",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352027"
   },
   {
    "active": true,
@@ -95,11 +515,21 @@
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352061",
-   "location": "India",
+   "id": "br:jobs.ubs.com:352049",
+   "location": "Switzerland - Zürich ",
    "posted": "05-Oct-2026",
-   "title": "CA Intern",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352061"
+   "title": "2027 Internship – GFIW EMEA International Business Growth - ZH",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352049"
+  },
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-08T23:06:26Z",
+   "id": "br:jobs.ubs.com:352051",
+   "location": "Switzerland - Zürich ",
+   "posted": "05-Oct-2026",
+   "title": "2027 Internship – GWM International Germany & Austria UHNW – Zurich",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352051"
   },
   {
    "active": true,
@@ -115,471 +545,41 @@
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352049",
-   "location": "Switzerland - Zürich ",
+   "id": "br:jobs.ubs.com:352061",
+   "location": "India",
    "posted": "05-Oct-2026",
-   "title": "2027 Internship – GFIW EMEA International Business Growth - ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352049"
+   "title": "CA Intern",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352061"
   },
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348358",
-   "location": "Switzerland - Zürich ",
-   "posted": "05-Oct-2026",
-   "title": "2026 – Internship – French language expert/translation specialist – ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348358"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352027",
+   "id": "br:jobs.ubs.com:352086",
    "location": "Monaco",
    "posted": "05-Oct-2026",
-   "title": "2027 Internship - Client Service Team (6 months)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352027"
+   "title": "2027 Internship - Wealth Management - UHNW",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352086"
   },
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351984",
-   "location": "Switzerland - Valais",
-   "posted": "02-Oct-2026",
-   "title": "2027 Internship – Corporate Clients - Valais",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351984"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:352005",
-   "location": "Italy",
-   "posted": "02-Oct-2026",
-   "title": "Internship - Client Advisor Assistant Wealth Management - Bologna",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352005"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351997",
-   "location": "Switzerland - Western Switzerland",
-   "posted": "02-Oct-2026",
-   "title": "2027 Internship – LFN Wealth Management Switzerland - Geneva",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351997"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350903",
-   "location": "Switzerland - Western Switzerland",
-   "posted": "01-Oct-2026",
-   "title": "2027 Internship – GWM EMEA France & Belgium – Geneva",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350903"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351958",
-   "location": "Switzerland - Zürich ",
-   "posted": "01-Oct-2026",
-   "title": "2027 Internship – GWM Client Account Manager PB UHNWI Greece & Cyprus",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351958"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350406",
-   "location": "Switzerland - Aargau / Solothurn",
-   "posted": "29-Sep-2026",
-   "title": "2027 Internship – Corporate Clients - Aargau/Solothurn",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350406"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351847",
-   "location": "Germany",
-   "posted": "29-Sep-2026",
-   "title": "Internship 2026, UBS Europe SE Financial and Regulatory Reporting",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351847"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351840",
-   "location": "Germany",
-   "posted": "29-Sep-2026",
-   "title": "Praktikum im Bereich Financial Intermediaries – Institutional Clients",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351840&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348164",
-   "location": "Philippines",
-   "posted": "29-Sep-2026",
-   "title": "2027 Off-Cycle Internship - Global Banking - Philippines",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348164"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350386",
-   "location": "Jersey ",
-   "posted": "29-Sep-2026",
-   "title": "2027 Summer Internship - Global Wealth Management - Jersey",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350386"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351777",
-   "location": "France",
-   "posted": "28-Sep-2026",
-   "title": "Stagiaire Business Development",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=351777&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351723",
-   "location": "Switzerland - Zürich ",
-   "posted": "28-Sep-2026",
-   "title": "2027 Internship – French language expert / translation specialist – ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351723"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351722",
-   "location": "Switzerland - Zürich ",
-   "posted": "28-Sep-2026",
-   "title": "2027 Internship – German language expert / translation specialist – ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351722"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351784",
-   "location": "Switzerland - Zürich ",
-   "posted": "28-Sep-2026",
-   "title": "2027 Internship - GWM Investment Suitability Methodology - ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351784"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351752",
-   "location": "Switzerland - Zürich ",
-   "posted": "28-Sep-2026",
-   "title": "2026 Internship - GWM Transformation - ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350352",
-   "location": "United States - New Jersey, United States - New York",
-   "posted": "25-Sep-2026",
-   "title": "2027 Summer Internship - Technology - NY/ NJ",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350352"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:349656",
-   "location": "United Kingdom",
-   "posted": "25-Sep-2026",
-   "title": "2027 Off-Cycle Internship - Investment Bank Quants - London",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349656"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:349179",
-   "location": "Switzerland - Zürich ",
-   "posted": "23-Sep-2026",
-   "title": "2026 Off-cycle Internship – Governmental Affairs – Zurich",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=349179"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348208",
-   "location": "Philippines",
-   "posted": "22-Sep-2026",
-   "title": "2027 Off-cycle Internship - Global Markets - Philippines",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348208"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351508",
-   "location": "Germany",
-   "posted": "22-Sep-2026",
-   "title": "Praktikum im International Wealth Management Lateinamerika (LatAm)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351508&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351502",
-   "location": "Germany",
-   "posted": "22-Sep-2026",
-   "title": "Praktikum für den Bereich Asset Management",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351445",
-   "location": "Switzerland - Zürich ",
-   "posted": "21-Sep-2026",
-   "title": "2027 Internship - Web Development - Client Reviews - Zurich",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351445"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351432",
-   "location": "Switzerland - Zürich ",
-   "posted": "21-Sep-2026",
-   "title": "2027 Internship – GWM EMEA Digital & AI  – ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351432"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350356",
+   "id": "br:jobs.ubs.com:352337",
    "location": "United States - North Carolina",
-   "posted": "18-Sep-2026",
-   "title": "2027 Summer Internship - Group Risk Control - Raleigh",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350356"
+   "posted": "08-Oct-2026",
+   "title": "2027 Summer Internship - Chief Operating Office - Raleigh",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352337"
   },
   {
    "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351379",
-   "location": "United States - North Carolina",
-   "posted": "18-Sep-2026",
-   "title": "2027 Summer Internship - Technology - Raleigh",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351379"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348209",
-   "location": "Thailand",
-   "posted": "17-Sep-2026",
-   "title": "2027 Off-cycle Internship Program - Global Markets - Thailand",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348209"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348329",
-   "location": "Malaysia",
-   "posted": "17-Sep-2026",
-   "title": "2027 Off-cycle Internship - Global Research - Malaysia",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348329"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348335",
-   "location": "Philippines",
-   "posted": "17-Sep-2026",
-   "title": "2027 Off-cycle Internship - Global Research - Philippines",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348335"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351254",
-   "location": "Switzerland - Zürich ",
-   "posted": "16-Sep-2026",
-   "title": "2026 Internship – Sales Office, P&C COO – Zurich",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351254"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351082",
-   "location": "Luxembourg",
-   "posted": "14-Sep-2026",
-   "title": "Internship in Asset Servicing GFIW International team - 6 months",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351082"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351081",
-   "location": "Luxembourg",
-   "posted": "14-Sep-2026",
-   "title": "Internship in Asset Servicing GFIW EU team - 6 months",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351081"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351083",
-   "location": "Luxembourg",
-   "posted": "14-Sep-2026",
-   "title": "Internship in Asset Servicing GFIW LATAM team - 6 months",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351083"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:351064",
-   "location": "Luxembourg",
-   "posted": "11-Sep-2026",
-   "title": "Intern in Wealth Management - 6 months",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351064"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350623",
-   "location": "Switzerland - Zürich ",
-   "posted": "08-Sep-2026",
-   "title": "2027 Internship – GWM GFIW BRO Governance and Frameworks",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350623"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350497",
-   "location": "Luxembourg",
-   "posted": "04-Sep-2026",
-   "title": "Asset Servicing Client Onboarding Intern (6 months)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350497"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:346703",
-   "location": "France",
-   "posted": "18-Sep-2026",
-   "title": "Stage - Analyste financier/Assistant Portfolio Manager (6 mois)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=346703&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350648",
-   "location": "France",
-   "posted": "03-Sep-2026",
-   "title": "UBS M&A Mid-Cap – Analyste stagiaire",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=350648&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350647",
-   "location": "France",
-   "posted": "03-Sep-2026",
-   "title": "UBS M&A Mid-Cap - Analyste stagiaire",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=350647&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:349781",
-   "location": "France",
-   "posted": "12-Aug-2026",
-   "title": "Stage - Intermédiaires Financiers",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=349781&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348528",
-   "location": "France",
-   "posted": "13-Jul-2026",
-   "title": "Stage - Compliance & Contrôle Interne (6 mois)",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5132&PageType=JobDetails&jobid=348528&frmSiteId=5131"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:343939",
-   "location": "Luxembourg",
-   "posted": "04-Sep-2026",
-   "title": "Internship Corporate & Domiciliation Officer - 6 months",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=343939"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350660",
-   "location": "Hong Kong SAR ",
-   "posted": "03-Sep-2026",
-   "title": "2027 Off-Cycle Internship - Investment Bank Quants - Hong Kong",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350660"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:348353",
-   "location": "Switzerland - Zürich ",
-   "posted": "16-Jul-2026",
-   "title": "2026 Internship – German language expert / translation specialist – ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=348353"
-  },
-  {
-   "active": true,
-   "company": "UBS",
-   "first_seen": "2026-10-08T23:06:26Z",
-   "id": "br:jobs.ubs.com:350738",
-   "location": "Switzerland - Zürich ",
-   "posted": "04-Sep-2026",
-   "title": "2027 Internship - Global Financial Intermediaries Europe - ZH",
-   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350738"
+   "id": "br:jobs.ubs.com:352338",
+   "location": "United States - New York",
+   "posted": "08-Oct-2026",
+   "title": "2027 Summer Internship - Chief Operating Office - New York",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352338"
   },
   {
    "active": true,
@@ -15347,7 +15347,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Internal-Audit_10079263-WD-1"
   },
   {
-   "active": false,
+   "active": true,
    "company": "MUFG",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Japanese-Corporate-Banking_10079266-WD-1",
@@ -17132,7 +17132,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Paris-Richelieu/Stagiaire-Financement-Structur-Immobilier-Real-Estate-Finance-H-F-X_REQ-10122395-1"
   },
   {
-   "active": false,
+   "active": true,
    "company": "MUFG",
    "first_seen": "2026-10-06T08:48:27Z",
    "id": "wd:mufgub:/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1",
