@@ -204,8 +204,8 @@
   "seeded": true
  },
  "workday:Barclays:barclays.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='barclays.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:BlackRock:blackrock.wd1.myworkdayjobs.com": {
@@ -253,8 +253,8 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://jefferies.wd1.myworkdayjobs.com/wday/cxs/jefferies/JefferiesCareers/jobs"
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='juliusbaer.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:KKR:kkr.wd1.myworkdayjobs.com": {
@@ -262,8 +262,8 @@
   "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://kkr.wd1.myworkdayjobs.com/wday/cxs/kkr/KKR/jobs"
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='lombardodier.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:MUFG:mufgub.wd3.myworkdayjobs.com": {
