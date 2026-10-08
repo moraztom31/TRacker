@@ -111,8 +111,8 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/": {
-  "fails": 2,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
