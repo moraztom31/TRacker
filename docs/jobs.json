@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T08:31:00Z",
+ "generated_at": "2026-10-08T08:36:23Z",
  "jobs": [
   {
    "active": true,
@@ -84,7 +84,7 @@
    "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/ACT-Amsterdam---Acanthus/Stage-ING-Private-banking---Reporting_REQ-10122754"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-07T13:36:29Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer---onshore--hf-hf-reference--2026-116246--/",
@@ -95,7 +95,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer---onshore--hf-hf-reference--2026-116246--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-07T13:36:29Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---transfer-agent-hf-reference--2026-116245--/",
