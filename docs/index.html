@@ -42,11 +42,28 @@
   .age { font-variant-numeric: tabular-nums; }
   .banner { display: block; width: 100%; text-align: left; margin-bottom: 12px; padding: 12px 16px; background: var(--accent); color: #fff; border: 0; border-radius: 8px; font-weight: 600; cursor: pointer; }
   .banner:hover { filter: brightness(1.08); }
+  .banner[hidden] { display: none; }
   .manual { margin-bottom: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 16px; }
   .manual summary { cursor: pointer; font-weight: 600; }
   .manual-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
   .manual-links a { color: var(--ink); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; font-size: 14px; }
   .manual-links a:hover { border-color: var(--accent); color: var(--accent); }
+  .locf { position: relative; }
+  .locf > summary { list-style: none; cursor: pointer; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; min-height: 38px; display: flex; align-items: center; gap: 6px; max-width: 280px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .locf > summary::-webkit-details-marker { display: none; }
+  .locf > summary::after { content: "▾"; color: var(--muted); margin-left: auto; padding-left: 6px; }
+  .locf[open] > summary, .locf > summary:hover { border-color: var(--accent); }
+  .locf.on > summary { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .locp { position: absolute; z-index: 20; top: calc(100% + 6px); left: 0; width: min(680px, calc(100vw - 32px)); max-height: 65vh; overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.18); padding: 12px 14px; }
+  .locp-top { display: flex; gap: 8px; align-items: center; margin-bottom: 10px; }
+  .locp-top input { flex: 1; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+  .locp-top button { min-height: 32px; padding: 4px 10px; font-size: 14px; }
+  .cty { padding: 8px 0; border-top: 1px solid var(--line); }
+  .cty:first-of-type { border-top: 0; }
+  .cty > label { font-weight: 600; }
+  .cty label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+  .cty .n { color: var(--muted); font-weight: 400; font-size: 13px; font-variant-numeric: tabular-nums; }
+  .cities { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0 22px; font-size: 14px; }
   .empty { padding: 40px 20px; text-align: center; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; }
   @media (max-width: 760px) {
     li { grid-template-columns: 1fr auto; row-gap: 4px; }
@@ -77,6 +94,16 @@
   </details>
   <div class="bar">
     <input type="search" id="q" placeholder="Rechercher un poste, une entreprise, une ville" aria-label="Rechercher">
+    <details class="locf" id="locf">
+      <summary id="locsum">Tous les lieux</summary>
+      <div class="locp">
+        <div class="locp-top">
+          <input type="search" id="locq" placeholder="Filtrer les pays et villes" aria-label="Filtrer les lieux">
+          <button type="button" id="locclear">Effacer</button>
+        </div>
+        <div id="loclist"></div>
+      </div>
+    </details>
     <select id="co" aria-label="Entreprise"><option value="">Toutes les entreprises</option></select>
     <select id="st" aria-label="Statut">
       <option value="">Tous les statuts</option>
@@ -114,6 +141,138 @@ function ago(iso) {
 }
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
+// Lieux : les sites écrivent les villes de mille façons ("La Defense, France · Stage", "LONDON, United Kingdom",
+// "Canary Wharf"...). On les ramène à une liste pays > ville. Clés en minuscules sans accents.
+const PLACES = [
+  ["France", "france|fra", [
+    ["Paris / Île-de-France", "paris|la defense|ile-de-france|montrouge|courbevoie|puteaux|nanterre|boulogne-billancourt|saint-denis|fontenay-sous-bois|villejuif|saint-quentin-en-yvelines|levallois|neuilly|issy-les-moulineaux|guyancourt|creil"],
+    ["Lyon", "lyon"], ["Marseille", "marseille"], ["Lille", "lille"], ["Toulouse", "toulouse"], ["Nantes", "nantes"], ["Strasbourg", "strasbourg"],
+    ["Bordeaux", "bordeaux|talence|le-bouscat|merignac"], ["Nice / Côte d'Azur", "nice|cannes|le-cannet|st-martin-du-var|sophia antipolis"],
+    ["Tours", "tours"], ["Limoges", "limoges"], ["Dijon", "dijon"], ["Chambéry", "chambery|la-motte-servolex"]]],
+  ["Royaume-Uni", "united kingdom|royaume-uni|england|scotland|uk|gbr", [
+    ["Londres", "london|londres|canary wharf"], ["Glasgow", "glasgow"], ["Édimbourg", "edinburgh"], ["Manchester", "manchester"],
+    ["Knutsford", "knutsford"], ["Northampton", "northampton"], ["Chester", "chester"], ["Bromley", "bromley"], ["Bristol", "bristol"], ["Birmingham", "birmingham"]]],
+  ["Suisse", "switzerland|suisse|che", [["Genève", "geneva|geneve|genf"], ["Zurich", "zurich"], ["Nyon", "nyon"], ["Lugano", "lugano"], ["Bâle", "basel|bale"], ["Lausanne", "lausanne"]]],
+  ["Luxembourg", "luxembourg|lux", [["Luxembourg", "luxembourg"]]],
+  ["Monaco", "monaco", [["Monaco", "monaco"]]],
+  ["Belgique", "belgium|belgique", [["Bruxelles", "bruxelles|brussels|brussel"], ["Gand", "gent|ghent"], ["Anvers", "antwerp|antwerpen|anvers"]]],
+  ["Pays-Bas", "netherlands|pays-bas|nld", [["Amsterdam", "amsterdam"], ["La Haye", "the hague|den haag"], ["Utrecht", "utrecht"], ["Rotterdam", "rotterdam"], ["Zwolle", "zwolle"], ["Nimègue", "nijmegen"]]],
+  ["Allemagne", "germany|allemagne|deutschland|deu", [["Francfort", "frankfurt|francfort"], ["Munich", "munich|munchen"], ["Berlin", "berlin"], ["Hambourg", "hamburg"], ["Düsseldorf", "dusseldorf"]]],
+  ["Italie", "italy|italie|ita", [["Milan", "milan|milano"], ["Rome", "rome|roma"], ["Turin", "turin|torino"]]],
+  ["Espagne", "spain|espagne|esp", [["Madrid", "madrid"], ["Barcelone", "barcelona|barcelone"]]],
+  ["Portugal", "portugal", [["Lisbonne", "lisbon|lisboa|lisbonne"], ["Porto", "porto"]]],
+  ["Irlande", "ireland|irlande|irl", [["Dublin", "dublin"]]],
+  ["Suède", "sweden|suede", [["Stockholm", "stockholm"]]],
+  ["Danemark", "denmark|danemark", [["Copenhague", "copenhagen"]]],
+  ["Pologne", "poland|pologne", [["Varsovie", "warsaw|warszawa"], ["Cracovie", "krakow"]]],
+  ["Slovaquie", "slovakia", [["Bratislava", "bratislava"]]],
+  ["Bulgarie", "bulgaria", [["Sofia", "sofia"]]],
+  ["Turquie", "turkey|turquie|turkiye", [["Istanbul", "istanbul"]]],
+  ["Guernesey", "guernsey", [["St Peter Port", "st peter port"]]],
+  ["États-Unis", "united states|usa|ny|nyc|tennessee|texas|california|florida|illinois|massachusetts|connecticut", [
+    ["New York", "new york|nyc|new jersey|jersey city|madison ave|stamford"], ["Chicago", "chicago"], ["Boston", "boston"],
+    ["San Francisco / Bay Area", "san francisco|palo alto|menlo park"], ["Los Angeles", "los angeles|newport beach"], ["Seattle", "seattle"],
+    ["Miami", "miami"], ["Houston", "houston"], ["Dallas", "dallas|irving"], ["Austin", "austin"], ["Atlanta", "atlanta"], ["Charlotte", "charlotte"],
+    ["Tampa", "tampa"], ["Baltimore", "baltimore"], ["Phoenix", "phoenix|tempe"], ["Denver", "denver"], ["Minneapolis", "minneapolis|edina"],
+    ["Washington", "washington"], ["Philadelphie", "philadelphia"], ["Pennington", "pennington"]]],
+  ["Canada", "canada", [["Toronto", "toronto"], ["Montréal", "montreal"]]],
+  ["Mexique", "mexico|mexique", [["Mexico", "mexico city"]]],
+  ["Brésil", "brazil|bresil", [["São Paulo", "sao paulo"]]],
+  ["Chili", "chile|chili", [["Santiago", "santiago"]]],
+  ["Émirats arabes unis", "united arab emirates|uae", [["Dubaï", "dubai"], ["Abu Dhabi", "abu dhabi"]]],
+  ["Qatar", "qatar", [["Doha", "doha"]]],
+  ["Arabie saoudite", "saudi arabia", [["Riyad", "riyadh"]]],
+  ["Israël", "israel", [["Tel Aviv", "tel aviv"]]],
+  ["Afrique du Sud", "south africa", [["Johannesburg", "johannesburg"]]],
+  ["Côte d'Ivoire", "cote d'ivoire|ivory coast", [["Abidjan", "abidjan"]]],
+  ["Singapour", "singapore|singapour", [["Singapour", "singapore|singapour"]]],
+  ["Hong Kong", "hong kong", [["Hong Kong", "hong kong"]]],
+  ["Chine", "china|chine", [["Shanghai", "shanghai"], ["Pékin", "beijing"]]],
+  ["Japon", "japan|japon|jpn", [["Tokyo", "tokyo"]]],
+  ["Corée du Sud", "korea|coree", [["Séoul", "seoul"]]],
+  ["Inde", "india|inde", [["Bangalore", "bengaluru|bangalore"], ["Mumbai", "mumbai"], ["Pune", "pune"], ["Gurgaon", "gurgaon|gurugram"], ["Gift City", "gift city"], ["Hyderabad", "hyderabad"], ["Chennai", "chennai"]]],
+  ["Malaisie", "malaysia", [["Kuala Lumpur", "kuala lumpur"]]],
+  ["Indonésie", "indonesia", [["Jakarta", "jakarta"]]],
+  ["Philippines", "philippines", [["Manille", "manila"]]],
+  ["Australie", "australia|australie", [["Sydney", "sydney"], ["Melbourne", "melbourne"]]],
+];
+const OTHER = "Autre / non précisé";
+const norm = (t) => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const wordRe = (alts) => new RegExp("(?:^|[^a-z0-9])(?:" + alts + ")(?![a-z0-9])");
+const PLACE_RE = PLACES.map(([country, words, cities]) => ({
+  country, re: wordRe(words + "|" + cities.map((c) => c[1]).join("|")),
+  cities: cities.map(([name, w]) => ({ name, re: wordRe(w) }))
+}));
+function tagPlaces(text) {
+  const t = norm(text), out = [];
+  PLACE_RE.forEach((p) => {
+    if (!p.re.test(t)) return;
+    out.push(p.country);
+    p.cities.forEach((c) => { if (c.re.test(t)) out.push(p.country + "|" + c.name); });
+  });
+  return out;
+}
+// Lieu d'abord ; le titre seulement si le lieu ne dit rien ("Analyst - 2027 - Seoul").
+function placesOf(j) {
+  if (!j._p) {
+    let p = tagPlaces(j.location);
+    if (!p.length) p = tagPlaces(j.title);
+    j._p = new Set(p.length ? p : [OTHER]);
+  }
+  return j._p;
+}
+let locSel = new Set(store.get("locs", []));
+function matchLoc(j) {
+  if (!locSel.size) return true;
+  for (const k of placesOf(j)) if (locSel.has(k)) return true;
+  return false;
+}
+function saveLocs() { store.set("locs", [...locSel]); }
+function locLabel() {
+  const names = [...locSel].map((k) => k.includes("|") ? k.split("|")[1] : k);
+  $("locsum").textContent = !names.length ? "Tous les lieux" : names.length <= 2 ? names.join(", ") : names.length + " lieux";
+  $("locf").classList.toggle("on", names.length > 0);
+}
+function fillLocations() {
+  const pool = jobs.filter((j) => $("closed").checked || j.active), cnt = {};
+  pool.forEach((j) => placesOf(j).forEach((k) => { cnt[k] = (cnt[k] || 0) + 1; }));
+  const q = norm($("locq").value.trim()), box = $("loclist");
+  box.replaceChildren();
+  const checkbox = (key, text, n, disabled) => {
+    const lab = el("label"), cb = el("input");
+    cb.type = "checkbox"; cb.checked = locSel.has(key) || disabled; cb.disabled = disabled;
+    cb.onchange = () => {
+      if (cb.checked) {
+        locSel.add(key);
+        if (!key.includes("|")) [...locSel].forEach((k) => { if (k.startsWith(key + "|")) locSel.delete(k); });
+      } else locSel.delete(key);
+      saveLocs(); locLabel(); fillLocations(); render();
+    };
+    lab.append(cb, document.createTextNode(text + " "), el("span", "n", String(n)));
+    return lab;
+  };
+  const countries = PLACES.map(([c, , cities]) => [c, cities]).filter(([c]) => cnt[c]);
+  countries.push([OTHER, []]);
+  countries.sort((a, b) => (a[0] === OTHER) - (b[0] === OTHER) || (cnt[b[0]] || 0) - (cnt[a[0]] || 0));
+  countries.forEach(([c, cities]) => {
+    if (!cnt[c]) return;
+    const hits = cities.filter(([v]) => cnt[c + "|" + v]).sort((a, b) => cnt[c + "|" + b[0]] - cnt[c + "|" + a[0]]);
+    const showAll = !q || norm(c).includes(q);
+    const shown = showAll ? hits : hits.filter(([v]) => norm(v).includes(q));
+    if (!showAll && !shown.length) return;
+    const block = el("div", "cty"), whole = locSel.has(c);
+    block.append(checkbox(c, c, cnt[c], false));
+    // Une seule ville égale au pays (Singapour, Hong Kong...) : inutile de la répéter.
+    const sub = shown.filter(([v]) => !(hits.length === 1 && cnt[c + "|" + v] === cnt[c]));
+    if (sub.length) {
+      const wrap = el("div", "cities");
+      sub.forEach(([v]) => wrap.append(checkbox(c + "|" + v, v, cnt[c + "|" + v], whole)));
+      block.append(wrap);
+    }
+    box.append(block);
+  });
+}
+
 function render() {
   const q = $("q").value.trim().toLowerCase(), co = $("co").value, st = $("st").value;
   const onlyNew = $("onlynew").checked, showClosed = $("closed").checked;
@@ -122,6 +281,7 @@ function render() {
     if (co && j.company !== co) return false;
     if (st && (statuses[j.id] || "") !== st) return false;
     if (onlyNew && !isNew(j)) return false;
+    if (!matchLoc(j)) return false;
     return !q || (j.title + " " + j.company + " " + (j.location || "")).toLowerCase().includes(q);
   });
   const list = $("list"); list.replaceChildren();
@@ -197,7 +357,7 @@ async function load() {
       if (added.length) alertNew(added);
     }
     known = ids;
-    fillCompanies(); updateMeta(); render();
+    fillCompanies(); fillLocations(); locLabel(); updateMeta(); render();
   } catch (e) {
     if (!known) $("meta").textContent = "Impossible de charger jobs.json. Lance d'abord le workflow « scan » sur GitHub.";
   }
@@ -212,6 +372,11 @@ if ("Notification" in window && Notification.permission === "default") {
 }
 
 ["q", "co", "st", "onlynew", "closed"].forEach((id) => $(id).addEventListener("input", render));
+$("closed").addEventListener("input", fillLocations);
+$("locq").addEventListener("input", fillLocations);
+$("locclear").onclick = () => { locSel.clear(); saveLocs(); locLabel(); fillLocations(); render(); };
+document.addEventListener("click", (e) => { if (!$("locf").contains(e.target)) $("locf").open = false; });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && $("locf").open) { $("locf").open = false; $("locsum").focus(); } });
 $("seen").onclick = () => { lastSeen = new Date().toISOString().replace(/\.\d+Z$/, "Z"); store.set("lastSeen", lastSeen); $("banner").hidden = true; render(); updateMeta(); };
 if (!lastSeen) { lastSeen = new Date().toISOString().replace(/\.\d+Z$/, "Z"); store.set("lastSeen", lastSeen); }
 </script>
