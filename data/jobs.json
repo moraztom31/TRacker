@@ -1183,7 +1183,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21623-2027-Sales-Trading-Off-Cycle-Internship-Madrid/en-GB"
  },
  "hl:Morgan Stanley:21630": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:Morgan Stanley:21630",
@@ -1555,6 +1555,17 @@
   "posted": "",
   "title": "2027 Investment Management Off-Cycle Internship - UK Institutional Sales (London)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/22192-2027-Investment-Management-Off-Cycle-Internship-UK-Institutional-Sales-London/en-GB"
+ },
+ "hl:Morgan Stanley:22213": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-08T21:48:23Z",
+  "id": "hl:Morgan Stanley:22213",
+  "internship_source": false,
+  "location": "Minneapolis",
+  "posted": "",
+  "title": "Parametric -  2027 Investment Research Internship -  (Minneapolis)",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-274c3a3b24fd/candidate/so/pm/1/pl/1/opp/22213-Parametric-2027-Investment-Research-Internship-Minneapolis/en-GB"
  },
  "hl:Morgan Stanley:22231": {
   "active": true,
