@@ -244,8 +244,8 @@
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
   "seeded": true
  },
  "workday:Jefferies:jefferies.wd1.myworkdayjobs.com": {
