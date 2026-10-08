@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T17:40:41Z",
+ "generated_at": "2026-10-08T17:42:24Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Morgan Stanley",
+   "first_seen": "2026-10-08T17:42:24Z",
+   "id": "hl:Morgan Stanley:21945",
+   "internship_source": false,
+   "location": "New York",
+   "posted": "",
+   "title": "Parametric - 2027 Security Master Engineering Internship  - New York",
+   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-6150eec223f1/candidate/so/pm/1/pl/1/opp/21945-Parametric-2027-Security-Master-Engineering-Internship-New-York/en-GB"
+  },
   {
    "active": true,
    "company": "Morgan Stanley",
@@ -1078,7 +1089,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21598-2027-Sales-Trading-Off-Cycle-Internship-Frankfurt/en-GB"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21609",

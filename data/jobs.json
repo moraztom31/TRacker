@@ -1139,7 +1139,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21601-2027-Sales-Trading-Off-Cycle-Internship-Zurich/en-GB"
  },
  "hl:Morgan Stanley:21609": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:Morgan Stanley:21609",
@@ -1401,6 +1401,17 @@
   "posted": "",
   "title": "Parametric -  2027 Technical Solution Management Intern (New York)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-d331a05ea53d/candidate/so/pm/1/pl/1/opp/21941-Parametric-2027-Technical-Solution-Management-Intern-New-York/en-GB"
+ },
+ "hl:Morgan Stanley:21945": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-08T17:42:24Z",
+  "id": "hl:Morgan Stanley:21945",
+  "internship_source": false,
+  "location": "New York",
+  "posted": "",
+  "title": "Parametric - 2027 Security Master Engineering Internship  - New York",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-6150eec223f1/candidate/so/pm/1/pl/1/opp/21945-Parametric-2027-Security-Master-Engineering-Internship-New-York/en-GB"
  },
  "hl:Morgan Stanley:21953": {
   "active": true,
