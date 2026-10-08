@@ -4288,7 +4288,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21630-2027-Fixed-Income-Off-Cycle-Internship-Milan/en-GB"
  },
  "hl:Morgan Stanley:21635": {
-  "active": false,
+  "active": true,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-05T20:08:12Z",
   "id": "hl:Morgan Stanley:21635",
@@ -4486,7 +4486,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21846-2027-Investment-Banking-Summer-Associate-Program-Regions/en-GB"
  },
  "hl:Morgan Stanley:21941": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T17:36:27Z",
   "id": "hl:Morgan Stanley:21941",
