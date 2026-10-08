@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-08T18:08:26Z",
+ "generated_at": "2026-10-08T18:20:43Z",
  "jobs": [
   {
    "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T18:08:26Z",
-   "id": "hl:Morgan Stanley:22115",
+   "id": "hl:Morgan Stanley:21942",
    "internship_source": false,
-   "location": "Edina",
+   "location": "Seattle",
    "posted": "",
-   "title": "Parametric - 2027 Institutional Distribution Services Internship- (Minneapolis)",
-   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-1e5a897e4ed9/candidate/so/pm/1/pl/1/opp/22115-Parametric-2027-Institutional-Distribution-Services-Internship-Minneapolis/en-GB"
+   "title": "Parametric - 2027 Platform Implementation Internship -  (Seattle)",
+   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-1e5a897e4ed9/candidate/so/pm/1/pl/1/opp/21942-Parametric-2027-Platform-Implementation-Internship-Seattle/en-GB"
   },
   {
    "active": true,
@@ -27,12 +27,12 @@
    "active": true,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T18:08:26Z",
-   "id": "hl:Morgan Stanley:21942",
+   "id": "hl:Morgan Stanley:22115",
    "internship_source": false,
-   "location": "Seattle",
+   "location": "Edina",
    "posted": "",
-   "title": "Parametric - 2027 Platform Implementation Internship -  (Seattle)",
-   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-1e5a897e4ed9/candidate/so/pm/1/pl/1/opp/21942-Parametric-2027-Platform-Implementation-Internship-Seattle/en-GB"
+   "title": "Parametric - 2027 Institutional Distribution Services Internship- (Minneapolis)",
+   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-1e5a897e4ed9/candidate/so/pm/1/pl/1/opp/22115-Parametric-2027-Institutional-Distribution-Services-Internship-Minneapolis/en-GB"
   },
   {
    "active": true,
@@ -131,7 +131,7 @@
    "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Global-Fund-Finance-Summer-Analyst_45867"
   },
   {
-   "active": true,
+   "active": false,
    "company": "JP Morgan",
    "first_seen": "2026-10-08T14:52:26Z",
    "id": "or:jpmc.fa.oraclecloud.com:210775302",
