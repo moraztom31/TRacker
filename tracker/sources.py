@@ -556,6 +556,21 @@ def brassring(cfg):
     return out
 
 
+def publication_date(cfg, job):
+    """Vraie date de publication d'une offre (et non sa date de mise à jour), ou None si on ne sait pas la lire.
+    `posted_is_publication: true` : le champ `posted` de la source est une date de publication (AAAA-MM-JJ).
+    `detail_date: {regex, format, impersonate}` : la date est lue sur la page de l'offre."""
+    from datetime import datetime, timezone
+
+    if cfg.get("posted_is_publication") and re.match(r"\d{4}-\d{2}-\d{2}", job.get("posted") or ""):
+        return datetime.strptime(job["posted"][:10], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    d = cfg.get("detail_date")
+    if not d:
+        return None
+    m = re.search(d["regex"], _get(job["url"], d.get("impersonate")).text)
+    return datetime.strptime(m.group(1), d["format"]).replace(tzinfo=timezone.utc) if m else None
+
+
 COLLECTORS = {
     "rss": rss,
     "workable": workable,

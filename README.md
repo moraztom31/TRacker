@@ -22,7 +22,7 @@ chaque minute, affiche un bandeau, joue un son et envoie une notification du nav
    - En-têtes : `Authorization: Bearer <PAT>`, `Accept: application/vnd.github+json`, `Content-Type: application/json`
    - Le PAT est un *fine-grained token* limité à ce repo, permission **Actions : Read and write**.
 
-## Sources branchées (79)
+## Sources branchées (80)
 
 Toutes ont été testées depuis un runner GitHub le 08/10/2026 (les offres sont bien lues).
 
@@ -32,7 +32,7 @@ LCL, Assurances... soit ~1200 offres sur 38 pages), Groupe BPCE (Natixis, Banque
 offres via l'API WordPress, contrats `stage` et `stage-sup-a-2-mois`), Oddo BHF (portail altays), AXA, Rothschild & Co,
 Edmond de Rothschild, Ardian, Kepler Cheuvreux.
 
-**Banques internationales** : HSBC (Eightfold), UBS (BrassRing), Citi, Barclays, Deutsche Bank, Santander, ING, MUFG,
+**Banques internationales** : HSBC (Eightfold), UBS (BrassRing, portails étudiants et expérimentés), Citi, Barclays, Deutsche Bank, Santander, ING, MUFG,
 BBVA, BMO, CIBC, Lloyds, Rabobank, JP Morgan, Goldman Sachs, Morgan Stanley, Bank of America, Houlihan Lokey,
 Evercore, PJT, Lazard (non branché), Guggenheim, Raymond James, William Blair.
 
@@ -102,6 +102,9 @@ Les mots-clés sont dans `filters.contract_keywords` de `config.yaml`.
 - Le suivi des statuts (postulé, relancé...) est enregistré dans ton navigateur (localStorage), pas dans le repo.
 - Une source qui échoue 3 fois de suite déclenche une alerte Telegram.
 - Les sites protégés anti-bot (Cloudflare, Datadome) ne sont pas fiables en simple requête HTTP.
-- UBS : une recherche renvoie au plus 50 offres, triées par date ; on croise 5 mots-clés (intern, internship, stage,
-  graduate, trainee). Les offres les plus récentes sont donc toujours vues.
+- UBS : deux portails (étudiants et jeunes diplômés `siteid=5131`, profils expérimentés `siteid=5012`). Une recherche
+  renvoie au plus 50 offres : on croise plusieurs mots-clés (99 des 103 offres du portail étudiants sont couvertes).
+- Dates de publication : sur Crédit Agricole, BNP, Oddo et BPCE, une offre « nouvelle » mais publiée il y a plus de
+  3 jours (liste réordonnée pendant le scan, offre re-listée après mise à jour) est enregistrée avec sa vraie date,
+  sans alerte ni badge « Nouveau » (options `detail_date` / `posted_is_publication` dans `config.yaml`).
 - Natixis/BPCE : le lieu vient des taxonomies du site ; certaines offres internationales n'ont pas de ville.

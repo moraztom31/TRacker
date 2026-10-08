@@ -53,6 +53,7 @@ sources:
       link_contains: "/nos-offres-emploi/"
       pages: 45
       recent_pages: 3   # mode rapide : les 3 premières pages (~100 offres les plus récentes) à chaque passage
+      detail_date: {regex: 'Publi\S{1,8}e le\s*(\d{2}/\d{2}/\d{4})', format: "%d/%m/%Y"}   # vraie date de publication (la liste affiche « mis à jour le »)
       seed: 2   # portée passée de 3 à 38 pages : on réinitialise la source en silence (sinon ~140 fausses « nouvelles offres »)
 
     # [vérifié] toutes les offres Citi à Paris
@@ -99,6 +100,7 @@ sources:
       all_internships: true
       pages: 35
       recent_pages: 3
+      detail_date: {regex: '"datePosted"\s*:\s*"(\d{4}-\d{2}-\d{2})', format: "%Y-%m-%d", impersonate: "chrome124"}
 
     # [vérifié] Oddo BHF : portail altays (le même que la page « Découvrez nos offres »), 237 offres, liste HTML paginée (?page=N)
     - company: "Oddo BHF"
@@ -109,6 +111,7 @@ sources:
       strip_query: true
       page_param: "page"
       pages: 30   # pas de recent_pages : la liste Oddo n'est pas triée par date, on lit tout (24 petites pages)
+      detail_date: {regex: '"datePosted"\s*:\s*"(\d{4}-\d{2}-\d{2})', format: "%Y-%m-%d"}
 
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
   workday:
@@ -169,11 +172,15 @@ sources:
   # API WordPress du groupe BPCE : Natixis, Banque Populaire, Caisse d'Epargne... (1437 offres, 15 pages)
   # Contrat, ville et pays lus dans les taxonomies ; la marque s'affiche sous le titre.
   wp_jobs:
-    - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}, recent_pages: 2}   # [vérifié] contrats : stage, stage-sup-a-2-mois
+    - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}, recent_pages: 2, posted_is_publication: true}   # [vérifié] contrats : stage, stage-sup-a-2-mois
 
-  # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max chacune)
+  # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max par recherche,
+  # on croise plusieurs mots-clés). Deux portails : étudiants et jeunes diplômés, puis profils expérimentés.
   brassring:
-    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, queries: ["intern", "internship", "stage", "graduate", "trainee"], location_fields: ["formtext23"]}   # [vérifié] 256 offres "intern", 50 max par requête (pagination à tester)
+    # [vérifié 08/10] « UBS Job Board for Graduates » (siteid 5131) : 103 offres, 99 couvertes par ces mots-clés, ~59 stages
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5131, location_fields: ["formtext23"], queries: ["", "intern", "internship", "summer", "stage", "trainee", "analyst", "risk", "technology", "operations", "wealth", "2027"]}
+    # [vérifié] portail profils expérimentés (siteid 5012) : quelques stages y sont publiés aussi
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, location_fields: ["formtext23"], queries: ["intern", "internship"]}
 
   # Flux Atom Oleeo
   oleeo_feed:
