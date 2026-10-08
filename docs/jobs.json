@@ -1,6 +1,26 @@
 {
- "generated_at": "2026-10-08T14:08:26Z",
+ "generated_at": "2026-10-08T14:10:41Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "MUFG",
+   "first_seen": "2026-10-08T14:10:41Z",
+   "id": "wd:mufgub:/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2",
+   "location": "New Jersey Office - 210 Hudson Street",
+   "posted": "Offre publiée aujourd'hui",
+   "title": "2027 Summer Analyst Program: Information Technology - Jersey City, NJ",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2"
+  },
+  {
+   "active": true,
+   "company": "MUFG",
+   "first_seen": "2026-10-08T14:10:41Z",
+   "id": "wd:mufgub:/job/Tempe-AZ/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Tempe--AZ_10078974-WD-2",
+   "location": "Tempe, AZ",
+   "posted": "Offre publiée aujourd'hui",
+   "title": "2027 Summer Analyst Program: Information Technology - Tempe, AZ",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Tempe-AZ/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Tempe--AZ_10078974-WD-2"
+  },
   {
    "active": true,
    "company": "Barclays",
@@ -10,36 +30,6 @@
    "posted": "Offre publiée il y a 30 jours ou plus",
    "title": "Private Bank and Wealth Management Summer Internship Programme 2027 London",
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-London_JR-0000124643"
-  },
-  {
-   "active": true,
-   "company": "State Street",
-   "first_seen": "2026-10-08T14:08:26Z",
-   "id": "wd:statestreet:/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
-   "location": "Munich, Germany",
-   "posted": "Offre publiée il y a 30 jours ou plus",
-   "title": "Working Student – Chief Administration Office (m/w/d))",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1"
-  },
-  {
-   "active": true,
-   "company": "State Street",
-   "first_seen": "2026-10-08T14:08:26Z",
-   "id": "wd:statestreet:/job/London-England/International-Audit---Audit-Manager--AVP_R-792451",
-   "location": "London, England",
-   "posted": "Offre publiée il y a 20 jours",
-   "title": "International Audit - Audit Manager, AVP",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/London-England/International-Audit---Audit-Manager--AVP_R-792451"
-  },
-  {
-   "active": true,
-   "company": "State Street",
-   "first_seen": "2026-10-08T14:08:26Z",
-   "id": "wd:statestreet:/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386",
-   "location": "Boston, Massachusetts",
-   "posted": "Offre publiée il y a 30 jours ou plus",
-   "title": "Business Development Associate/ Internal Sales, Officer",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386"
   },
   {
    "active": true,
@@ -70,6 +60,36 @@
    "posted": "Posted 10 Days Ago",
    "title": "Internal Sales Associate, Global Wealth",
    "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle/job/New-York-NY/Internal-Sales-Associate--Global-Wealth_R-00313"
+  },
+  {
+   "active": true,
+   "company": "State Street",
+   "first_seen": "2026-10-08T14:08:26Z",
+   "id": "wd:statestreet:/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386",
+   "location": "Boston, Massachusetts",
+   "posted": "Offre publiée il y a 30 jours ou plus",
+   "title": "Business Development Associate/ Internal Sales, Officer",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386"
+  },
+  {
+   "active": true,
+   "company": "State Street",
+   "first_seen": "2026-10-08T14:08:26Z",
+   "id": "wd:statestreet:/job/London-England/International-Audit---Audit-Manager--AVP_R-792451",
+   "location": "London, England",
+   "posted": "Offre publiée il y a 20 jours",
+   "title": "International Audit - Audit Manager, AVP",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/London-England/International-Audit---Audit-Manager--AVP_R-792451"
+  },
+  {
+   "active": true,
+   "company": "State Street",
+   "first_seen": "2026-10-08T14:08:26Z",
+   "id": "wd:statestreet:/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
+   "location": "Munich, Germany",
+   "posted": "Offre publiée il y a 30 jours ou plus",
+   "title": "Working Student – Chief Administration Office (m/w/d))",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1"
   },
   {
    "active": true,
