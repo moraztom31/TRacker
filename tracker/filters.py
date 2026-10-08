@@ -1,18 +1,25 @@
 import re
+import unicodedata
+
+
+def _norm(text):
+    """Minuscules sans accents : 'GENÈVE' et 'geneve' deviennent identiques."""
+    text = unicodedata.normalize("NFKD", str(text).lower())
+    return "".join(c for c in text if not unicodedata.combining(c))
 
 
 def _has_any(text, words):
-    return any(str(w).lower() in text for w in words)
+    return any(_norm(w) in text for w in words)
 
 
 def _has_word(text, words):
     """Mot entier : 'paris' ne matche pas 'paribas'."""
-    return any(re.search(r"(?<!\w)" + re.escape(str(w).lower()) + r"(?!\w)", text) for w in words)
+    return any(re.search(r"(?<!\w)" + re.escape(_norm(w)) + r"(?!\w)", text) for w in words)
 
 
 def matches(job, f):
-    title = job["title"].lower()
-    ctx = (job.get("location") or "").lower()
+    title = _norm(job["title"])
+    ctx = _norm(job.get("location") or "")
     full = f"{title} {ctx}"
     if not job.get("internship_source") and not _has_any(full, f["contract_keywords"]):
         return False
