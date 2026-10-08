@@ -20,14 +20,5 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: BNP (collecteur reel)
-        run: python -m tracker.check config "BNP" 2>&1 | head -14
-      - name: Scan complet (sans commit, sans Telegram)
-        run: python -m tracker.main 2>&1 | grep -vE "^\[OK\]" | tail -25
-      - name: Resume du scan
-        run: python -m tracker.main 2>&1 | grep -E "^\[OK\]|sources," | awk '{print}' | tail -140
-      - name: Tour 6 UBS
-        run: |
-          pip install playwright >/dev/null 2>&1
-          playwright install --with-deps chromium >/dev/null 2>&1
-          python tools/probe/round6.py 2>&1
+      - name: Tour 7
+        run: python tools/probe/round7.py 2>&1

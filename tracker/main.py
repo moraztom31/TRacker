@@ -50,10 +50,11 @@ def main(config_path=None, collectors=None):
     with ThreadPoolExecutor(max_workers=16) as pool:
         results = list(pool.map(run_source, tasks))
 
-    new, ok_companies, seen_ids = [], set(), set()
+    new, ok_companies, seen_ids, live_keys = [], set(), set(), set()
     known_titles = {(j["company"].lower(), j["title"].strip().lower()) for j in store.values() if j.get("active")}
     for (kind, c), jobs, err in results:
         key = f"{kind}:{c['company']}:" + str(c.get("url") or c.get("slug") or c.get("id") or c.get("host", ""))[-60:]
+        live_keys.add(key)
         if err:
             n = health.get(key, {}).get("fails", 0) + 1
             health[key] = {**health.get(key, {}), "fails": n, "last_error": err[:200]}
@@ -93,6 +94,7 @@ def main(config_path=None, collectors=None):
     if first_run:
         print("Premier passage : base initialisée sans alertes.")
 
+    health = {k: v for k, v in health.items() if k in live_keys}  # oublie les sources retirées de config.yaml
     changed = dump_json(JOBS_FILE, store)
     dump_json(HEALTH_FILE, health)
     if changed or not SITE_FILE.exists():
