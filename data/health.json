@@ -5,8 +5,8 @@
   "seeded": true
  },
  "greenhouse:Bridgewater:bridgewater89": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "greenhouse:DRW:drw": {
@@ -209,8 +209,8 @@
   "seeded": true
  },
  "workday:BlackRock:blackrock.wd1.myworkdayjobs.com": {
-  "fails": 1,
-  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Professional/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Blackstone:blackstone.wd1.myworkdayjobs.com": {
