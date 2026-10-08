@@ -4890,7 +4890,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21636-2027-Quantitative-Finance-Off-Cycle-Internship-London/en-GB"
  },
  "hl:Morgan Stanley:21758": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:Morgan Stanley:21758",
@@ -5064,6 +5064,17 @@
   "posted": "",
   "title": "2027 Investment Banking Summer Associate Program (Regions)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21846-2027-Investment-Banking-Summer-Associate-Program-Regions/en-GB"
+ },
+ "hl:Morgan Stanley:21933": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-08T23:18:29Z",
+  "id": "hl:Morgan Stanley:21933",
+  "internship_source": false,
+  "location": "Seattle",
+  "posted": "",
+  "title": "Parametric - 2027 Data Investment Proposals  Internship  - (Seattle)",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-64a8deab819d/candidate/so/pm/1/pl/1/opp/21933-Parametric-2027-Data-Investment-Proposals-Internship-Seattle/en-GB"
  },
  "hl:Morgan Stanley:21938": {
   "active": true,

@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T23:14:29Z",
+ "generated_at": "2026-10-08T23:18:29Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Morgan Stanley",
+   "first_seen": "2026-10-08T23:18:29Z",
+   "id": "hl:Morgan Stanley:21933",
+   "internship_source": false,
+   "location": "Seattle",
+   "posted": "",
+   "title": "Parametric - 2027 Data Investment Proposals  Internship  - (Seattle)",
+   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-64a8deab819d/candidate/so/pm/1/pl/1/opp/21933-Parametric-2027-Data-Investment-Proposals-Internship-Seattle/en-GB"
+  },
   {
    "active": true,
    "company": "Morgan Stanley",
@@ -10584,7 +10595,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21630-2027-Fixed-Income-Off-Cycle-Internship-Milan/en-GB"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Morgan Stanley",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:Morgan Stanley:21758",
