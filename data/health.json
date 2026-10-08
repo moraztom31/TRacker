@@ -1,4 +1,19 @@
 {
+ "brassring:UBS:jobs.ubs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "eightfold:HSBC:portal.careers.hsbc.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:AQR:aqr": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "greenhouse:Akuna Capital:akunacapital": {
   "fails": 0,
   "last_error": "",
@@ -8,10 +23,6 @@
   "fails": 0,
   "last_error": "",
   "seeded": true
- },
- "greenhouse:DRW:drw": {
-  "fails": 385,
-  "last_error": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/drw/jobs"
  },
  "greenhouse:EQT:eqtpartners": {
   "fails": 0,
@@ -28,14 +39,20 @@
   "last_error": "",
   "seeded": true
  },
+ "greenhouse:GSA Capital:gsacapital": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "greenhouse:Hudson River Trading:wehrtyou": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
- "greenhouse:IMC Trading:imc": {
-  "fails": 385,
-  "last_error": "ConnectionError: HTTPSConnectionPool(host='boards-api.eu.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/imc/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api."
+ "greenhouse:Jane Street:janestreet": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
  "greenhouse:Jump Trading:jumptrading": {
   "fails": 0,
@@ -43,16 +60,6 @@
   "seeded": true
  },
  "greenhouse:Man Group:mangroup": {
-  "fails": 0,
-  "last_error": "",
-  "seeded": true
- },
- "greenhouse:Marshall Wace:marshallwace": {
-  "fails": 0,
-  "last_error": "",
-  "seeded": true
- },
- "greenhouse:Optiver (Europe):optiver": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -97,20 +104,32 @@
   "last_error": "",
   "seeded": true
  },
- "html_links:BNP Paribas:/group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage": {
-  "fails": 3,
-  "last_error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
+ "greenhouse:Virtu Financial:virtu": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
- "html_links:BNP Paribas:ibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100": {
-  "fails": 1,
-  "last_error": "HTTPError: 404 Client Error: Not Found for url: https://bwelcome.hr.bnpparibas/fr_FR/externalcareers/SearchJobs/?jobRecordsPerPage=100"
+ "greenhouse:William Blair:williamblair": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "greenhouse:Winton:winton": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "html_links:BNP Paribas:/group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
  "html_links:Citi:s.citi.com/location/paris-jobs/287/3017382-3012874-2988507/4": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
- "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/": {
+ "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/:seed2": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -130,26 +149,22 @@
   "last_error": "",
   "seeded": true
  },
- "html_links:Lazard:e-0/brand-4/xf-a4bba4c3553c/candidate/jobboard/vacancy/2/adv": {
-  "fails": 0,
-  "last_error": "",
-  "seeded": true
- },
  "html_links:Morgan Stanley:e-0/brand-2/xf-53515a97a3a0/candidate/jobboard/vacancy/1/adv": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
- "html_links:Oddo BHF://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx": {
-  "fails": 3,
-  "last_error": "HTTPError: 404 Client Error: Not Found for url: https://oddo-bhf.talent-soft.com/offre-de-emploi/liste-offres.aspx"
- },
- "html_links:Pictet:quepict&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH": {
+ "html_links:Oddo BHF:ttps://recrutement.altays-progiciels.com/oddo/fr/offres.html": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
  "html_links:Société Générale://careers.societegenerale.com/fr/Technical/toutes-les-offres": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "jibe:AXA:careers.axa.com": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -164,7 +179,7 @@
   "last_error": "",
   "seeded": true
  },
- "oleeo_feed:Lazard:bile-0/appcentre-1/brand-4/candidate/jobboard/vacancy/2/feed": {
+ "oracle_hcm:Edmond de Rothschild:evht.fa.ocs.oraclecloud.eu": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -184,14 +199,15 @@
   "last_error": "",
   "seeded": true
  },
- "workable:Capula:capula-investment-management-ltd": {
+ "smartrecruiters:Legal & General (LGIM):legalandgeneral": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
- "workday:AllianceBernstein:alliancebernstein.wd1.myworkdayjobs.com": {
-  "fails": 3,
-  "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://alliancebernstein.wd1.myworkdayjobs.com/wday/cxs/alliancebernstein/alliancebernsteincareers/jobs"
+ "workable:Capula:capula-investment-management-ltd": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
  "workday:Apollo:athene.wd5.myworkdayjobs.com": {
   "fails": 0,
@@ -199,6 +215,16 @@
   "seeded": true
  },
  "workday:Ardian:ardian.wd103.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:BBVA:bbva.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:BMO:bmo.wd3.myworkdayjobs.com": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -218,6 +244,11 @@
   "last_error": "",
   "seeded": true
  },
+ "workday:CIBC:cibc.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com": {
   "fails": 0,
   "last_error": "",
@@ -229,6 +260,11 @@
   "seeded": true
  },
  "workday:Fidelity International:fil.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Guggenheim:guggenheim.wd1.myworkdayjobs.com": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -248,18 +284,20 @@
   "last_error": "",
   "seeded": true
  },
- "workday:Jefferies:jefferies.wd1.myworkdayjobs.com": {
-  "fails": 3,
-  "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://jefferies.wd1.myworkdayjobs.com/wday/cxs/jefferies/JefferiesCareers/jobs"
- },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com": {
   "fails": 0,
   "last_error": "",
   "seeded": true
  },
- "workday:KKR:kkr.wd1.myworkdayjobs.com": {
-  "fails": 3,
-  "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://kkr.wd1.myworkdayjobs.com/wday/cxs/kkr/KKR/jobs"
+ "workday:LSEG:lseg.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Lloyds Banking Group:lbg.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com": {
   "fails": 0,
@@ -276,9 +314,20 @@
   "last_error": "",
   "seeded": true
  },
- "workday:Nomura:nomura.wd3.myworkdayjobs.com": {
-  "fails": 3,
-  "last_error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nomura.wd3.myworkdayjobs.com/wday/cxs/nomura/Nomura_Campus/jobs"
+ "workday:Millennium:mlp.wd5.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Morgan Stanley:ms.wd5.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Neuberger Berman:nb.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com": {
   "fails": 0,
@@ -290,7 +339,22 @@
   "last_error": "",
   "seeded": true
  },
+ "workday:Rabobank:rabobank.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:Raymond James:raymondjames.wd1.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:S&P Global:spgi.wd5.myworkdayjobs.com": {
   "fails": 0,
   "last_error": "",
   "seeded": true
@@ -310,7 +374,22 @@
   "last_error": "",
   "seeded": true
  },
+ "workday:Vanguard:vanguard.wd5.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
  "workday:Wellington Management:wellington.wd5.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "workday:abrdn:abrdn.wd3.myworkdayjobs.com": {
+  "fails": 0,
+  "last_error": "",
+  "seeded": true
+ },
+ "wp_jobs:Groupe BPCE:": {
   "fails": 0,
   "last_error": "",
   "seeded": true
