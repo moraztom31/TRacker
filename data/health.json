@@ -5,8 +5,8 @@
   "seeded": true
  },
  "greenhouse:Bridgewater:bridgewater89": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "greenhouse:DRW:drw": {
