@@ -52,6 +52,7 @@ sources:
       page_url: "https://groupecreditagricole.jobs/fr/nos-offres/page/{page}/"
       link_contains: "/nos-offres-emploi/"
       pages: 45
+      seed: 2   # portée passée de 3 à 38 pages : on réinitialise la source en silence (sinon ~140 fausses « nouvelles offres »)
 
     # [vérifié] toutes les offres Citi à Paris
     - company: "Citi"

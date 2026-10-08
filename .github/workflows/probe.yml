@@ -20,7 +20,5 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Scan complet (verification finale)
-        run: |
-          python -m tracker.main 2>&1 | tail -3
-          python -m tracker.main 2>&1 | grep -E "^\[OK\]|^\[KO\]|sources," | tail -110
+      - name: Tour 13 Oddo
+        run: python tools/probe/round13.py 2>&1

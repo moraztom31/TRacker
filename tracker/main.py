@@ -54,6 +54,8 @@ def main(config_path=None, collectors=None):
     known_titles = {(j["company"].lower(), j["title"].strip().lower()) for j in store.values() if j.get("active")}
     for (kind, c), jobs, err in results:
         key = f"{kind}:{c['company']}:" + str(c.get("url") or c.get("slug") or c.get("id") or c.get("host", ""))[-60:]
+        if c.get("seed"):  # `seed: 2` dans config.yaml : réinitialise la source en silence (portée élargie, pas d'avalanche d'alertes)
+            key += f":seed{c['seed']}"
         live_keys.add(key)
         if err:
             n = health.get(key, {}).get("fails", 0) + 1
