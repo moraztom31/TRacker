@@ -52,6 +52,7 @@ sources:
       page_url: "https://groupecreditagricole.jobs/fr/nos-offres/page/{page}/"
       link_contains: "/nos-offres-emploi/"
       pages: 45
+      recent_pages: 3   # mode rapide : les 3 premières pages (~100 offres les plus récentes) à chaque passage
       seed: 2   # portée passée de 3 à 38 pages : on réinitialise la source en silence (sinon ~140 fausses « nouvelles offres »)
 
     # [vérifié] toutes les offres Citi à Paris
@@ -97,6 +98,7 @@ sources:
       impersonate: "chrome124"
       all_internships: true
       pages: 35
+      recent_pages: 3
 
     # [vérifié] Oddo BHF : portail altays (le même que la page « Découvrez nos offres »), 237 offres, liste HTML paginée (?page=N)
     - company: "Oddo BHF"
@@ -107,6 +109,7 @@ sources:
       strip_query: true
       page_param: "page"
       pages: 30
+      recent_pages: 3
 
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
   workday:
@@ -167,7 +170,7 @@ sources:
   # API WordPress du groupe BPCE : Natixis, Banque Populaire, Caisse d'Epargne... (1437 offres, 15 pages)
   # Contrat, ville et pays lus dans les taxonomies ; la marque s'affiche sous le titre.
   wp_jobs:
-    - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}}   # [vérifié] contrats : stage, stage-sup-a-2-mois
+    - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}, recent_pages: 2}   # [vérifié] contrats : stage, stage-sup-a-2-mois
 
   # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max chacune)
   brassring:

@@ -20,8 +20,10 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Scan complet x2 (verification finale)
+      - name: Tour 14 ordre de tri
+        run: python tools/probe/round14.py 2>&1
+      - name: Scan complet puis rapide
         run: |
-          python -m tracker.main 2>&1 | grep -E "Oddo|Cr.dit Agricole|BNP|KO|sources,"
-          echo ---- second scan ----
-          python -m tracker.main 2>&1 | grep -E "Oddo|Cr.dit Agricole|BNP|KO|sources,|Premier"
+          TRACKER_FULL=1 python -m tracker.main 2>&1 | grep -E "Oddo|Cr.dit Agricole|BNP|Groupe BPCE|UBS|KO|sources,"
+          echo ---- scan rapide ----
+          TRACKER_FULL=0 python -m tracker.main 2>&1 | grep -E "Oddo|Cr.dit Agricole|BNP|Groupe BPCE|UBS|KO|sources,"
