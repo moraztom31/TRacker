@@ -1117,7 +1117,7 @@
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-413c095fcbd9/candidate/so/pm/1/pl/1/opp/21585-2027-Institutional-Equities-Off-Cycle-Internship-Transactional-Management-Group-Paris/en-GB"
  },
  "hl:Morgan Stanley:21598": {
-  "active": true,
+  "active": false,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:Morgan Stanley:21598",
@@ -1390,6 +1390,17 @@
   "posted": "",
   "title": "2027 Investment Banking Summer Associate Program (Regions)",
   "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-edd251bd2334/candidate/so/pm/1/pl/1/opp/21846-2027-Investment-Banking-Summer-Associate-Program-Regions/en-GB"
+ },
+ "hl:Morgan Stanley:21941": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-08T17:36:27Z",
+  "id": "hl:Morgan Stanley:21941",
+  "internship_source": false,
+  "location": "New York",
+  "posted": "",
+  "title": "Parametric -  2027 Technical Solution Management Intern (New York)",
+  "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-d331a05ea53d/candidate/so/pm/1/pl/1/opp/21941-Parametric-2027-Technical-Solution-Management-Intern-New-York/en-GB"
  },
  "hl:Morgan Stanley:21953": {
   "active": true,
