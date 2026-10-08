@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T08:38:23Z",
+ "generated_at": "2026-10-08T08:40:40Z",
  "jobs": [
   {
    "active": true,
@@ -1693,7 +1693,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---assistante-sales-front-office---securities-finance-et-repo-hf-reference--2026-108692--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-financing-debt-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124304",
@@ -1704,7 +1704,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-financing-debt-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124304"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-financing-equity-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124400",
@@ -1715,7 +1715,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-financing-equity-capital-markets-placement-analyst-internship-paris-france-2027/287/100308124400"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/100164759248",
@@ -1726,7 +1726,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-investment-banking-financial-institution-group-placement-analyst-internship-paris-france-20/287/100164759248"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/banking-investment-banking-placement-analyst-internship-paris-france-2027/287/100164759312",
@@ -1737,7 +1737,7 @@
    "url": "https://jobs.citi.com/job/paris/banking-investment-banking-placement-analyst-internship-paris-france-2027/287/100164759312"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Citi",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://jobs.citi.com/job/paris/markets-sales-and-trading-off-cycle-internship-paris-france-2027/287/100186099504",
