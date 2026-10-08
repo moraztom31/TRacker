@@ -1,8 +1,18 @@
 {
- "generated_at": "2026-10-08T14:10:41Z",
+ "generated_at": "2026-10-08T14:20:45Z",
  "jobs": [
   {
    "active": true,
+   "company": "MUFG",
+   "first_seen": "2026-10-08T14:20:45Z",
+   "id": "wd:mufgub:/job/New-York-NY/XMLNAME-2027-Summer-Analyst---Risk-Management---New-York--NY_10079158-WD-2",
+   "location": "New York, NY",
+   "posted": "Offre publiée aujourd'hui",
+   "title": "2027 Summer Analyst - Risk Management - New York, NY",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/XMLNAME-2027-Summer-Analyst---Risk-Management---New-York--NY_10079158-WD-2"
+  },
+  {
+   "active": false,
    "company": "MUFG",
    "first_seen": "2026-10-08T14:10:41Z",
    "id": "wd:mufgub:/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2",

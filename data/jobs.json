@@ -8233,7 +8233,7 @@
   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Manila-Branch/Intern--Trade-Product_10078604-WD"
  },
  "wd:mufgub:/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2": {
-  "active": true,
+  "active": false,
   "company": "MUFG",
   "first_seen": "2026-10-08T14:10:41Z",
   "id": "wd:mufgub:/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2",
@@ -8241,6 +8241,16 @@
   "posted": "Offre publiée aujourd'hui",
   "title": "2027 Summer Analyst Program: Information Technology - Jersey City, NJ",
   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-Jersey-Office---210-Hudson-Street/XMLNAME-2027-Summer-Analyst-Program--Information-Technology---Jersey-City--NJ_10078973-WD-2"
+ },
+ "wd:mufgub:/job/New-York-NY/XMLNAME-2027-Summer-Analyst---Risk-Management---New-York--NY_10079158-WD-2": {
+  "active": true,
+  "company": "MUFG",
+  "first_seen": "2026-10-08T14:20:45Z",
+  "id": "wd:mufgub:/job/New-York-NY/XMLNAME-2027-Summer-Analyst---Risk-Management---New-York--NY_10079158-WD-2",
+  "location": "New York, NY",
+  "posted": "Offre publiée aujourd'hui",
+  "title": "2027 Summer Analyst - Risk Management - New York, NY",
+  "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/XMLNAME-2027-Summer-Analyst---Risk-Management---New-York--NY_10079158-WD-2"
  },
  "wd:mufgub:/job/Paris/XMLNAME-6-month-internship---Debt-Capital-Markets-Bonds---Loans---January-2027_10080029-WD": {
   "active": true,
