@@ -6,9 +6,10 @@
 
 filters:
   # MODE MAXIMUM : seul le contrat (stage) est filtré.
-  # Contrat : au moins un de ces mots dans le titre ou la carte de l'offre
+  # Contrat : au moins un de ces MOTS ENTIERS dans le titre ou la carte de l'offre
+  # ("intern" ne matche pas "internal audit" ; un mot terminé par * est un préfixe : "praktik*")
   # (ignoré pour les sources marquées all_internships: true)
-  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", "summer associate", praktik, becari, stagiair, werkstudent, "working student"]
+  contract_keywords: [stage, stagiaire, intern, internship, "off-cycle", "off cycle", césure, cesure, "gap year", trainee, placement, "summer analyst", "summer associate", "praktik*", "becari*", "stagiair*", "werkstudent*", "working student", bachelorstage, masterstage, meewerkstage, afstudeerstage, stageplaats]
 
   # Sujet : vide = tous les stages passent.
   # Pour revenir au mode "front office", remets par exemple :
@@ -44,12 +45,15 @@ sources:
       link_contains: "/offres-d-emploi/"
       pages: 1
 
-    # [vérifié] CA CIB, Amundi, Indosuez, CACEIS, LCL : ~33 offres/page
+    # [vérifié 08/10] Site carrière du groupe entier (CA CIB, Amundi, Indosuez, CACEIS, LCL, Assurances...) :
+    # 1196 offres sur 38 pages (~33 par page), dont ~174 stages. L'ancien réglage (3 pages) n'en lisait que 8 %.
     - company: "Crédit Agricole / Amundi"
       url: "https://groupecreditagricole.jobs/fr/nos-offres/"
       page_url: "https://groupecreditagricole.jobs/fr/nos-offres/page/{page}/"
       link_contains: "/nos-offres-emploi/"
-      pages: 3
+      pages: 45
+      recent_pages: 3   # mode rapide : les 3 premières pages (~100 offres les plus récentes) à chaque passage
+      seed: 2   # portée passée de 3 à 38 pages : on réinitialise la source en silence (sinon ~140 fausses « nouvelles offres »)
 
     # [vérifié] toutes les offres Citi à Paris
     - company: "Citi"
@@ -85,6 +89,27 @@ sources:
       id_regex: '/opp/([0-9]+)'
       pages: 1
 
+    # [à tester] BNP Paribas : Akamai bloque python-requests -> empreinte TLS de navigateur (curl_cffi).
+    # Une carte = une offre ; ~10 offres par page, ~28 pages de stages.
+    - company: "BNP Paribas"
+      url: "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
+      link_contains: "/emploi-carriere/offre-emploi/"
+      id_regex: '/offre-emploi/([^/?#]+)'
+      impersonate: "chrome124"
+      all_internships: true
+      pages: 35
+      recent_pages: 3
+
+    # [vérifié] Oddo BHF : portail altays (le même que la page « Découvrez nos offres »), 237 offres, liste HTML paginée (?page=N)
+    - company: "Oddo BHF"
+      url: "https://recrutement.altays-progiciels.com/oddo/fr/offres.html"
+      link_contains: "/oddo/fr/offres/"
+      link_regex: '-[0-9]+\.html'
+      id_regex: '-([0-9]+)\.html'
+      strip_query: true
+      page_param: "page"
+      pages: 30   # pas de recent_pages : la liste Oddo n'est pas triée par date, on lit tout (24 petites pages)
+
   # API JSON Workday : host = <tenant>.wd<N>.myworkdayjobs.com, site = fin de l'URL publique
   workday:
     - {company: "Barclays", host: "barclays.wd3.myworkdayjobs.com", tenant: "barclays", site: "External_Career_Site_Barclays"}   # [vérifié]
@@ -110,12 +135,45 @@ sources:
     - {company: "Wellington Management", host: "wellington.wd5.myworkdayjobs.com", tenant: "wellington", site: "External"}   # [vérifié]
     - {company: "Carlyle", host: "carlyle.wd1.myworkdayjobs.com", tenant: "carlyle", site: "Carlyle"}   # [vérifié]
     - {company: "Apollo", host: "athene.wd5.myworkdayjobs.com", tenant: "athene", site: "Apollo_Careers"}   # [vérifié]
+    # Ajoutés le 08/10 : site Workday trouvé et API testée depuis un runner GitHub
+    - {company: "Vanguard", host: "vanguard.wd5.myworkdayjobs.com", tenant: "vanguard", site: "vanguard_external"}   # [vérifié]
+    - {company: "Neuberger Berman", host: "nb.wd1.myworkdayjobs.com", tenant: "nb", site: "nbcareers"}   # [vérifié]
+    - {company: "BMO", host: "bmo.wd3.myworkdayjobs.com", tenant: "bmo", site: "External"}   # [vérifié]
+    - {company: "CIBC", host: "cibc.wd3.myworkdayjobs.com", tenant: "cibc", site: "Campus"}   # [vérifié]
+    - {company: "S&P Global", host: "spgi.wd5.myworkdayjobs.com", tenant: "spgi", site: "spgi_careers"}   # [vérifié]
+    - {company: "LSEG", host: "lseg.wd3.myworkdayjobs.com", tenant: "lseg", site: "Careers"}   # [vérifié]
+    - {company: "Lloyds Banking Group", host: "lbg.wd3.myworkdayjobs.com", tenant: "lbg", site: "lbg_careers"}   # [vérifié]
+    - {company: "Rabobank", host: "rabobank.wd3.myworkdayjobs.com", tenant: "rabobank", site: "jobs"}   # [vérifié]
+    - {company: "Millennium", host: "mlp.wd5.myworkdayjobs.com", tenant: "mlp", site: "mlpcareers"}   # [vérifié] 0 stage ce jour, source valide
+    - {company: "BBVA", host: "bbva.wd3.myworkdayjobs.com", tenant: "bbva", site: "bbva"}   # [vérifié]
+    - {company: "abrdn", host: "abrdn.wd3.myworkdayjobs.com", tenant: "abrdn", site: "abrdn"}   # [vérifié]
+    - {company: "Guggenheim", host: "guggenheim.wd1.myworkdayjobs.com", tenant: "guggenheim", site: "guggenheim_careers"}   # [vérifié]
+    - {company: "Raymond James", host: "raymondjames.wd1.myworkdayjobs.com", tenant: "raymondjames", site: "raymondjamescareers"}   # [vérifié]
+    - {company: "Morgan Stanley", host: "ms.wd5.myworkdayjobs.com", tenant: "ms", site: "External"}   # [vérifié] complète la source Oleeo (doublons écartés)
 
   # API Oracle Recruiting Cloud
   oracle_hcm:
     - {company: "JP Morgan", host: "jpmc.fa.oraclecloud.com", site: "CX_1001", queries: ["intern Paris", "intern London", "off-cycle", "Paris"]}   # [vérifié]
     - {company: "Goldman Sachs", host: "hdpc.fa.us2.oraclecloud.com", site: "CampusHiring", queries: ["Paris", "London", "off-cycle"]}   # [vérifié]
     - {company: "Schroders", host: "ekbq.fa.em2.oraclecloud.com", site: "CX_2"}   # [vérifié]
+    - {company: "Edmond de Rothschild", host: "evht.fa.ocs.oraclecloud.eu", site: "CX_2001", queries: ["stage", "intern", "internship"]}   # [à tester]
+
+  # API Eightfold (portails careers.<banque>.com)
+  eightfold:
+    - {company: "HSBC", host: "portal.careers.hsbc.com", domain: "hsbc.com", queries: ["intern", "internship", "stage", "stagiaire", "summer"]}   # [vérifié] 65 offres "intern"
+
+  # API Jibe / iCIMS
+  jibe:
+    - {company: "AXA", host: "careers.axa.com", queries: ["intern", "stage", "internship"]}   # [vérifié] 212 offres "intern"
+
+  # API WordPress du groupe BPCE : Natixis, Banque Populaire, Caisse d'Epargne... (1437 offres, 15 pages)
+  # Contrat, ville et pays lus dans les taxonomies ; la marque s'affiche sous le titre.
+  wp_jobs:
+    - {company: "Groupe BPCE", base_url: "https://recrutement.bpce.fr", brand_companies: {natixis: "Natixis"}, recent_pages: 2}   # [vérifié] contrats : stage, stage-sup-a-2-mois
+
+  # BrassRing (UBS) : jeton de session lu sur la page d'accueil, recherche par mots-clés (50 offres max chacune)
+  brassring:
+    - {company: "UBS", host: "jobs.ubs.com", partner: 25008, site: 5012, queries: ["intern", "internship", "stage", "graduate", "trainee"], location_fields: ["formtext23"]}   # [vérifié] 256 offres "intern", 50 max par requête (pagination à tester)
 
   # Flux Atom Oleeo
   oleeo_feed:
@@ -143,10 +201,18 @@ sources:
     - {company: "Akuna Capital", slug: "akunacapital"}   # [vérifié]
     - {company: "ExodusPoint", slug: "exoduspoint"}   # [vérifié]
     - {company: "TPG", slug: "tpgcareers"}   # [vérifié]
+    # Ajoutés le 08/10 (API testée depuis un runner GitHub : offres bien lues)
+    - {company: "AQR", slug: "aqr"}   # [vérifié]
+    - {company: "Virtu Financial", slug: "virtu"}   # [vérifié]
+    - {company: "William Blair", slug: "williamblair"}   # [vérifié]
+    - {company: "Jane Street", slug: "janestreet"}   # [vérifié]
+    - {company: "GSA Capital", slug: "gsacapital"}   # [vérifié]
+    - {company: "Winton", slug: "winton"}   # [vérifié]
   lever:
     - {company: "Apax Partners", slug: "apax"}   # [vérifié]
 
-  smartrecruiters: []
+  smartrecruiters:
+    - {company: "Legal & General (LGIM)", id: "legalandgeneral"}   # [vérifié] 73 offres tous métiers, le filtre garde les stages
 
   # Flux RSS officiels (BNP : à générer sur leur site, voir README)
   rss: []

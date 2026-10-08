@@ -22,36 +22,70 @@ chaque minute, affiche un bandeau, joue un son et envoie une notification du nav
    - En-têtes : `Authorization: Bearer <PAT>`, `Accept: application/vnd.github+json`, `Content-Type: application/json`
    - Le PAT est un *fine-grained token* limité à ce repo, permission **Actions : Read and write**.
 
-## Sources branchées (32)
+## Sources branchées (79)
 
-**Vérifiées** (structure lue sur le site) : BNP Paribas, Société Générale, Crédit Agricole
-(CA CIB, Amundi, Indosuez, CACEIS, LCL), Citi, Barclays, Rothschild & Co, Ardian, Houlihan Lokey.
+Toutes ont été testées depuis un runner GitHub le 08/10/2026 (les offres sont bien lues).
 
-**À tester** (identifiants connus, jamais appelés depuis ici) : Deutsche Bank, Santander,
-Lombard Odier, Julius Baer, BlackRock, Fidelity International, State Street, Invesco, Blackstone,
-Apollo, JP Morgan, Goldman Sachs, Schroders, Bank of America, Lazard, Morgan Stanley, Evercore,
-Point72, Man Group, Marshall Wace, Bridgewater, EQT, TPG, Apax.
+**Banques et groupes français** : BNP Paribas (~275 stages, site protégé Akamai : lu avec une empreinte TLS de
+navigateur), Société Générale, Crédit Agricole (site carrière du groupe entier : CA CIB, Amundi, Indosuez, CACEIS,
+LCL, Assurances... soit ~1200 offres sur 38 pages), Groupe BPCE (Natixis, Banque Populaire, Caisse d'Epargne : 1437
+offres via l'API WordPress, contrats `stage` et `stage-sup-a-2-mois`), Oddo BHF (portail altays), AXA, Rothschild & Co,
+Edmond de Rothschild, Ardian, Kepler Cheuvreux.
 
-**Non branchées** (100 % JavaScript) : Natixis/BPCE, HSBC, UBS, Edmond de Rothschild, Pictet, Oddo BHF.
+**Banques internationales** : HSBC (Eightfold), UBS (BrassRing), Citi, Barclays, Deutsche Bank, Santander, ING, MUFG,
+BBVA, BMO, CIBC, Lloyds, Rabobank, JP Morgan, Goldman Sachs, Morgan Stanley, Bank of America, Houlihan Lokey,
+Evercore, PJT, Lazard (non branché), Guggenheim, Raymond James, William Blair.
 
-**Avant le premier lancement**, teste tout depuis ton ordi :
+**Gestion d'actifs, PE, hedge funds, trading** : BlackRock, Fidelity, State Street, Invesco, PIMCO, T. Rowe Price,
+Wellington, Vanguard, Neuberger Berman, abrdn, LGIM, Schroders, Julius Baer, Lombard Odier, Macquarie, LSEG,
+S&P Global, Blackstone, Carlyle, Apollo, EQT, TPG, Permira, Apax, Point72, Man Group, Bridgewater, AQR, Millennium,
+Schonfeld, Tudor, ExodusPoint, Capula, Jane Street, Jump, Squarepoint, Tower, Hudson River, Akuna, Optiver, Flow
+Traders, Virtu, GSA, Winton, IMC.
+
+**Non branchées** : Pictet (SuccessFactors 100 % JavaScript), Nomura (pas d'offres en ligne, seulement des
+programmes), Citadel et D. E. Shaw (aucune API repérée), Lazard. Elles sont dans « À vérifier à la main » sur le site.
+
+**Pour tester tout d'un coup** (depuis ton ordi) :
 
 ```
 pip install -r requirements.txt
-python -m tracker.check config ""      # teste les 32 sources d'un coup
+python -m tracker.check config ""      # teste les sources une par une
+python -m tracker.main                 # scan complet, sans alertes Telegram si les secrets sont absents
 ```
 
 Une source qui affiche une erreur ou 0 offre : commente-la dans `config.yaml`, ou envoie la sortie
 pour correction. Une source ajoutée plus tard est initialisée en silence (pas d'avalanche d'alertes).
+
+## Mode rapide (ne lire que les offres récentes)
+
+Le but est de ne pas rater les nouvelles offres, pas de relire tout un site à chaque passage. Les gros sites triés
+par date (Crédit Agricole ~1200 offres, BNP ~275, Groupe BPCE ~1400) ont une option `recent_pages` dans `config.yaml` :
+à chaque passage on ne lit que les premières pages. Un **scan complet** a lieu pendant les 5 premières minutes de
+chaque heure et au premier passage d'une source : c'est lui qui repère les offres disparues (« clôturées »).
+Un passage rapide ne clôture jamais d'offre. Résultat : ~20 s au lieu de ~70 s par passage.
+
+- Pour tester : `TRACKER_FULL=1 python -m tracker.main` force le scan complet, `TRACKER_FULL=0` force le mode rapide.
+- N'ajoute `recent_pages` qu'à un site réellement trié du plus récent au plus ancien (Oddo ne l'est pas, il n'en a pas).
+- Pour élargir la portée d'une source (plus de pages) sans déclencher une avalanche d'alertes, ajoute `seed: 2`
+  (puis `seed: 3`...) : la source est réinitialisée en silence.
+
+## Filtre de contrat
+
+Le mot-clé doit être un **mot entier** : « intern » ne matche plus « Internal Audit » ni « International ».
+Le pluriel est accepté, et un mot terminé par `*` est un préfixe (`praktik*` pour Praktikum, Praktikant).
+Les mots-clés sont dans `filters.contract_keywords` de `config.yaml`.
 
 ## Ajouter une entreprise (`config.yaml`)
 
 - Site dont les offres sont des liens visibles dans le HTML : `html_links` avec l'URL de la liste
   et un morceau d'URL commun à toutes les offres (`link_contains`). C'est le cas le plus fréquent.
 
-- Plateformes standard (Greenhouse, Lever, SmartRecruiters, Workday) : 2 lignes.
+- Plateformes standard : `greenhouse`, `lever`, `smartrecruiters`, `workable`, `workday` (2 lignes chacune),
+  `oracle_hcm`, `eightfold` (HSBC), `jibe` (AXA), `brassring` (UBS), `wp_jobs` (sites WordPress du groupe BPCE).
 - Portails maison (la plupart des banques) : `generic_json` avec l'endpoint trouvé dans l'onglet Réseau (F12),
   ou `generic_html` avec des sélecteurs CSS.
+- Site qui bloque python-requests (erreur 403, « Access Denied », Akamai) : ajoute `impersonate: "chrome124"` à
+  une source `html_links` ou `rss`. C'est ce qui a débloqué BNP Paribas.
 - Teste toujours avant : `python -m tracker.check config "NomEntreprise"`.
 
 ## Alertes sur le site
@@ -68,3 +102,6 @@ pour correction. Une source ajoutée plus tard est initialisée en silence (pas 
 - Le suivi des statuts (postulé, relancé...) est enregistré dans ton navigateur (localStorage), pas dans le repo.
 - Une source qui échoue 3 fois de suite déclenche une alerte Telegram.
 - Les sites protégés anti-bot (Cloudflare, Datadome) ne sont pas fiables en simple requête HTTP.
+- UBS : une recherche renvoie au plus 50 offres, triées par date ; on croise 5 mots-clés (intern, internship, stage,
+  graduate, trainee). Les offres les plus récentes sont donc toujours vues.
+- Natixis/BPCE : le lieu vient des taxonomies du site ; certaines offres internationales n'ont pas de ville.

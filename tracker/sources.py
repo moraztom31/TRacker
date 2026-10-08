@@ -16,8 +16,15 @@ UA = {
 TIMEOUT = 15
 
 
-def _get(url, **kw):
-    r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
+def _get(url, impersonate=None, **kw):
+    """impersonate="chrome124" : requête avec l'empreinte TLS d'un vrai navigateur (curl_cffi).
+    Nécessaire pour les sites protégés par Akamai (BNP Paribas, UBS), qui rejettent python-requests."""
+    if impersonate:
+        from curl_cffi import requests as cffi_requests
+
+        r = cffi_requests.get(url, impersonate=impersonate, timeout=TIMEOUT * 2, **kw)
+    else:
+        r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
     r.raise_for_status()
     return r
 
@@ -282,7 +289,7 @@ def html_links(cfg):
             url = cfg["page_url"].format(page=page)
         else:
             url = f"{cfg['url']}{'&' if '?' in cfg['url'] else '?'}{cfg.get('page_param', 'page')}={page}"
-        soup = BeautifulSoup(_get(url).text, "html.parser")
+        soup = BeautifulSoup(_get(url, cfg.get("impersonate")).text, "html.parser")
         found = 0
         for a in soup.find_all("a", href=True):
             if cfg["link_contains"] not in a["href"]:
@@ -290,6 +297,8 @@ def html_links(cfg):
             if cfg.get("link_regex") and not re.search(cfg["link_regex"], a["href"]):
                 continue
             href = urljoin(url, a["href"]).split("#")[0]
+            if cfg.get("strip_query"):  # certains portails (Oddo) ajoutent ?page=N aux liens des pages suivantes
+                href = href.split("?")[0]
             if href in seen:
                 continue
             seen.add(href)
@@ -357,7 +366,7 @@ def rss(cfg):
                 return c
         return None
 
-    root = ET.fromstring(_get(cfg["url"]).content)
+    root = ET.fromstring(_get(cfg["url"], cfg.get("impersonate")).content)
     out = []
     for el in root.iter():
         if local(el.tag) not in ("item", "entry"):
@@ -386,6 +395,167 @@ def rss(cfg):
     return out
 
 
+def eightfold(cfg):
+    """API publique Eightfold (HSBC...) : /api/apply/v2/jobs, 10 offres par page."""
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "stage"]):
+        start = 0
+        for _ in range(int(cfg.get("max_pages", 8))):
+            data = _get(
+                f"https://{cfg['host']}/api/apply/v2/jobs",
+                params={"domain": cfg["domain"], "query": q, "start": start, "num": 10, "sort_by": "relevance"},
+            ).json()
+            pos = data.get("positions") or []
+            for j in pos:
+                jid = str(j.get("id", ""))
+                if not jid or jid in seen:
+                    continue
+                seen.add(jid)
+                out.append(
+                    {
+                        "id": f"ef:{cfg['host']}:{jid}",
+                        "company": cfg["company"],
+                        "title": j.get("name", ""),
+                        "location": " · ".join(j.get("locations") or [j.get("location") or ""]),
+                        "url": j.get("canonicalPositionUrl") or f"https://{cfg['host']}/careers/job/{jid}",
+                        "posted": str(j.get("t_create", "")),
+                    }
+                )
+            start += len(pos)
+            if not pos or start >= int(data.get("count") or 0):
+                break
+    return out
+
+
+def jibe(cfg):
+    """API publique Jibe / iCIMS (AXA...) : /api/jobs?keywords=...&page=N."""
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "stage"]):
+        for page in range(1, int(cfg.get("max_pages", 4)) + 1):
+            data = _get(f"https://{cfg['host']}/api/jobs", params={"keywords": q, "limit": 100, "page": page}).json()
+            jobs = data.get("jobs") or []
+            for item in jobs:
+                j = item.get("data") or {}
+                rid = str(j.get("req_id") or j.get("slug") or "")
+                if not rid or rid in seen:
+                    continue
+                seen.add(rid)
+                out.append(
+                    {
+                        "id": f"jb:{cfg['host']}:{rid}",
+                        "company": cfg["company"],
+                        "title": j.get("title", ""),
+                        "location": ", ".join(x for x in [j.get("city"), j.get("country")] if x) or j.get("location_name", ""),
+                        "url": f"https://{cfg['host']}/careers-home/jobs/{j.get('slug') or rid}",
+                        "posted": (j.get("posted_date") or "")[:10],
+                    }
+                )
+            if len(jobs) < 100:
+                break
+    return out
+
+
+def wp_jobs(cfg):
+    """Sites WordPress du groupe BPCE (Natixis, BPCE...) : API REST standard /wp/v2/job.
+    Contrat, ville, région et pays viennent des taxonomies (classes tax_contract-stage, tax_city-paris...)."""
+    import html
+
+    api = f"{cfg['base_url'].rstrip('/')}{cfg.get('api_path', '/app/wp-json')}/wp/v2/job"
+    out, page, pages = [], 1, 1
+    while page <= min(pages, int(cfg.get("max_pages", 30))):
+        r = _get(api, params={"per_page": 100, "page": page, **(cfg.get("params") or {})})
+        pages = int(r.headers.get("X-WP-TotalPages", 1))
+        for j in r.json():
+            tax = {}
+            for c in j.get("class_list", []):
+                m = re.match(r"tax_(contract|city|place|country|brands)-(.+)$", c)
+                if m:
+                    tax.setdefault(m.group(1), m.group(2))
+            city = tax.get("city", "").replace("-", " ").title()
+            place = tax.get("place", "").title()
+            country = tax.get("country", "").title()
+            where = ", ".join(x for x in dict.fromkeys([city, place, country]) if x and x != "International")
+            contract = tax.get("contract", "").replace("-", " ").title()
+            brand = tax.get("brands", "")
+            company = next((name for key, name in (cfg.get("brand_companies") or {}).items() if brand.startswith(key)), cfg["company"])
+            out.append(
+                {
+                    "id": f"wp:{cfg['company']}:{j['id']}",
+                    "company": company,
+                    "entity": brand.replace("-", " ").title(),
+                    "title": html.unescape(j.get("title", {}).get("rendered", "")),
+                    "location": " · ".join(x for x in [contract, where] if x),
+                    "url": j.get("link", ""),
+                    "posted": (j.get("date") or "")[:10],
+                }
+            )
+        page += 1
+    return out
+
+
+def brassring(cfg):
+    """Portails BrassRing / Kenexa (UBS) : la page d'accueil donne la valeur de session et le jeton RFT,
+    puis /Search/Ajax/MatchedJobs renvoie la liste (50 offres max par recherche, on croise plusieurs mots-clés)."""
+    import html
+    import json
+
+    from bs4 import BeautifulSoup
+
+    base = f"https://{cfg['host']}"
+    home = f"{base}/TGnewUI/Search/home/Home?partnerid={cfg['partner']}&siteid={cfg['site']}"
+    sess = requests.Session()
+    sess.headers.update(UA)
+    page = sess.get(home, timeout=TIMEOUT * 2)
+    page.raise_for_status()
+    hidden = {
+        (i.get("id") or i.get("name")): (i.get("value") or "")
+        for i in BeautifulSoup(page.text, "html.parser").find_all("input", type="hidden")
+    }
+    headers = {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Accept": "*/*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": home,
+        "Origin": base,
+        "RFT": hidden.get("__RequestVerificationToken", ""),
+    }
+    seen, out = set(), []
+    for q in cfg.get("queries", ["intern", "internship"]):
+        body = {
+            "PartnerId": str(cfg["partner"]),
+            "SiteId": str(cfg["site"]),
+            "Keyword": q,
+            "Location": "",
+            "KeywordCustomSolrFields": "FORMTEXT2,FORMTEXT21,AutoReq,Department,JobTitle",
+            "LocationCustomSolrFields": "FORMTEXT2,FORMTEXT23,Location",
+            "FacetFilterFields": None,
+            "TurnOffHttps": False,
+            "Latitude": 0,
+            "Longitude": 0,
+            "PowerSearchOptions": {"PowerSearchOption": []},
+            "encryptedsessionvalue": hidden.get("CookieValue", ""),
+        }
+        r = sess.post(f"{base}/TgNewUI/Search/Ajax/MatchedJobs", headers=headers, data=json.dumps(body), timeout=TIMEOUT * 2)
+        r.raise_for_status()
+        for job in (r.json().get("Jobs") or {}).get("Job") or []:
+            f = {x.get("QuestionName"): x.get("Value") for x in job.get("Questions", [])}
+            jid = str(f.get("reqid") or job.get("Link"))
+            if jid in seen:
+                continue
+            seen.add(jid)
+            out.append(
+                {
+                    "id": f"br:{cfg['host']}:{jid}",
+                    "company": cfg["company"],
+                    "title": html.unescape(f.get("jobtitle", "")),
+                    "location": " · ".join(html.unescape(str(f[k])) for k in cfg.get("location_fields", ["location"]) if f.get(k)),
+                    "url": (job.get("Link") or "").replace("\\u0026", "&"),
+                    "posted": str(f.get("lastupdated") or ""),
+                }
+            )
+    return out
+
+
 COLLECTORS = {
     "rss": rss,
     "workable": workable,
@@ -398,4 +568,8 @@ COLLECTORS = {
     "lever": lever,
     "smartrecruiters": smartrecruiters,
     "workday": workday,
+    "eightfold": eightfold,
+    "jibe": jibe,
+    "wp_jobs": wp_jobs,
+    "brassring": brassring,
 }
