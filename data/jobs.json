@@ -5892,6 +5892,16 @@
   "title": "Global Transaction Banking Summer Internship Programme 2027 London",
   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Global-Transaction-Banking-Summer-Internship-Programme-2027-London_JR-0000124230"
  },
+ "wd:barclays:/job/Canary-Wharf-1-Churchill-Place/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-London_JR-0000124643": {
+  "active": true,
+  "company": "Barclays",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:barclays:/job/Canary-Wharf-1-Churchill-Place/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-London_JR-0000124643",
+  "location": "Canary Wharf, 1 Churchill Place",
+  "posted": "Offre publiée il y a 30 jours ou plus",
+  "title": "Private Bank and Wealth Management Summer Internship Programme 2027 London",
+  "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-London_JR-0000124643"
+ },
  "wd:barclays:/job/Canary-Wharf-1-Churchill-Place/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-London_JR-0000124716": {
   "active": true,
   "company": "Barclays",
@@ -5993,7 +6003,7 @@
   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Dubai-International-Financial-Centre-Dubai/Private-Bank-and-Wealth-Management-Off-Cycle-Internship-Programme-2027-Dubai_JR-0000124665"
  },
  "wd:barclays:/job/Dublin-Molesworth-Street/Global-Transaction-Banking-Summer-Internship-Programme-2027-Dublin_JR-0000124421": {
-  "active": true,
+  "active": false,
   "company": "Barclays",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:barclays:/job/Dublin-Molesworth-Street/Global-Transaction-Banking-Summer-Internship-Programme-2027-Dublin_JR-0000124421",
@@ -6601,6 +6611,36 @@
   "posted": "",
   "title": "2027 Blackstone Real Estate Summer Analyst, Tokyo",
   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Tokyo/XMLNAME-2027-Blackstone-Real-Estate-Summer-Analyst--Tokyo_40628"
+ },
+ "wd:carlyle:/job/London-United-Kingdom/Intern_R-00234": {
+  "active": true,
+  "company": "Carlyle",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:carlyle:/job/London-United-Kingdom/Intern_R-00234",
+  "location": "London, United Kingdom",
+  "posted": "Posted 30+ Days Ago",
+  "title": "Private Credit Intern",
+  "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle/job/London-United-Kingdom/Intern_R-00234"
+ },
+ "wd:carlyle:/job/London-United-Kingdom/Real-Estate-Intern_R-00336": {
+  "active": true,
+  "company": "Carlyle",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:carlyle:/job/London-United-Kingdom/Real-Estate-Intern_R-00336",
+  "location": "London, United Kingdom",
+  "posted": "Posted Yesterday",
+  "title": "Real Estate Intern",
+  "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle/job/London-United-Kingdom/Real-Estate-Intern_R-00336"
+ },
+ "wd:carlyle:/job/New-York-NY/Internal-Sales-Associate--Global-Wealth_R-00313": {
+  "active": true,
+  "company": "Carlyle",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:carlyle:/job/New-York-NY/Internal-Sales-Associate--Global-Wealth_R-00313",
+  "location": "New York, NY",
+  "posted": "Posted 10 Days Ago",
+  "title": "Internal Sales Associate, Global Wealth",
+  "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle/job/New-York-NY/Internal-Sales-Associate--Global-Wealth_R-00313"
  },
  "wd:db:/job/Amsterdam/O-A-Benelux-Coverage-Seasonal-Intern--f-m-x-_R0453348": {
   "active": true,
@@ -9261,6 +9301,36 @@
   "posted": "Offre publiée il y a 16 jours",
   "title": "2027 Investment Banking Summer Associate Program - San Francisco",
   "url": "https://santandercareers.wd3.myworkdayjobs.com/SantanderCareers/job/UCM---San-Francisco/XMLNAME-2027-Investment-Banking-Summer-Associate-Program---San-Francisco_Req1614797"
+ },
+ "wd:statestreet:/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386": {
+  "active": true,
+  "company": "State Street",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:statestreet:/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386",
+  "location": "Boston, Massachusetts",
+  "posted": "Offre publiée il y a 30 jours ou plus",
+  "title": "Business Development Associate/ Internal Sales, Officer",
+  "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/Business-Development-Associate--Internal-Sales--Officer_R-797386"
+ },
+ "wd:statestreet:/job/London-England/International-Audit---Audit-Manager--AVP_R-792451": {
+  "active": true,
+  "company": "State Street",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:statestreet:/job/London-England/International-Audit---Audit-Manager--AVP_R-792451",
+  "location": "London, England",
+  "posted": "Offre publiée il y a 20 jours",
+  "title": "International Audit - Audit Manager, AVP",
+  "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/London-England/International-Audit---Audit-Manager--AVP_R-792451"
+ },
+ "wd:statestreet:/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1": {
+  "active": true,
+  "company": "State Street",
+  "first_seen": "2026-10-08T14:08:26Z",
+  "id": "wd:statestreet:/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
+  "location": "Munich, Germany",
+  "posted": "Offre publiée il y a 30 jours ou plus",
+  "title": "Working Student – Chief Administration Office (m/w/d))",
+  "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1"
  },
  "wd:troweprice:/job/Colorado-Springs-CO/Internal-Wholesaler-Intermediary-Sales-Consultant--B-D---DCIO----Colorado-Springs_79535": {
   "active": true,
