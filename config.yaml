@@ -86,6 +86,16 @@ sources:
       id_regex: '/opp/([0-9]+)'
       pages: 1
 
+    # [à tester] BNP Paribas : Akamai bloque python-requests -> empreinte TLS de navigateur (curl_cffi).
+    # Une carte = une offre ; ~10 offres par page, ~28 pages de stages.
+    - company: "BNP Paribas"
+      url: "https://group.bnpparibas/emploi-carriere/toutes-offres-emploi/stage"
+      link_contains: "/emploi-carriere/offre-emploi/"
+      id_regex: '/offre-emploi/([^/?#]+)'
+      impersonate: "chrome124"
+      all_internships: true
+      pages: 35
+
     # [à tester] Oddo BHF : portail altays, 237 offres, liste HTML paginée (?page=N)
     - company: "Oddo BHF"
       url: "https://recrutement.altays-progiciels.com/oddo/en/offres.html"
