@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:22:27Z",
+ "generated_at": "2026-10-09T15:26:26Z",
  "jobs": [
   {
    "active": true,
@@ -269,7 +269,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352260"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Oddo BHF",
    "first_seen": "2026-10-09T12:30:59Z",
    "id": "hl:Oddo BHF:2883553",
@@ -4790,7 +4790,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudentpraktikant-mwd-third-party-risk-management-2859361.html"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2860596",
