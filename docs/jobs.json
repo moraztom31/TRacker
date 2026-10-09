@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T10:26:32Z",
+ "generated_at": "2026-10-09T10:40:40Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Goldman Sachs",
+   "first_seen": "2026-10-09T10:40:40Z",
+   "id": "or:hdpc.fa.us2.oraclecloud.com:170901",
+   "location": "London, Greater London, England, United Kingdom",
+   "posted": "2026-08-15",
+   "title": "2027 | EMEA | London | Global Investment Research, Equity Research | Seasonal/Off-cycle Internship",
+   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170901"
+  },
   {
    "active": true,
    "company": "Groupe BPCE",
@@ -13186,7 +13196,7 @@
    "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170840"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Goldman Sachs",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "or:hdpc.fa.us2.oraclecloud.com:170842",

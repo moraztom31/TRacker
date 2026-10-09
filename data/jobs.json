@@ -12145,7 +12145,7 @@
   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170841"
  },
  "or:hdpc.fa.us2.oraclecloud.com:170842": {
-  "active": true,
+  "active": false,
   "company": "Goldman Sachs",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "or:hdpc.fa.us2.oraclecloud.com:170842",
@@ -12293,6 +12293,16 @@
   "posted": "2026-08-15",
   "title": "2027 | EMEA | Frankfurt | Wealth Management, Private Wealth Management | Seasonal/Off-Cycle Internship",
   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170887"
+ },
+ "or:hdpc.fa.us2.oraclecloud.com:170901": {
+  "active": true,
+  "company": "Goldman Sachs",
+  "first_seen": "2026-10-09T10:40:40Z",
+  "id": "or:hdpc.fa.us2.oraclecloud.com:170901",
+  "location": "London, Greater London, England, United Kingdom",
+  "posted": "2026-08-15",
+  "title": "2027 | EMEA | London | Global Investment Research, Equity Research | Seasonal/Off-cycle Internship",
+  "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170901"
  },
  "or:hdpc.fa.us2.oraclecloud.com:170905": {
   "active": true,
