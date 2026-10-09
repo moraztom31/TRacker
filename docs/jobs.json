@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T07:12:28Z",
+ "generated_at": "2026-10-09T08:01:08Z",
  "jobs": [
   {
    "active": true,
@@ -1606,7 +1606,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/arval-schweiz-commercial-assistant-working-student-50-60-all-genders"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:beca-administrativo-de-facturacion",
@@ -2970,7 +2970,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-coordination-management-de-crise-h-f"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-assistant-data-analyst-h-f",
