@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T12:30:59Z",
+ "generated_at": "2026-10-09T12:44:27Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-09T12:44:27Z",
+   "id": "br:jobs.ubs.com:352260",
+   "location": "Poland",
+   "posted": "09-Oct-2026",
+   "title": "Intern in Instrument & Pricing Regional Offices Jersey",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=352260"
+  },
   {
    "active": true,
    "company": "Oddo BHF",
