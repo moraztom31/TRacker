@@ -1,6 +1,49 @@
 {
- "generated_at": "2026-10-09T09:48:27Z",
+ "generated_at": "2026-10-09T09:50:44Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-09T09:50:44Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-sales-placements-de-la-salle-des-marches-de-bordeaux-hf-reference--2026-116354--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Bordeaux - France · Financement et Investissement",
+   "posted": "",
+   "title": "Assistant Sales placements de la Salle des Marchés de Bordeaux H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-sales-placements-de-la-salle-des-marches-de-bordeaux-hf-reference--2026-116354--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-09T09:50:44Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-placements-prives-hf-reference--2026-116353--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Montrouge - France · Financement et Investissement",
+   "posted": "",
+   "title": "Analyste Placements Privés H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-placements-prives-hf-reference--2026-116353--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-09T09:50:44Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---finance-client-service---fund-channel-hf-reference--2026-116351--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Luxembourg - Luxembourg · Commercial / Relations Clients",
+   "posted": "",
+   "title": "STAGE - Finance Client Service - Fund Channel H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---finance-client-service---fund-channel-hf-reference--2026-116351--/"
+  },
+  {
+   "active": true,
+   "company": "MUFG",
+   "first_seen": "2026-10-09T09:50:44Z",
+   "id": "wd:mufgub:/job/Paris/XMLNAME-2027-MUFG-6-month-Paris-internship--Japanese-Corporate-Banking-Division_10080073-WD",
+   "location": "Paris",
+   "posted": "Offre publiée aujourd'hui",
+   "title": "2027 MUFG 6 month Paris internship: Japanese Corporate Banking Division",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Paris/XMLNAME-2027-MUFG-6-month-Paris-internship--Japanese-Corporate-Banking-Division_10080073-WD"
+  },
   {
    "active": true,
    "company": "UBS",
@@ -6999,7 +7042,7 @@
    "url": "https://careers.axa.com/careers-home/jobs/27857"
   },
   {
-   "active": true,
+   "active": false,
    "company": "AXA",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "jb:careers.axa.com:28019",
