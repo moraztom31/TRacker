@@ -12974,7 +12974,7 @@
   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774216"
  },
  "or:jpmc.fa.oraclecloud.com:210775302": {
-  "active": false,
+  "active": true,
   "company": "JP Morgan",
   "first_seen": "2026-10-08T14:52:26Z",
   "id": "or:jpmc.fa.oraclecloud.com:210775302",
