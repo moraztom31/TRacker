@@ -12400,7 +12400,7 @@
   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2052"
  },
  "or:ekbq.fa.em2.oraclecloud.com:2058": {
-  "active": true,
+  "active": false,
   "company": "Schroders",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "or:ekbq.fa.em2.oraclecloud.com:2058",
