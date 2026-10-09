@@ -1,16 +1,15 @@
 {
- "generated_at": "2026-10-09T16:16:27Z",
+ "generated_at": "2026-10-09T16:20:42Z",
  "jobs": [
   {
    "active": true,
-   "company": "Société Générale",
-   "first_seen": "2026-10-09T16:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr",
-   "internship_source": false,
-   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
-   "posted": "",
-   "title": "Assistant - Coordinateur BCE / Régulateurs",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr"
+   "company": "AXA",
+   "first_seen": "2026-10-09T16:20:42Z",
+   "id": "jb:careers.axa.com:36973",
+   "location": "NANTERRE, France",
+   "posted": "2026-10-09",
+   "title": "Chargé d'expériences au Future Lab (F/H) - stage",
+   "url": "https://careers.axa.com/careers-home/jobs/36973"
   },
   {
    "active": true,
@@ -22,6 +21,17 @@
    "posted": "",
    "title": "Analyste Coverage & Investment Banking France",
    "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000LKW-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T16:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+   "posted": "",
+   "title": "Assistant - Coordinateur BCE / Régulateurs",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr"
   },
   {
    "active": true,
