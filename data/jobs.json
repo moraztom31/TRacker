@@ -8096,7 +8096,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---support-de-la-ventes-etf-france-hf-reference--2026-116185--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T08:42:24Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/",
@@ -8140,7 +8140,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---fund-dealing-officer--transfer---static-data--account-opening-hf-reference--2026-115854--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---otc-derivatives-processing-officer-hf-reference--2026-116274--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T08:42:24Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---otc-derivatives-processing-officer-hf-reference--2026-116274--/",
@@ -8184,7 +8184,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-127-stagiaire-account-manager-hf-reference--2026-114934--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-collateral-officer-hf-reference--2026-116273--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T08:42:24Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-collateral-officer-hf-reference--2026-116273--/",
@@ -8206,7 +8206,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-pricing-officer-hf-reference--2026-116275--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T08:42:24Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/",
@@ -8492,7 +8492,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---dcm-placements-prives--hf-reference--2026-116353--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---debt-capital-market-fig-hf-reference--2026-115008--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---debt-capital-market-fig-hf-reference--2026-115008--/",
@@ -9392,6 +9392,17 @@
   "posted": "",
   "title": "Stage - Assistant(e) Chef de projet IA H/F",
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116068--/"
+ },
+ "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116087--/": {
+  "active": true,
+  "company": "Crédit Agricole / Amundi",
+  "first_seen": "2026-10-06T00:00:00Z",
+  "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116087--/",
+  "internship_source": false,
+  "location": "Favori · Mis à jour le 06/10/2026 · Stage · Montrouge - France · IT, Digital et Data",
+  "posted": "",
+  "title": "Stage - Assistant(e) Chef de projet IA H/F",
+  "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116087--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-ingenieur--data-analyst--monitoring-des-usages-et-de-l-adoption-de-l-ia-hf-reference--2026-116071--/": {
   "active": true,

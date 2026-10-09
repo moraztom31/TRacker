@@ -335,8 +335,8 @@
   "seeded": true
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com:sitepimco-careers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs",
   "seeded": true
  },
  "workday:PJT Partners:pjtpartners.wd1.myworkdayjobs.com:siteStudents": {
