@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T13:44:25Z",
+ "generated_at": "2026-10-09T13:50:43Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "HSBC",
+   "first_seen": "2026-10-09T13:50:43Z",
+   "id": "ef:portal.careers.hsbc.com:563774612231635",
+   "location": "Mumbai, Maharashtra, India",
+   "posted": "1784791985",
+   "title": "CA Intern",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612231635"
+  },
   {
    "active": true,
    "company": "AXA",
@@ -1103,7 +1113,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351777",
@@ -1133,7 +1143,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351840&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351847",
@@ -17534,7 +17544,7 @@
    "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Luxembourg-Luxembourg/Fund-Valuations-intern_R-14602"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T12:30:58Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/",
@@ -17545,7 +17555,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-data-et-reporting-analyst-hf-reference--2026-115082--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-06T12:30:58Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-credit--financements-structures-lbo-et-tmt-hf-reference--2026-112179--/",
