@@ -520,7 +520,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
  },
  "br:jobs.ubs.com:351777": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351777",
@@ -10922,6 +10922,16 @@
   "title": "Chargé de règlement Service Client (F/H) - stage",
   "url": "https://careers.axa.com/careers-home/jobs/36745"
  },
+ "jb:careers.axa.com:36773": {
+  "active": true,
+  "company": "AXA",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "jb:careers.axa.com:36773",
+  "location": "NANTERRE, France",
+  "posted": "2026-10-07",
+  "title": "Analyste Stratégique (H/F) - Stage",
+  "url": "https://careers.axa.com/careers-home/jobs/36773"
+ },
  "jb:careers.axa.com:36774": {
   "active": true,
   "company": "AXA",
@@ -11021,6 +11031,16 @@
   "posted": "2026-10-07",
   "title": "Actuaire - Tables d'Expérience Décès (H/F) - Stage",
   "url": "https://careers.axa.com/careers-home/jobs/36971"
+ },
+ "jb:careers.axa.com:37011": {
+  "active": true,
+  "company": "AXA",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "jb:careers.axa.com:37011",
+  "location": "MARSEILLE, France",
+  "posted": "2026-10-09",
+  "title": "Stagiaire en reporting de durabilité",
+  "url": "https://careers.axa.com/careers-home/jobs/37011"
  },
  "jb:careers.axa.com:37064": {
   "active": true,
@@ -19759,5 +19779,49 @@
   "posted": "2026-10-09",
   "title": "Stage Assistant Cash Manager (F/H) – Orvault (44)",
   "url": "https://recrutement.bpce.fr/job/stage-assistant-cash-manager-f-h-orvault-44/"
+ },
+ "wp:Groupe BPCE:159111": {
+  "active": true,
+  "company": "Groupe BPCE",
+  "entity": "Caisse Depargne Bretagne Pays De Loire",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "wp:Groupe BPCE:159111",
+  "location": "Stage Sup A 2 Mois · Cesson Sevigne 2, Bretagne, France",
+  "posted": "2026-10-09",
+  "title": "Stage Chargé d’Affaires Entreprises (F/H) – Cesson Sévigné (35)",
+  "url": "https://recrutement.bpce.fr/job/stage-charge-daffaires-entreprises-f-h-cesson-sevigne-35/"
+ },
+ "wp:Groupe BPCE:159114": {
+  "active": true,
+  "company": "Groupe BPCE",
+  "entity": "Caisse Depargne Hauts De France",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "wp:Groupe BPCE:159114",
+  "location": "Stage Sup A 2 Mois · Lille, Hauts-De-France, France",
+  "posted": "2026-10-09",
+  "title": "Stage – Chargé d’investissement junior (H/F) – Private Equity",
+  "url": "https://recrutement.bpce.fr/job/stage-charge-dinvestissement-junior-h-f-private-equity/"
+ },
+ "wp:Groupe BPCE:159115": {
+  "active": true,
+  "company": "Groupe BPCE",
+  "entity": "Caisse Depargne Bretagne Pays De Loire",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "wp:Groupe BPCE:159115",
+  "location": "Stage Sup A 2 Mois · Cesson Sevigne 2, Bretagne, France",
+  "posted": "2026-10-09",
+  "title": "Stage Chargé.e de clientèle  (H/F) – Service Clients BDR – Cesson Sévigné (35)",
+  "url": "https://recrutement.bpce.fr/job/stage-charge-e-de-clientele-h-f-service-clients-bdr-cesson-sevigne-35/"
+ },
+ "wp:Groupe BPCE:159116": {
+  "active": true,
+  "company": "Groupe BPCE",
+  "entity": "Caisse Depargne Bretagne Pays De Loire",
+  "first_seen": "2026-10-09T13:20:43Z",
+  "id": "wp:Groupe BPCE:159116",
+  "location": "Stage Sup A 2 Mois · Orvault, Pays-De-La-Loire, France",
+  "posted": "2026-10-09",
+  "title": "Stage Chargé.e de clientèle  (H/F) – Service Clients BDR – Orvault (44)",
+  "url": "https://recrutement.bpce.fr/job/stage-charge-e-de-clientele-h-f-service-clients-bdr-orvault-44/"
  }
 }
