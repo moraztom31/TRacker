@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -3573,6 +3573,17 @@
   "title": "STA - Comissions (H/F)",
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/sta-comissions-h-f-1"
  },
+ "hl:BNP Paribas:stage-advisory-desk-gestion-de-fortune-h-f-1": {
+  "active": true,
+  "company": "BNP Paribas",
+  "first_seen": "2026-10-09T15:08:24Z",
+  "id": "hl:BNP Paribas:stage-advisory-desk-gestion-de-fortune-h-f-1",
+  "internship_source": true,
+  "location": "Stage · Paris, Île-de-France, France",
+  "posted": "",
+  "title": "Stage - Advisory Desk Gestion de Fortune - H/F",
+  "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-advisory-desk-gestion-de-fortune-h-f-1"
+ },
  "hl:BNP Paribas:stage-analyste-coverage-ligne-grands-clients-h-f-1": {
   "active": true,
   "company": "BNP Paribas",
@@ -3737,6 +3748,17 @@
   "posted": "",
   "title": "Stage - Assistant Gestionnaire Commercial - H/F",
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-gestionnaire-commercial-h-f-1"
+ },
+ "hl:BNP Paribas:stage-assistant-investment-specialist-h-f": {
+  "active": true,
+  "company": "BNP Paribas",
+  "first_seen": "2026-10-09T15:08:24Z",
+  "id": "hl:BNP Paribas:stage-assistant-investment-specialist-h-f",
+  "internship_source": true,
+  "location": "Stage · Puteaux - La Défense, Île-de-France, France",
+  "posted": "",
+  "title": "Stage- Assistant Investment Specialist H/F",
+  "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-investment-specialist-h-f"
  },
  "hl:BNP Paribas:stage-assistant-product-owner-junior-h-f": {
   "active": false,
