@@ -285,8 +285,8 @@
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com:siteIVZ": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='invesco.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com:siteExternal": {
