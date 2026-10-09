@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -12420,7 +12420,7 @@
   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2059"
  },
  "or:ekbq.fa.em2.oraclecloud.com:2061": {
-  "active": true,
+  "active": false,
   "company": "Schroders",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "or:ekbq.fa.em2.oraclecloud.com:2061",
