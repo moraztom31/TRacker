@@ -1,6 +1,182 @@
 {
- "generated_at": "2026-10-09T10:18:24Z",
+ "generated_at": "2026-10-09T10:22:24Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159104",
+   "location": "Stage Sup A 2 Mois · Puget Sur Argens, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Chargé d’Affaires – H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-h-f-2/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159103",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Chargé d’affaires filière Santé H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-filiere-sante-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159102",
+   "location": "Stage Sup A 2 Mois · Les Arcs, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Chargé d’affaires filière Viticulture H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-filiere-viticulture-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159101",
+   "location": "Stage Sup A 2 Mois · Cannes, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Chargé d’affaires filière Nautisme H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-filiere-nautisme-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159099",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage- Assistant Chargé d’Affaires H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159098",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE – ASSISTANT PROJETS RH",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-projets-rh/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159096",
+   "location": "Stage Sup A 2 Mois · Monaco",
+   "posted": "2026-10-09",
+   "title": "STAGE – ASSISTANT COMPLIANCE – MONACO",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-compliance-monaco/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159095",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE- ASSISTANT SECURITE FINANCIERE (H/F)",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-securite-financiere-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159087",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE- AUDIT INTERNE (H/F)",
+   "url": "https://recrutement.bpce.fr/job/stage-audit-interne-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159083",
+   "location": "Stage Sup A 2 Mois · Cannes, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE – Assistant Chargé d’Affaires en Gestion Privée H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-daffaires-en-gestion-privee-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159081",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE- Data Analyst H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-data-analyst-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159080",
+   "location": "Stage Sup A 2 Mois · La Garde, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Analyse et Prévention de la Fraude H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-analyse-et-prevention-de-la-fraude-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159078",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Sécurité et Logistique – H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-securite-et-logistique-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159077",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "STAGE – Assistant chargé de clientèle professionnelle H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-charge-de-clientele-professionnelle-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159076",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Assistant Prescription et Crédit Immobilier H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-prescription-et-credit-immobilier-h-f/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Cote Dazur",
+   "first_seen": "2026-10-09T10:22:24Z",
+   "id": "wp:Groupe BPCE:159075",
+   "location": "Stage Sup A 2 Mois · Nice, Provence-Alpes-Cote-Dazur, France",
+   "posted": "2026-10-09",
+   "title": "Stage –  Assistant Crédits Particuliers – H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-credits-particuliers-h-f/"
+  },
   {
    "active": true,
    "company": "Crédit Agricole / Amundi",
