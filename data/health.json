@@ -255,8 +255,8 @@
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com:siteCarlyle": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='carlyle.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com:siteDBWebsite": {
@@ -275,8 +275,8 @@
   "seeded": true
  },
  "workday:Houlihan Lokey:hl.wd1.myworkdayjobs.com:siteCampus": {
-  "fails": 1,
-  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:ING:ing.wd3.myworkdayjobs.com:siteICSGBLCOR": {
@@ -335,8 +335,8 @@
   "seeded": true
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com:sitepimco-careers": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='pimco.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:PJT Partners:pjtpartners.wd1.myworkdayjobs.com:siteStudents": {
