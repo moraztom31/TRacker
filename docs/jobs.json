@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T12:20:41Z",
+ "generated_at": "2026-10-09T12:30:59Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Oddo BHF",
+   "first_seen": "2026-10-09T12:30:59Z",
+   "id": "hl:Oddo BHF:2883553",
+   "internship_source": false,
+   "location": "Stage · PARIS · Equities and Fixed Income",
+   "posted": "",
+   "title": "Stage Equity Capital Markets - Syndication (Janvier 2027)",
+   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-capital-markets-syndication-janvier-2027-2883553.html"
+  },
   {
    "active": true,
    "company": "Groupe BPCE",
@@ -5403,7 +5414,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-advisory-sales-2888699.html"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2888885",
