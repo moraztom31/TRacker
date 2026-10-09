@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T01:06:24Z",
+ "generated_at": "2026-10-09T02:01:10Z",
  "jobs": [
   {
    "active": true,
@@ -2510,7 +2510,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/leveraged-finance-off-cycle-internship"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:london-long-internship-2026-fic-icat-funds-analyst-intern",
@@ -2972,7 +2972,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-gestionnaire-commercial-h-f-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-assistant-product-owner-junior-h-f",
@@ -3016,7 +3016,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-charge-de-projet-media-h-f-2"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-charge-de-projets-dialogue-avec-les-parties-prenantes-externes-h-f",
@@ -3258,7 +3258,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-data-visualization-pmo-it-h-f"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-esg-analyst-h-f-1",
@@ -3423,7 +3423,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stagiaire-aml-kyc-officer-regulatory-files-h-f-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stagiaire-client-service-h-f",
@@ -3500,7 +3500,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/structured-product-trainee-uk-market"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:structured-products-and-investment-solutions-trainee-2",
