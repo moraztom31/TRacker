@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -5730,7 +5730,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-initiativbewerbung-2429136.html"
  },
  "hl:Oddo BHF:2614274": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2614274",
@@ -5741,7 +5741,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-private-wealth-management-essen-2614274.html"
  },
  "hl:Oddo BHF:2662753": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2662753",
@@ -5752,7 +5752,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-gouvernance-de-la-securite-de-linformation-sensibilisation-et-coordination-2662753.html"
  },
  "hl:Oddo BHF:2700939": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2700939",
@@ -5785,7 +5785,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-werkstudent-mwd-investment-banking-ma-2799576.html"
  },
  "hl:Oddo BHF:2803531": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2803531",
@@ -5796,7 +5796,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stagiaire-rh-2803531.html"
  },
  "hl:Oddo BHF:2808698": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2808698",
@@ -5807,7 +5807,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-eventmanagement-2808698.html"
  },
  "hl:Oddo BHF:2809290": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2809290",
@@ -5818,7 +5818,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-family-office-kundenteam-2809290.html"
  },
  "hl:Oddo BHF:2819004": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2819004",
@@ -5851,7 +5851,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-group-internal-audit-2833137.html"
  },
  "hl:Oddo BHF:2834075": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2834075",
@@ -5862,7 +5862,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-assistant-middle-office-juillet-2026-2834075.html"
  },
  "hl:Oddo BHF:2838321": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2838321",
@@ -5873,7 +5873,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudentin-financials-and-controlling-mwd-in-saarbrucken-2838321.html"
  },
  "hl:Oddo BHF:2857525": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2857525",
@@ -5895,7 +5895,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudentpraktikant-mwd-third-party-risk-management-2859361.html"
  },
  "hl:Oddo BHF:2860596": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2860596",
@@ -5906,7 +5906,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-private-wealth-management-augsburg-2860596.html"
  },
  "hl:Oddo BHF:2861365": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2861365",
@@ -5939,7 +5939,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-corporate-finance-capital-markets-advisory-2861418.html"
  },
  "hl:Oddo BHF:2861948": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2861948",
@@ -5950,7 +5950,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyste-ma-hf-janvier-2027-2861948.html"
  },
  "hl:Oddo BHF:2861984": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2861984",
@@ -5961,7 +5961,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-secteur-banque-equity-research-janvier-2027-2861984.html"
  },
  "hl:Oddo BHF:2862000": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2862000",
@@ -5972,7 +5972,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-secteurs-tmt-et-industrie-equity-research-janvier-2027-2862000.html"
  },
  "hl:Oddo BHF:2862016": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2862016",
@@ -6005,7 +6005,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-controlling-2862685.html"
  },
  "hl:Oddo BHF:2863948": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2863948",
@@ -6016,7 +6016,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-secteur-media-equity-research-janvier-2027-2863948.html"
  },
  "hl:Oddo BHF:2863952": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2863952",
@@ -6038,7 +6038,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-operations-internationaler-zahlungsverkehr-mwd-in-saarbrucken-2866460.html"
  },
  "hl:Oddo BHF:2866467": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2866467",
@@ -6060,7 +6060,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-family-office-investment-controlling-2866526.html"
  },
  "hl:Oddo BHF:2869603": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2869603",
@@ -6082,7 +6082,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudentin-mwd-privates-corporate-clients-in-saarbrucken-2870046.html"
  },
  "hl:Oddo BHF:2870650": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2870650",
@@ -6093,7 +6093,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-stiftung-office-private-wealth-management-2870650.html"
  },
  "hl:Oddo BHF:2870807": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2870807",
@@ -6126,7 +6126,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-werkstudent-mwd-coo-private-wealth-management-dokumentenklassifizierung-datenmanagement-2872374.html"
  },
  "hl:Oddo BHF:2875933": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2875933",
@@ -6137,7 +6137,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-externe-asset-manager-2875933.html"
  },
  "hl:Oddo BHF:2876770": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2876770",
@@ -6148,7 +6148,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-secretaire-commerciale-hf-2876770.html"
  },
  "hl:Oddo BHF:2877126": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877126",
@@ -6159,7 +6159,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-product-specialist-equity-asset-management-janvier-2027-2877126.html"
  },
  "hl:Oddo BHF:2877130": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877130",
@@ -6170,7 +6170,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-compliance-asset-management-2877130.html"
  },
  "hl:Oddo BHF:2877493": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877493",
@@ -6181,7 +6181,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-private-equity-direct-janvier-2027-2877493.html"
  },
  "hl:Oddo BHF:2877498": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877498",
@@ -6192,7 +6192,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-private-equity-secondaires-janvier-2027-2877498.html"
  },
  "hl:Oddo BHF:2877511": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877511",
@@ -6203,7 +6203,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-fixed-income-trading-janvier-2027-2877511.html"
  },
  "hl:Oddo BHF:2877534": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877534",
@@ -6214,7 +6214,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-assistant-trading-janvier-2027-2877534.html"
  },
  "hl:Oddo BHF:2877535": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877535",
@@ -6225,7 +6225,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-trading-commodities-janvier-2027-2877535.html"
  },
  "hl:Oddo BHF:2877537": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877537",
@@ -6236,7 +6236,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-risques-de-marche-janvier-2027-2877537.html"
  },
  "hl:Oddo BHF:2877719": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877719",
@@ -6247,7 +6247,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/internship-analyst-corporate-governance-the-chief-of-staff-january-2027-2877719.html"
  },
  "hl:Oddo BHF:2877910": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877910",
@@ -6258,7 +6258,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-transformation-projets-janvier-2027-2877910.html"
  },
  "hl:Oddo BHF:2877923": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2877923",
@@ -6280,7 +6280,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-finanzierungen-einlagen-private-wealth-management-2878045.html"
  },
  "hl:Oddo BHF:2878375": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878375",
@@ -6302,7 +6302,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-kyc-janvier-2027-2878392.html"
  },
  "hl:Oddo BHF:2878395": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878395",
@@ -6313,7 +6313,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-controle-financier-corporates-markets-janvier-2027-2878395.html"
  },
  "hl:Oddo BHF:2878485": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878485",
@@ -6324,7 +6324,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-middle-office-fixed-income-janvier-2027-2878485.html"
  },
  "hl:Oddo BHF:2878489": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878489",
@@ -6335,7 +6335,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-financiere-gestion-fixed-income-janvier-2027-2878489.html"
  },
  "hl:Oddo BHF:2878491": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878491",
@@ -6346,7 +6346,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-analyst-buy-side-european-equities-janvier-2027-2878491.html"
  },
  "hl:Oddo BHF:2878493": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878493",
@@ -6368,7 +6368,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-business-development-rfp-asset-management-janvier-2027-2878494.html"
  },
  "hl:Oddo BHF:2878646": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878646",
@@ -6379,7 +6379,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-transformation-projects-inhouse-consulting-2878646.html"
  },
  "hl:Oddo BHF:2878716": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878716",
@@ -6390,7 +6390,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-investor-relations-janvier-2027-2878716.html"
  },
  "hl:Oddo BHF:2878730": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878730",
@@ -6401,7 +6401,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-auditeur-interne-inspection-generale-janvier-2027-2878730.html"
  },
  "hl:Oddo BHF:2878827": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878827",
@@ -6423,7 +6423,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-business-development-im-bereich-coo-corporates-markets-2878828.html"
  },
  "hl:Oddo BHF:2878839": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878839",
@@ -6434,7 +6434,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-nature-based-solutions-janvier-2027-2878839.html"
  },
  "hl:Oddo BHF:2878846": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2878846",
@@ -6445,7 +6445,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-private-assets-finance-operations-janvier-2027-2878846.html"
  },
  "hl:Oddo BHF:2879125": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879125",
@@ -6456,7 +6456,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-chef-de-projet-evenementiel-junior-asset-management-janvier-2027-2879125.html"
  },
  "hl:Oddo BHF:2879128": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879128",
@@ -6467,7 +6467,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-middle-office-asset-management-janvier-2027-2879128.html"
  },
  "hl:Oddo BHF:2879129": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879129",
@@ -6478,7 +6478,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-middle-office-data-management-asset-management-janvier-2027-2879129.html"
  },
  "hl:Oddo BHF:2879252": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879252",
@@ -6489,7 +6489,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-back-office-couponsdividendes-janvier-2027-2879252.html"
  },
  "hl:Oddo BHF:2879259": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879259",
@@ -6500,7 +6500,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-back-office-produits-derives-janvier-2027-2879259.html"
  },
  "hl:Oddo BHF:2879277": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879277",
@@ -6511,7 +6511,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-analyse-esg-asset-management-janvier-2027-2879277.html"
  },
  "hl:Oddo BHF:2879980": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879980",
@@ -6522,7 +6522,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-back-office-pret-emprunt-janvier-2027-2879980.html"
  },
  "hl:Oddo BHF:2879982": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2879982",
@@ -6533,7 +6533,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-back-office-fiscalite-janvier-2027-2879982.html"
  },
  "hl:Oddo BHF:2880066": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2880066",
@@ -6544,7 +6544,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-auditeur-interne-data-inspection-generale-janvier-2027-2880066.html"
  },
  "hl:Oddo BHF:2880628": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2880628",
@@ -6555,7 +6555,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-identity-access-management-in-saarbrucken-2880628.html"
  },
  "hl:Oddo BHF:2881001": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2881001",
@@ -6566,7 +6566,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-fund-servicing-2881001.html"
  },
  "hl:Oddo BHF:2882587": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2882587",
@@ -6577,7 +6577,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-front-office-corporate-broking-janvier-2027-2882587.html"
  },
  "hl:Oddo BHF:2882688": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2882688",
@@ -6588,7 +6588,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-sales-trading-janvier-2027-2882688.html"
  },
  "hl:Oddo BHF:2882815": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2882815",
@@ -6599,7 +6599,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-gestion-actions-chine-janvier-2027-2882815.html"
  },
  "hl:Oddo BHF:2883429": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2883429",
@@ -6610,7 +6610,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-alternance-risks-controls-gouvernance-de-la-securite-de-linformation-hf-2883429.html"
  },
  "hl:Oddo BHF:2883548": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2883548",
@@ -6621,7 +6621,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-assistante-execution-janvier-2027-2883548.html"
  },
  "hl:Oddo BHF:2883553": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-09T12:30:59Z",
   "id": "hl:Oddo BHF:2883553",
@@ -6632,7 +6632,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-capital-markets-syndication-janvier-2027-2883553.html"
  },
  "hl:Oddo BHF:2883582": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2883582",
@@ -6643,7 +6643,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-sales-desk-paris-janvier-2027-2883582.html"
  },
  "hl:Oddo BHF:2883726": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2883726",
@@ -6654,7 +6654,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-equity-sales-desk-assistant-lyon-janvier-2027-2883726.html"
  },
  "hl:Oddo BHF:2883729": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2883729",
@@ -6665,7 +6665,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-banque-privee-gestion-conseillee-janvier-2027-2883729.html"
  },
  "hl:Oddo BHF:2884206": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2884206",
@@ -6676,7 +6676,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-solutions-dinvestissement-janvier-2027-2884206.html"
  },
  "hl:Oddo BHF:2884219": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2884219",
@@ -6687,7 +6687,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-banque-privee-client-development-analyst-janvier-2027-2884219.html"
  },
  "hl:Oddo BHF:2884228": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2884228",
@@ -6720,7 +6720,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-data-analyst-2884933.html"
  },
  "hl:Oddo BHF:2885028": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2885028",
@@ -6764,7 +6764,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-business-information-risk-management-mfd-in-saarbrucken-2887874.html"
  },
  "hl:Oddo BHF:2888570": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2888570",
@@ -6775,7 +6775,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-gestion-thematique-quantitative-research-asset-management-2888570.html"
  },
  "hl:Oddo BHF:2888579": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2888579",
@@ -6797,7 +6797,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-advisory-sales-2888699.html"
  },
  "hl:Oddo BHF:2888885": {
-  "active": true,
+  "active": false,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2888885",
@@ -6808,7 +6808,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/intern-working-student-mfd-client-analytics-in-saarbrucken-2888885.html"
  },
  "hl:Oddo BHF:2889000": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2889000",
@@ -6819,7 +6819,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-ingenieur-intelligence-artificielle-agents-janvier-2027-2889000.html"
  },
  "hl:Oddo BHF:2889105": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2889105",
@@ -6830,7 +6830,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-gestionnaire-back-office-bancaire-janvier-2027-2889105.html"
  },
  "hl:Oddo BHF:2889112": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2889112",
@@ -6852,7 +6852,7 @@
   "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-it-governance-2889712.html"
  },
  "hl:Oddo BHF:2892099": {
-  "active": false,
+  "active": true,
   "company": "Oddo BHF",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:Oddo BHF:2892099",
