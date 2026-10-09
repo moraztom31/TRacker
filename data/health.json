@@ -135,7 +135,7 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/:seed2": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
