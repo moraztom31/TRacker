@@ -10,8 +10,8 @@
   "seeded": true
  },
  "eightfold:HSBC:portal.careers.hsbc.com": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://portal.careers.hsbc.com/api/apply/v2/jobs?domain=hsbc.com&query=intern&start=40&num=10&sort_by=relevance",
   "seeded": true
  },
  "greenhouse:AQR:aqr": {
