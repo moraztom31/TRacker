@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:26:26Z",
+ "generated_at": "2026-10-09T15:28:26Z",
  "jobs": [
   {
    "active": true,
@@ -1236,7 +1236,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -14361,7 +14361,7 @@
    "url": "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Zurich/Investor-Relations-Intern---January-2027-I-Zurich_JR1002219"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Ardian",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "wd:ardian:/job/Zurich/Secondaries---Primaries-Intern---January-2027-I-Zurich_JR1002220",
