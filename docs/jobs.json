@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T10:01:19Z",
+ "generated_at": "2026-10-09T10:16:28Z",
  "jobs": [
   {
    "active": true,
@@ -805,7 +805,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352338"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:46:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170475-270-werkstudent-hr-mwd-reference--2024-92174--/",
