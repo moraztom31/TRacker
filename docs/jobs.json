@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T15:32:26Z",
+ "generated_at": "2026-10-09T15:34:25Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Carlyle",
+   "first_seen": "2026-10-09T15:34:25Z",
+   "id": "wd:carlyle:/job/Barcelona-Spain/Intern_R-00158",
+   "location": "Barcelona, Spain",
+   "posted": "Posted 30+ Days Ago",
+   "title": "Intern",
+   "url": "https://carlyle.wd1.myworkdayjobs.com/Carlyle/job/Barcelona-Spain/Intern_R-00158"
+  },
   {
    "active": true,
    "company": "Natixis",
