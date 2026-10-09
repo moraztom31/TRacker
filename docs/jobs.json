@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T12:48:28Z",
+ "generated_at": "2026-10-09T12:54:28Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-09T12:54:28Z",
+   "id": "br:jobs.ubs.com:352455",
+   "location": "Switzerland - Aargau / Solothurn",
+   "posted": "09-Oct-2026",
+   "title": "2027 Internship - Investment Advisory - AG/SO",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352455"
+  },
   {
    "active": true,
    "company": "UBS",
