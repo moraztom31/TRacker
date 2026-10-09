@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T16:44:25Z",
+ "generated_at": "2026-10-09T16:46:33Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "CIBC",
+   "first_seen": "2026-10-09T16:46:33Z",
+   "id": "wd:cibc:/job/New-York-NY/XMLNAME-2027-Global-Transaction-Banking--US-Cash-Management-Summer-Analyst_2611116",
+   "location": "New York, NY",
+   "posted": "Posted Today",
+   "title": "2027 Global Transaction Banking, US Cash Management Summer Analyst",
+   "url": "https://cibc.wd3.myworkdayjobs.com/Campus/job/New-York-NY/XMLNAME-2027-Global-Transaction-Banking--US-Cash-Management-Summer-Analyst_2611116"
+  },
   {
    "active": true,
    "company": "AXA",
@@ -1388,7 +1398,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -4777,7 +4787,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikant-mwd-initiativbewerbung-2429136.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2614274",
@@ -5591,7 +5601,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-auditeur-interne-data-inspection-generale-janvier-2027-2880066.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2880628",
@@ -5602,7 +5612,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-identity-access-management-in-saarbrucken-2880628.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2881001",
