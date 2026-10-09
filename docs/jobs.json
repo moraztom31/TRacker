@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T15:36:29Z",
+ "generated_at": "2026-10-09T15:40:46Z",
  "jobs": [
   {
    "active": false,
@@ -906,7 +906,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-8a3bacde867b/candidate/so/pm/1/pl/1/opp/21938-Parametric-2027-Investment-Analyst-Internship-Overlay-Solutions-Minneapolis/en-GB"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:343939",
@@ -1246,7 +1246,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
