@@ -1,16 +1,38 @@
 {
- "generated_at": "2026-10-09T14:04:28Z",
+ "generated_at": "2026-10-09T14:08:27Z",
  "jobs": [
   {
    "active": true,
-   "company": "Groupe BPCE",
-   "entity": "Caisse Depargne Grand Est Europe",
-   "first_seen": "2026-10-09T14:04:28Z",
-   "id": "wp:Groupe BPCE:159113",
-   "location": "Stage Sup A 2 Mois · Strasbourg, Grand-Est, France",
-   "posted": "2026-10-09",
-   "title": "Stage – Marchés institutionnels H/F",
-   "url": "https://recrutement.bpce.fr/job/stage-marches-institutionnels-h-f-2/"
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T14:08:27Z",
+   "id": "hl:BNP Paribas:stage-charge-d-affaires-entrepreneurs-h-f",
+   "internship_source": true,
+   "location": "Stage · Besançon, Grand Est, France",
+   "posted": "",
+   "title": "Stage - Chargé d'Affaires Entrepreneurs -  H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-charge-d-affaires-entrepreneurs-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T14:08:27Z",
+   "id": "hl:BNP Paribas:stage-charge-de-relation-client-banque-privee-h-f-1",
+   "internship_source": true,
+   "location": "Stage · Annecy, Auvergne-Rhône-Alpes, France",
+   "posted": "",
+   "title": "Stage – Chargé de Relation Client Banque Privée - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-charge-de-relation-client-banque-privee-h-f-1"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T14:08:27Z",
+   "id": "hl:BNP Paribas:stage-charge-de-relation-client-entreprises-h-f",
+   "internship_source": true,
+   "location": "Stage · Aubière, Auvergne-Rhône-Alpes, France",
+   "posted": "",
+   "title": "Stage - Chargé de Relation Client Entreprises - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-charge-de-relation-client-entreprises-h-f"
   },
   {
    "active": true,
@@ -22,6 +44,17 @@
    "posted": "2026-10-09",
    "title": "Stage – Auditeur Interne H/F",
    "url": "https://recrutement.bpce.fr/job/stage-auditeur-interne-h-f-4/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Grand Est Europe",
+   "first_seen": "2026-10-09T14:04:28Z",
+   "id": "wp:Groupe BPCE:159113",
+   "location": "Stage Sup A 2 Mois · Strasbourg, Grand-Est, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Marchés institutionnels H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-marches-institutionnels-h-f-2/"
   },
   {
    "active": true,
@@ -1115,7 +1148,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -1155,7 +1188,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351777",
@@ -19859,6 +19892,17 @@
    "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-01T00:00:00Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Achat",
+   "posted": "",
+   "title": "Stage - Assistant(e) Achat H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-01T00:00:00Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage---assistante-economisteeconometre-hf-reference--2026-115943--/",
    "internship_source": false,
    "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Analyse financière et économique",
@@ -19887,17 +19931,6 @@
    "posted": "",
    "title": "Stagiaire - Chargé(e) de lutte contre la fraude H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stagiaire---chargee-de-lutte-contre-la-fraude-hf-reference--2026-115812--/"
-  },
-  {
-   "active": true,
-   "company": "Crédit Agricole / Amundi",
-   "first_seen": "2026-10-01T00:00:00Z",
-   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/",
-   "internship_source": false,
-   "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Achat",
-   "posted": "",
-   "title": "Stage - Assistant(e) Achat H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/"
   }
  ]
 }
