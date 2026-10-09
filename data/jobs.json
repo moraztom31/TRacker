@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -9160,6 +9160,17 @@
   "posted": "",
   "title": "Stage - Chargé(e) de Sécurité Financière H/F",
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chargee-de-securite-financiere-hf-reference--2026-116115--/"
+ },
+ "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-conformitehf-reference--2026-116080--/": {
+  "active": true,
+  "company": "Crédit Agricole / Amundi",
+  "first_seen": "2026-10-09T15:52:27Z",
+  "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-conformitehf-reference--2026-116080--/",
+  "internship_source": false,
+  "location": "Favori · Mis à jour le 09/10/2026 · Stage · Montrouge - France · Conformité / Sécurité financière",
+  "posted": "",
+  "title": "Stage - Chef de projet (Conformité)H/F",
+  "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-conformitehf-reference--2026-116080--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-hf-reference--2026-116080--/": {
   "active": true,
