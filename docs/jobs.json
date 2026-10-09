@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-09T15:34:25Z",
+ "generated_at": "2026-10-09T15:36:29Z",
  "jobs": [
   {
-   "active": true,
+   "active": false,
    "company": "Carlyle",
    "first_seen": "2026-10-09T15:34:25Z",
    "id": "wd:carlyle:/job/Barcelona-Spain/Intern_R-00158",
@@ -1246,7 +1246,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
