@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -6873,6 +6873,17 @@
   "title": "Analyste Coverage Grands Comptes",
   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-grands-comptes-26000L6U-fr"
  },
+ "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000LKW-fr": {
+  "active": true,
+  "company": "Société Générale",
+  "first_seen": "2026-10-09T16:16:27Z",
+  "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000LKW-fr",
+  "internship_source": false,
+  "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+  "posted": "",
+  "title": "Analyste Coverage & Investment Banking France",
+  "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-investment-banking-france-26000LKW-fr"
+ },
  "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr": {
   "active": true,
   "company": "Société Générale",
@@ -7038,6 +7049,17 @@
   "title": "Assistant Chef de Projet International",
   "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-chef-de-projet-international-26000KIC-fr"
  },
+ "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr": {
+  "active": true,
+  "company": "Société Générale",
+  "first_seen": "2026-10-09T16:16:27Z",
+  "id": "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr",
+  "internship_source": false,
+  "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+  "posted": "",
+  "title": "Assistant - Coordinateur BCE / Régulateurs",
+  "url": "https://careers.societegenerale.com/offres-d-emploi/assistant-coordinateur-bce-regulateurs-26000KP5-fr"
+ },
  "hl:https://careers.societegenerale.com/offres-d-emploi/assistant-detudes-rh-26000JBU-fr": {
   "active": true,
   "company": "Société Générale",
@@ -7193,7 +7215,7 @@
   "url": "https://careers.societegenerale.com/offres-d-emploi/business-analyst-pricing-cash-management-26000KTA-fr"
  },
  "hl:https://careers.societegenerale.com/offres-d-emploi/charge-danalyses-comptables-et-fiscales-26000K7K-fr": {
-  "active": true,
+  "active": false,
   "company": "Société Générale",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-danalyses-comptables-et-fiscales-26000K7K-fr",
@@ -7224,6 +7246,17 @@
   "posted": "",
   "title": "Chargé de financement commerce international matières premières",
   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-financement-commerce-international-matieres-premieres-26000J2M-fr"
+ },
+ "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-financement-de-projet-et-de-financements-structures-26000L29-fr": {
+  "active": true,
+  "company": "Société Générale",
+  "first_seen": "2026-10-09T16:16:27Z",
+  "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-financement-de-projet-et-de-financements-structures-26000L29-fr",
+  "internship_source": false,
+  "location": "Puteaux, France · Stage · Banque de financement et d'investissement",
+  "posted": "",
+  "title": "Chargé de financement de projet et de financements structurés",
+  "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-financement-de-projet-et-de-financements-structures-26000L29-fr"
  },
  "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-formation-et-developpement-des-competences-26000IZJ-fr": {
   "active": true,
