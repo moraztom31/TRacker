@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:58:25Z",
+ "generated_at": "2026-10-09T14:01:12Z",
  "jobs": [
   {
    "active": true,
@@ -1133,7 +1133,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351777",
@@ -5659,7 +5659,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-werkstudentin-im-internationalen-wertpapierumfeld-einer-globalen-bankengruppe-mwd-reference--2024-91913--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116012--/",
@@ -5780,7 +5780,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---angers-hf-reference--2026-115670--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---nantes-hf-reference--2026-115673--/",
@@ -5791,7 +5791,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---nantes-hf-reference--2026-115673--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---rennes-hf-reference--2026-115669--/",
@@ -6616,7 +6616,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-hf-reference--2026-116080--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-124-stage--charge-de-controle-en-conformite-pole-integrite-des-marches-partie-monitoring-hf-reference--2026-111498--/",
@@ -6891,7 +6891,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170475-136-stage---learning-et-development-officer-hf-reference--2026-115047--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116068--/",
@@ -6935,7 +6935,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--agents-pour-le-developpement-ml-hf-reference--2026-116074--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--red-team-iasecurite-des-llms-hf-reference--2026-116066--/",
@@ -6968,7 +6968,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-136--stage--quality-engineer-hf-reference--2026-114882--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-136-stage---it-data-officer---power-bi-hf-reference--2026-116186--/",
@@ -9369,7 +9369,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-analyste-credit-f-h-paris/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Groupe BPCE",
    "entity": "Caisse Depargne Grand Est Europe",
    "first_seen": "2026-10-08T22:30:55Z",
@@ -9380,7 +9380,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-auditeur-interne-h-f-2/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Groupe BPCE",
    "entity": "Caisse Depargne Grand Est Europe",
    "first_seen": "2026-10-08T22:30:55Z",
@@ -12226,7 +12226,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-startups-junior-hf-reference--2026-116297--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-4-analyste-esg-advisory---sustainable-banking-hf-reference--2026-115632--/",
@@ -12259,7 +12259,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4--ingenieur-ia-automatisation-des-tests-hf-reference--2026-115746--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-risques-esg---capital-naturel-hf-reference--2026-115643--/",
@@ -12270,7 +12270,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-risques-esg---capital-naturel-hf-reference--2026-115643--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---debt-capital-market-fig-hf-reference--2026-115008--/",
@@ -17281,7 +17281,7 @@
    "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-b1758bc7de54/candidate/so/pm/1/pl/1/opp/22271-2027-Investment-Management-Summer-Analyst-Programme-Fixed-Income-London/en-GB"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/",
@@ -17292,7 +17292,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---cash-services-officer-payments-hf-reference--2026-116258--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---otc-derivatives-processing-officer-hf-reference--2026-116274--/",
@@ -17303,7 +17303,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---otc-derivatives-processing-officer-hf-reference--2026-116274--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-collateral-officer-hf-reference--2026-116273--/",
@@ -17325,7 +17325,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---otc-derivatives-pricing-officer-hf-reference--2026-116275--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T08:42:24Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---trading-collateral-middle-officer-hf-reference--2026-116276--/",
