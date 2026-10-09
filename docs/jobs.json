@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T16:58:26Z",
+ "generated_at": "2026-10-09T17:01:14Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T17:01:14Z",
+   "id": "hl:BNP Paribas:stage-real-estate-development-analyst-h-f",
+   "internship_source": true,
+   "location": "Stage · Puteaux, Île-de-France, France",
+   "posted": "",
+   "title": "Stage - Real Estate Development Analyst H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-real-estate-development-analyst-h-f"
+  },
   {
    "active": true,
    "company": "Blackstone",
@@ -637,7 +648,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chargee-au-sein-de-l-equipe-centre-de-services-partages-conformitehf-reference--2026-116015--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-09T10:50:43Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-analyst---fund-channel-hf-reference--2026-116357--/",
@@ -1408,7 +1419,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -9607,7 +9618,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-sustainable-finance-data-expert-f-h/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Groupe BPCE",
    "entity": "Caisse Depargne Hauts De France",
    "first_seen": "2026-10-08T22:30:55Z",
@@ -12618,7 +12629,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-praktikantin-im-bereich-sustainable-banking-mwd-reference--2026-115648--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---chargee-d-etudes-hf-reference--2026-116108--/",

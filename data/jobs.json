@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -4254,6 +4254,17 @@
   "posted": "",
   "title": "Stage - Quantitative Research - Quant Trading Team - H/F",
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-quantitative-research-quant-trading-team-h-f"
+ },
+ "hl:BNP Paribas:stage-real-estate-development-analyst-h-f": {
+  "active": true,
+  "company": "BNP Paribas",
+  "first_seen": "2026-10-09T17:01:14Z",
+  "id": "hl:BNP Paribas:stage-real-estate-development-analyst-h-f",
+  "internship_source": true,
+  "location": "Stage · Puteaux, Île-de-France, France",
+  "posted": "",
+  "title": "Stage - Real Estate Development Analyst H/F",
+  "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-real-estate-development-analyst-h-f"
  },
  "hl:BNP Paribas:stage-standardiste-h-f-1": {
   "active": true,
@@ -9129,7 +9140,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---assistant-graphiste-hf-reference--2026-115963--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---chargee-d-etudes-hf-reference--2026-116108--/": {
-  "active": false,
+  "active": true,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---chargee-d-etudes-hf-reference--2026-116108--/",
@@ -9712,7 +9723,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--speech-to-speech-en-temps-reel-hf-reference--2026-116067--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-analyst---fund-channel-hf-reference--2026-116357--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-09T10:50:43Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-analyst---fund-channel-hf-reference--2026-116357--/",
@@ -19047,7 +19058,7 @@
   "url": "https://recrutement.bpce.fr/job/stage-6-mois-sustainable-finance-data-expert-f-h/"
  },
  "wp:Groupe BPCE:157658": {
-  "active": true,
+  "active": false,
   "company": "Groupe BPCE",
   "entity": "Caisse Depargne Hauts De France",
   "first_seen": "2026-10-08T22:30:55Z",
