@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T08:16:27Z",
+ "generated_at": "2026-10-09T08:20:48Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Grand Est Europe",
+   "first_seen": "2026-10-09T08:20:48Z",
+   "id": "wp:Groupe BPCE:159055",
+   "location": "Stage Sup A 2 Mois · Strasbourg, Grand-Est, France",
+   "posted": "2026-10-09",
+   "title": "Stage –Conformité H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-conformite-h-f/"
+  },
   {
    "active": true,
    "company": "HSBC",
