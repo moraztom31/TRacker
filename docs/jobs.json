@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T13:54:24Z",
+ "generated_at": "2026-10-09T13:56:25Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Rabobank",
+   "first_seen": "2026-10-09T13:56:25Z",
+   "id": "wd:rabobank:/job/Eindhoven-Fellenoord-17/Meewerkstage-Operations-Business-Lending---Eindhoven_JR_00146671",
+   "location": "Eindhoven Fellenoord 17",
+   "posted": "Posted Today",
+   "title": "Meewerkstage Operations Business Lending - Eindhoven",
+   "url": "https://rabobank.wd3.myworkdayjobs.com/jobs/job/Eindhoven-Fellenoord-17/Meewerkstage-Operations-Business-Lending---Eindhoven_JR_00146671"
+  },
   {
    "active": true,
    "company": "HSBC",
@@ -1073,7 +1083,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
