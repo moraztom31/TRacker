@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-09T15:08:24Z",
+ "generated_at": "2026-10-09T15:10:45Z",
  "jobs": [
   {
    "active": true,
-   "company": "BNP Paribas",
-   "first_seen": "2026-10-09T15:08:24Z",
-   "id": "hl:BNP Paribas:stage-assistant-investment-specialist-h-f",
-   "internship_source": true,
-   "location": "Stage · Puteaux - La Défense, Île-de-France, France",
-   "posted": "",
-   "title": "Stage- Assistant Investment Specialist H/F",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-investment-specialist-h-f"
+   "company": "Natixis",
+   "entity": "Natixis Cib France",
+   "first_seen": "2026-10-09T15:10:45Z",
+   "id": "wp:Groupe BPCE:159127",
+   "location": "Stage · Paris, Ile-De-France, France",
+   "posted": "2026-10-09",
+   "title": "Stage – 6 mois – Chargé d’affaires financements aéronautiques et Export F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-charge-daffaires-financements-aeronautiques-et-export-f-h/"
   },
   {
    "active": true,
@@ -22,6 +22,17 @@
    "posted": "",
    "title": "Stage - Advisory Desk Gestion de Fortune - H/F",
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-advisory-desk-gestion-de-fortune-h-f-1"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T15:08:24Z",
+   "id": "hl:BNP Paribas:stage-assistant-investment-specialist-h-f",
+   "internship_source": true,
+   "location": "Stage · Puteaux - La Défense, Île-de-France, France",
+   "posted": "",
+   "title": "Stage- Assistant Investment Specialist H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-investment-specialist-h-f"
   },
   {
    "active": true,
