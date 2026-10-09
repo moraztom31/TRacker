@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T14:14:27Z",
+ "generated_at": "2026-10-09T14:20:40Z",
  "jobs": [
   {
    "active": true,
@@ -1208,7 +1208,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351784"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351840",
@@ -1430,7 +1430,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347198"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "br:jobs.ubs.com:347590",
@@ -5714,7 +5714,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170479-136-werkstudentin-im-internationalen-wertpapierumfeld-einer-globalen-bankengruppe-mwd-reference--2024-91913--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116012--/",
@@ -7775,7 +7775,7 @@
    "url": "https://careers.axa.com/careers-home/jobs/36590"
   },
   {
-   "active": true,
+   "active": false,
    "company": "AXA",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "jb:careers.axa.com:36653",

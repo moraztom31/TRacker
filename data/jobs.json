@@ -40,7 +40,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347198"
  },
  "br:jobs.ubs.com:347590": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "br:jobs.ubs.com:347590",
@@ -550,7 +550,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=351799"
  },
  "br:jobs.ubs.com:351840": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351840",
@@ -7721,7 +7721,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116012--/": {
-  "active": false,
+  "active": true,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116012--/",
@@ -10947,7 +10947,7 @@
   "url": "https://careers.axa.com/careers-home/jobs/36590"
  },
  "jb:careers.axa.com:36653": {
-  "active": true,
+  "active": false,
   "company": "AXA",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "jb:careers.axa.com:36653",
