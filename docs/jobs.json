@@ -1,6 +1,72 @@
 {
- "generated_at": "2026-10-09T16:04:28Z",
+ "generated_at": "2026-10-09T16:06:28Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-assistant-inventory-management-trading-h-f",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage - Assistant Inventory Management Trading - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-inventory-management-trading-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-almt-global-markets-steering-officer-h-f",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage – ALMT Global Markets Steering Officer – H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-almt-global-markets-steering-officer-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-assistant-sales-exchange-traded-solutions-ets-france-h-f",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage – Assistant Sales Exchange traded solutions (ETS) France - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-sales-exchange-traded-solutions-ets-france-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-junior-credit-analyst-insurance-pension-h-f-1",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage – Junior Credit Analyst Insurance & Pension - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-junior-credit-analyst-insurance-pension-h-f-1"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-analyste-intragroup-credit-h-f-1",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage – Analyste Intragroup Credit - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-intragroup-credit-h-f-1"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-quantitative-research-quant-trading-team-h-f",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage - Quantitative Research - Quant Trading Team - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-quantitative-research-quant-trading-team-h-f"
+  },
   {
    "active": true,
    "company": "BNP Paribas",
@@ -1268,7 +1334,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
