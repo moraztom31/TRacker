@@ -175,8 +175,8 @@
   "seeded": true
  },
  "lever:Apax Partners:apax": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "oleeo_feed:Bank of America:bile-0/appcentre-1/brand-1/candidate/jobboard/vacancy/1/feed": {
