@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T12:01:13Z",
+ "generated_at": "2026-10-09T12:06:26Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T12:06:26Z",
+   "id": "hl:BNP Paribas:internship-hq-global-custody-account-manager-1",
+   "internship_source": true,
+   "location": "Stage · Bruxelles, Bruxelles, Belgique",
+   "posted": "",
+   "title": "Internship - HQ Global Custody Account Manager",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/internship-hq-global-custody-account-manager-1"
+  },
   {
    "active": true,
    "company": "Crédit Agricole / Amundi",
