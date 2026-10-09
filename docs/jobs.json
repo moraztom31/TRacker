@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T12:58:24Z",
+ "generated_at": "2026-10-09T13:01:18Z",
  "jobs": [
   {
    "active": true,
@@ -989,7 +989,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -5687,7 +5687,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---nantes-hf-reference--2026-115673--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-entreprises-adjoint---rennes-hf-reference--2026-115669--/",
@@ -5929,7 +5929,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4--it-support-fixed-income-bonds-reference--2026-108460--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-ai-innovation-analyst--strategic-banking-applications-hf-reference--2026-115494--/",
@@ -6512,7 +6512,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chef-de-projet-hf-reference--2026-116080--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-124-stage--charge-de-controle-en-conformite-pole-integrite-des-marches-partie-monitoring-hf-reference--2026-111498--/",
@@ -6787,7 +6787,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170475-136-stage---learning-et-development-officer-hf-reference--2026-115047--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-chef-de-projet-ia-hf-reference--2026-116068--/",
@@ -6831,7 +6831,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--agents-pour-le-developpement-ml-hf-reference--2026-116074--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--red-team-iasecurite-des-llms-hf-reference--2026-116066--/",
@@ -8880,7 +8880,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-gestionnaire-securities-primary-distribution-fees-f-h/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Groupe BPCE",
    "entity": "Vega Investment Solutions",
    "first_seen": "2026-10-08T22:30:55Z",
@@ -13994,7 +13994,7 @@
    "url": "https://ardian.wd103.myworkdayjobs.com/ArdianCareers/job/Paris/Group-Risk-Management-Stage---Janvier-2027-I-Paris--M-F-_JR1002125"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Ardian",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "wd:ardian:/job/Paris/Investor-Relations-Client-Administration-Stage---Janvier-2027---Paris--H-F-_JR1002118",
