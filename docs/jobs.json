@@ -1,27 +1,16 @@
 {
- "generated_at": "2026-10-09T12:16:27Z",
+ "generated_at": "2026-10-09T12:20:41Z",
  "jobs": [
   {
    "active": true,
-   "company": "Société Générale",
-   "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr",
-   "internship_source": false,
-   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
-   "posted": "",
-   "title": "Aviation Advisory Intern",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr"
-  },
-  {
-   "active": true,
-   "company": "Société Générale",
-   "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr",
-   "internship_source": false,
-   "location": "La Defense, France · Stage · Finance",
-   "posted": "",
-   "title": "Market Performance Analyst",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr"
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Bretagne Pays De Loire",
+   "first_seen": "2026-10-09T12:20:41Z",
+   "id": "wp:Groupe BPCE:159108",
+   "location": "Stage Sup A 2 Mois · Orvault, Pays-De-La-Loire, France",
+   "posted": "2026-10-09",
+   "title": "Stage Assistant Cash Manager (F/H) – Orvault (44)",
+   "url": "https://recrutement.bpce.fr/job/stage-assistant-cash-manager-f-h-orvault-44/"
   },
   {
    "active": true,
@@ -38,12 +27,12 @@
    "active": true,
    "company": "Société Générale",
    "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
    "internship_source": false,
-   "location": "Fontenay-Sous-Bois, France · Stage · Gestion des opérations bancaires",
+   "location": "La Defense, France · Stage · Risques",
    "posted": "",
-   "title": "Chargé des opérations en financements structurés",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr"
+   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr"
   },
   {
    "active": true,
@@ -60,23 +49,23 @@
    "active": true,
    "company": "Société Générale",
    "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr",
    "internship_source": false,
    "location": "La Defense, France · Stage · Banque de financement et d'investissement",
    "posted": "",
-   "title": "Origination Debt Capital Markets - Corporates",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr"
+   "title": "Aviation Advisory Intern",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr"
   },
   {
    "active": true,
    "company": "Société Générale",
    "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr",
    "internship_source": false,
    "location": "La Defense, France · Stage · Risques",
    "posted": "",
-   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr"
+   "title": "Chargé de modélisation CCF IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr"
   },
   {
    "active": true,
@@ -93,12 +82,34 @@
    "active": true,
    "company": "Société Générale",
    "first_seen": "2026-10-09T12:16:27Z",
-   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr",
    "internship_source": false,
-   "location": "La Defense, France · Stage · Risques",
+   "location": "Fontenay-Sous-Bois, France · Stage · Gestion des opérations bancaires",
    "posted": "",
-   "title": "Chargé de modélisation CCF IRB Retail",
-   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr"
+   "title": "Chargé des opérations en financements structurés",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Finance",
+   "posted": "",
+   "title": "Market Performance Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+   "posted": "",
+   "title": "Origination Debt Capital Markets - Corporates",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr"
   },
   {
    "active": true,
