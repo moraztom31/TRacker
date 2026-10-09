@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:38:27Z",
+ "generated_at": "2026-10-09T13:42:25Z",
  "jobs": [
   {
    "active": true,
@@ -1103,7 +1103,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351777",
