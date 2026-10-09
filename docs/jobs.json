@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T09:06:24Z",
+ "generated_at": "2026-10-09T09:08:26Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "UBS",
+   "first_seen": "2026-10-09T09:08:26Z",
+   "id": "br:jobs.ubs.com:352446",
+   "location": "Switzerland - Central Switzerland",
+   "posted": "09-Oct-2026",
+   "title": "2027 Internship – Business Risk Management WM - Zentralschweiz",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=352446"
+  },
   {
    "active": true,
    "company": "Groupe BPCE",
