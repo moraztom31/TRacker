@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-10-09T14:01:12Z",
+ "generated_at": "2026-10-09T14:04:28Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Grand Est Europe",
+   "first_seen": "2026-10-09T14:04:28Z",
+   "id": "wp:Groupe BPCE:159113",
+   "location": "Stage Sup A 2 Mois · Strasbourg, Grand-Est, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Marchés institutionnels H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-marches-institutionnels-h-f-2/"
+  },
+  {
+   "active": true,
+   "company": "Groupe BPCE",
+   "entity": "Caisse Depargne Grand Est Europe",
+   "first_seen": "2026-10-09T14:04:28Z",
+   "id": "wp:Groupe BPCE:159112",
+   "location": "Stage Sup A 2 Mois · Metz, Grand-Est, France",
+   "posted": "2026-10-09",
+   "title": "Stage – Auditeur Interne H/F",
+   "url": "https://recrutement.bpce.fr/job/stage-auditeur-interne-h-f-4/"
+  },
   {
    "active": true,
    "company": "LSEG",
@@ -1133,7 +1155,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=351752"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351777",
@@ -12226,7 +12248,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---charge-d-affaires-startups-junior-hf-reference--2026-116297--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-4-analyste-esg-advisory---sustainable-banking-hf-reference--2026-115632--/",
@@ -12402,7 +12424,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-127-stagiaire-middle-office-au-sein-du-departement-wealth-solutions-duree-12-mois-hf-reference--2026-116279--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---chargee-des-normes--actifs-et-passifs-durables--hf-reference--2026-116053--/",
@@ -19865,6 +19887,17 @@
    "posted": "",
    "title": "Stagiaire - Chargé(e) de lutte contre la fraude H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stagiaire---chargee-de-lutte-contre-la-fraude-hf-reference--2026-115812--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-01T00:00:00Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 07/10/2026 · Stage · Montrouge - France · Achat",
+   "posted": "",
+   "title": "Stage - Assistant(e) Achat H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170460-122-stage---assistante-achat-hf-reference--2026-116010--/"
   }
  ]
 }
