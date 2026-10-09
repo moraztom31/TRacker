@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T10:50:43Z",
+ "generated_at": "2026-10-09T11:01:13Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "HSBC",
+   "first_seen": "2026-10-09T11:01:13Z",
+   "id": "ef:portal.careers.hsbc.com:563774612313143",
+   "location": "Dhaka, Dhaka, Bangladesh · Chittagong, Bangladesh",
+   "posted": "1789968254",
+   "title": "HSBC Bangladesh Student Work Placement Programme",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612313143"
+  },
   {
    "active": true,
    "company": "Crédit Agricole / Amundi",
@@ -16,23 +26,23 @@
    "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-09T10:50:43Z",
-   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---it-data-analyst---fund-channel-hf-reference--2026-116359--/",
-   "internship_source": false,
-   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Luxembourg - Luxembourg · IT, Digital et Data",
-   "posted": "",
-   "title": "STAGE - IT Data Analyst - FUND CHANNEL H/F",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---it-data-analyst---fund-channel-hf-reference--2026-116359--/"
-  },
-  {
-   "active": true,
-   "company": "Crédit Agricole / Amundi",
-   "first_seen": "2026-10-09T10:50:43Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-analyst---fund-channel-hf-reference--2026-116357--/",
    "internship_source": false,
    "location": "Favori · Mis à jour le 09/10/2026 · Stage · Luxembourg - Luxembourg · IT, Digital et Data",
    "posted": "",
    "title": "STAGE - Data Analyst - FUND CHANNEL H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---data-analyst---fund-channel-hf-reference--2026-116357--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-09T10:50:43Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---it-data-analyst---fund-channel-hf-reference--2026-116359--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Luxembourg - Luxembourg · IT, Digital et Data",
+   "posted": "",
+   "title": "STAGE - IT Data Analyst - FUND CHANNEL H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---it-data-analyst---fund-channel-hf-reference--2026-116359--/"
   },
   {
    "active": true,
@@ -2468,7 +2478,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/consulting-transformation-trainee-bootcamp-experience"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:corporate-and-social-responsibility-trainee",
@@ -3249,7 +3259,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-immobilier-et-assurance-pour-compte-propre-h-f-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-analyste-quantitatif-titrisation-h-f-1",
@@ -3634,7 +3644,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-consultant-sectoriel-industrials-aerospace-defence-h-f"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-data-analyst-almt-bpmix-f-h",
@@ -5636,7 +5646,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---trailer-fees-officer-hf-reference--2026-116247--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-270-stage--alm-et-pilotage-financier-hf-reference--2026-114518--/",
@@ -5691,7 +5701,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage-assistant-chef-de-projet-digital-hf-reference--2026-109597--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-3-stage----analyste-energie-et-finance-hf-reference--2026-116257--/",
@@ -6241,7 +6251,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-133-junior-uat-tester---stage-mf-reference--2026-112567--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chargee-au-sein-de-l-equipe-centre-de-services-partages-hf-reference--2026-116015--/",
@@ -6659,7 +6669,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-136--stage--quality-engineer-hf-reference--2026-114882--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-136-stage---it-data-officer---power-bi-hf-reference--2026-116186--/",
@@ -6747,7 +6757,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---charge-d-appels-d-offres-hf-reference--2026-114707--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-133-riservato-incontro-universita-di-modena-e-reggio-emilia-07102026-mf-reference--2026-116252--/",
@@ -11939,7 +11949,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---business-coordinateur-hf-reference--2026-109253--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4--ingenieur-ia-automatisation-des-tests-hf-reference--2026-115746--/",
@@ -11972,7 +11982,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---debt-capital-market-fig-hf-reference--2026-115008--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-ingenieur-automatisation-des-tests-logiciels-hf-reference--2026-115749--/",
@@ -12082,7 +12092,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-3-stage---ingenieur-d-etude-et-developpement-java-squad-cartes--paiement-et-authentification-hf-reference--2026-116281--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-127-stagiaire-middle-office-au-sein-du-departement-wealth-solutions-duree-12-mois-hf-reference--2026-116279--/",
@@ -16939,7 +16949,7 @@
    "url": "https://apply.workable.com/j/41570BAEFB"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T10:42:26Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---client-invoicing-officer-mf-hf-reference--2026-115787--/",
@@ -16950,7 +16960,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---client-invoicing-officer-mf-hf-reference--2026-115787--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T10:42:26Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---fonds-d-infrastructure-hf-reference--2026-116035--/",
@@ -17110,7 +17120,7 @@
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8260920"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-07T14:36:31Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---analyste-proposition-client-hf-reference--2026-116250--/",
