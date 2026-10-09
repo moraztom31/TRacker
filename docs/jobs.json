@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:01:13Z",
+ "generated_at": "2026-10-09T16:04:28Z",
  "jobs": [
   {
    "active": true,
@@ -6296,7 +6296,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-financier-it-finops-hf-reference--2026-111295--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-analyste-meta-stage---energy-transition-mf-reference--2026-115010--/",
@@ -6571,7 +6571,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-gestionnaire-titrisations-synthetiques-hf-reference--2026-113612--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-global-investment-banking---ecm-meta-summer-2027-internship-reference--2026-115266--/",
@@ -7275,7 +7275,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---client-relationship-manager-hf-reference--2026-115084--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---large-french-corporates-hf-reference--2026-115325--/",
@@ -12423,7 +12423,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---business-coordinateur-hf-reference--2026-109253--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4--ingenieur-ia-automatisation-des-tests-hf-reference--2026-115746--/",
@@ -12456,7 +12456,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-origination---debt-capital-market-fig-hf-reference--2026-115008--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-ingenieur-automatisation-des-tests-logiciels-hf-reference--2026-115749--/",
@@ -12478,7 +12478,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-praktikantin-im-bereich-sustainable-banking-mwd-reference--2026-115648--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---chargee-d-etudes-hf-reference--2026-116108--/",
