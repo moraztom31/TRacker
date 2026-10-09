@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-10-09T19:56:24Z",
+ "generated_at": "2026-10-09T20:01:11Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T20:01:11Z",
+   "id": "hl:BNP Paribas:product-management-intern-h-f",
+   "internship_source": true,
+   "location": "Stage · Puteaux, Île-de-France, France",
+   "posted": "",
+   "title": "Product Management Intern H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/product-management-intern-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T20:01:11Z",
+   "id": "hl:BNP Paribas:product-manager-immobilier-intern-h-f",
+   "internship_source": true,
+   "location": "Stage · Puteaux, Île-de-France, France",
+   "posted": "",
+   "title": "Product Manager Immobilier Intern H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/product-manager-immobilier-intern-h-f"
+  },
   {
    "active": true,
    "company": "Schonfeld",
@@ -1471,7 +1493,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
