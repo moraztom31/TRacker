@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-09T23:01:10Z",
+ "generated_at": "2026-10-09T23:04:25Z",
  "jobs": [
   {
    "active": true,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T23:01:10Z",
-   "id": "hl:BNP Paribas:stage-portfolio-analyst-fmcg-third-party-logistics-fund-f-h",
+   "id": "hl:BNP Paribas:stage-comptable-f-h",
    "internship_source": true,
    "location": "Stage · Puteaux, Île-de-France, France",
    "posted": "",
-   "title": "Stage - Financial Controller Real Estate Funds F/H",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-portfolio-analyst-fmcg-third-party-logistics-fund-f-h"
+   "title": "Stage - Comptable  F/H",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-comptable-f-h"
   },
   {
    "active": true,
@@ -27,12 +27,12 @@
    "active": true,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T23:01:10Z",
-   "id": "hl:BNP Paribas:stage-comptable-f-h",
+   "id": "hl:BNP Paribas:stage-portfolio-analyst-fmcg-third-party-logistics-fund-f-h",
    "internship_source": true,
    "location": "Stage · Puteaux, Île-de-France, France",
    "posted": "",
-   "title": "Stage - Comptable  F/H",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-comptable-f-h"
+   "title": "Stage - Financial Controller Real Estate Funds F/H",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-portfolio-analyst-fmcg-third-party-logistics-fund-f-h"
   },
   {
    "active": true,
@@ -109,7 +109,7 @@
    "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Neuberger Berman",
    "first_seen": "2026-10-09T18:18:25Z",
    "id": "wd:nb:/job/New-York-NY/MBA-Intern--Stewardship---Sustainability-Summer-2027_R0012713",
@@ -6069,7 +6069,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170464-4-summer-analyst-corporate-and-leveraged-finance-reference--2026-115716--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst---corporate-and-leveraged-finance---fund-solutions-group-north-america-reference--2026-116205--/",
@@ -6080,7 +6080,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst---corporate-and-leveraged-finance---fund-solutions-group-north-america-reference--2026-116205--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-summer-analyst--global-markets-division-reference--2026-115939--/",
@@ -6619,7 +6619,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant---business-developper-hf-reference--2026-116151--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-commercial-transaction-banking---institutions-financieres-bancaires-hf-reference--2026-115299--/",
@@ -6707,7 +6707,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistante-securite-et-surete-a-l-international-hf-reference--2026-115428--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-business-analyst-hf-reference--2026-116212--/",
@@ -7224,7 +7224,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170471-122-stage---chargee-de-projet-adaptation-au-changement-climatique-et-transition-juste-hf-reference--2026-116052--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170472-124-stage---chargee-de-projets-esgimmobilier-durable-hf-reference--2026-113646--/",
@@ -7444,7 +7444,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---data-management-office-hf-reference--2026-113698--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-137-stage---data-scientist-hf-reference--2026-114908--/",
@@ -7565,7 +7565,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-4-analyste-coverage---large-french-corporates-hf-reference--2026-115325--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage----gestionnaire-d-operations-clientele----actif-peres-hf-reference--2026-111703--/",
@@ -20288,6 +20288,17 @@
    "url": "https://rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral/job/Paris/Stage-Produits-Structurs---Janvier-2027_JR016532"
   },
   {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-05T00:00:00Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-business-analyst-hf-reference--2026-116157--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 05/10/2026 · Stage · Saint-Quentin-en-Yvelines - France · Financement et Investissement",
+   "posted": "",
+   "title": "Business Analyst H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-business-analyst-hf-reference--2026-116157--/"
+  },
+  {
    "active": false,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-01T00:00:00Z",
@@ -20330,6 +20341,17 @@
    "posted": "",
    "title": "Stagiaire - Chargé(e) de lutte contre la fraude H/F",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stagiaire---chargee-de-lutte-contre-la-fraude-hf-reference--2026-115812--/"
+  },
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-03-23T00:00:00Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---assistante-consolideur-hf-reference--2025-104527--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 23/03/2026 · Stage · Montrouge - France · Finances / Comptabilité / Contrôle de gestion",
+   "posted": "",
+   "title": "STAGE - Assistant(e) Consolideur H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage---assistante-consolideur-hf-reference--2025-104527--/"
   }
  ]
 }
