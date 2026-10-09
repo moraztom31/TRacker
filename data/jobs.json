@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -15485,6 +15485,16 @@
   "posted": "Offre publiée il y a 30 jours ou plus",
   "title": "2027 4-Month Off-Cycle Internship (February, Munich)",
   "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/Munich-Germany/XMLNAME-2027-4-Month-Off-Cycle-Internship--February--Munich-_R3459"
+ },
+ "wd:hl:/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535": {
+  "active": true,
+  "company": "Houlihan Lokey",
+  "first_seen": "2026-10-09T18:40:40Z",
+  "id": "wd:hl:/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535",
+  "location": "New York, NY, USA",
+  "posted": "Offre publiée aujourd'hui",
+  "title": "Summer 2027 Research Intern, Portfolio Valuation, New York",
+  "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535"
  },
  "wd:hl:/job/New-York-NY-USA/XMLNAME-2027-Summer-Associate---Financial-Restructuring---New-York_R3585": {
   "active": true,
