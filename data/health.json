@@ -285,8 +285,8 @@
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com:siteIVZ": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 520 Server Error: <none> for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
   "seeded": true
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com:siteExternal": {
