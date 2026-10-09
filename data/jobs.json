@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -12559,6 +12559,16 @@
   "title": "2026 | EMEA | Paris | FICC & Equities (Sales & Trading) | Seasonal/Off Cycle Internship, July - December",
   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/150792"
  },
+ "or:hdpc.fa.us2.oraclecloud.com:151744": {
+  "active": true,
+  "company": "Goldman Sachs",
+  "first_seen": "2026-10-09T20:52:27Z",
+  "id": "or:hdpc.fa.us2.oraclecloud.com:151744",
+  "location": "Sao Paulo, Sao Paulo, Brazil",
+  "posted": "2026-10-09",
+  "title": "2026 | Americas | Sao Paulo | FICC and Equities | Seasonal/Off Cycle Internship",
+  "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/151744"
+ },
  "or:hdpc.fa.us2.oraclecloud.com:170138": {
   "active": true,
   "company": "Goldman Sachs",
@@ -12880,7 +12890,7 @@
   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/170887"
  },
  "or:hdpc.fa.us2.oraclecloud.com:170901": {
-  "active": true,
+  "active": false,
   "company": "Goldman Sachs",
   "first_seen": "2026-10-09T10:40:40Z",
   "id": "or:hdpc.fa.us2.oraclecloud.com:170901",

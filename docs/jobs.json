@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T20:50:44Z",
+ "generated_at": "2026-10-09T20:52:27Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Goldman Sachs",
+   "first_seen": "2026-10-09T20:52:27Z",
+   "id": "or:hdpc.fa.us2.oraclecloud.com:151744",
+   "location": "Sao Paulo, Sao Paulo, Brazil",
+   "posted": "2026-10-09",
+   "title": "2026 | Americas | Sao Paulo | FICC and Equities | Seasonal/Off Cycle Internship",
+   "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CampusHiring/job/151744"
+  },
   {
    "active": true,
    "company": "BNP Paribas",
@@ -744,7 +754,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---it-data-analyst---fund-channel-hf-reference--2026-116359--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Goldman Sachs",
    "first_seen": "2026-10-09T10:40:40Z",
    "id": "or:hdpc.fa.us2.oraclecloud.com:170901",
@@ -1493,7 +1503,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
