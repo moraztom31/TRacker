@@ -195,8 +195,8 @@
   "seeded": true
  },
  "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com:siteCX_1001": {
-  "fails": 1,
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='jpmc.fa.oraclecloud.com', port=443): Max retries exceeded with url: /hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionL",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "oracle_hcm:Schroders:ekbq.fa.em2.oraclecloud.com:siteCX_2": {
