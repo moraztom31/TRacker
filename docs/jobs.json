@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T07:01:10Z",
+ "generated_at": "2026-10-09T07:10:39Z",
  "jobs": [
   {
    "active": true,
@@ -16722,7 +16722,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-assistant-responsable-suivi-de-la-performance-de-la-division-finance-de-marches-hf-reference--2026-113512--/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Flow Traders",
    "first_seen": "2026-10-07T14:38:25Z",
    "id": "gh:flowtraders:8260920",
