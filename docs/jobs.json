@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T11:04:27Z",
+ "generated_at": "2026-10-09T11:06:28Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T11:06:28Z",
+   "id": "hl:BNP Paribas:stage-infrastructure-investment-analyst-h-f-1",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage - Infrastructure Investment Analyst - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-infrastructure-investment-analyst-h-f-1"
+  },
   {
    "active": true,
    "company": "HSBC",
