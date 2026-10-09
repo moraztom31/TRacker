@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:38:24Z",
+ "generated_at": "2026-10-09T16:40:41Z",
  "jobs": [
   {
    "active": true,
@@ -1388,7 +1388,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -4854,7 +4854,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-eventmanagement-2808698.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2809290",
@@ -4909,7 +4909,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/stage-assistant-middle-office-juillet-2026-2834075.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2838321",
@@ -5107,7 +5107,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/praktikantwerkstudent-mwd-family-office-investment-controlling-2866526.html"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2869603",
