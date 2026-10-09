@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T16:54:27Z",
+ "generated_at": "2026-10-09T16:58:26Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Blackstone",
+   "first_seen": "2026-10-09T16:58:26Z",
+   "id": "wd:blackstone:/job/Miami/XMLNAME-2027-Blackstone-Finance---Portfolio-Management-Summer-Analyst_45868",
+   "location": "Miami",
+   "posted": "",
+   "title": "2027 Blackstone Finance – Portfolio Management Summer Analyst",
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Miami/XMLNAME-2027-Blackstone-Finance---Portfolio-Management-Summer-Analyst_45868"
+  },
   {
    "active": true,
    "company": "CIBC",
@@ -1398,7 +1408,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
