@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-10-09T00:01:10Z",
+ "generated_at": "2026-10-09T01:06:24Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T01:06:24Z",
+   "id": "hl:BNP Paribas:business-management-intern-summer-2027",
+   "internship_source": true,
+   "location": "Stage · Montréal, Québec, Canada",
+   "posted": "",
+   "title": "Business Management Intern - Summer 2027",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/business-management-intern-summer-2027"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T01:06:24Z",
+   "id": "hl:BNP Paribas:investment-banking-summer-analyst",
+   "internship_source": true,
+   "location": "Stage · Montréal, Québec, Canada",
+   "posted": "",
+   "title": "Investment Banking – Summer Analyst",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/investment-banking-summer-analyst"
+  },
   {
    "active": true,
    "company": "Morgan Stanley",
