@@ -255,8 +255,8 @@
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com:siteCarlyle": {
-  "fails": 1,
-  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com:siteDBWebsite": {
