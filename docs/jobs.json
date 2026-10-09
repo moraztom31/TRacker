@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-09T16:06:28Z",
+ "generated_at": "2026-10-09T16:10:46Z",
  "jobs": [
   {
    "active": true,
-   "company": "BNP Paribas",
-   "first_seen": "2026-10-09T16:06:28Z",
-   "id": "hl:BNP Paribas:stage-assistant-inventory-management-trading-h-f",
-   "internship_source": true,
-   "location": "Stage · Paris, Île-de-France, France",
-   "posted": "",
-   "title": "Stage - Assistant Inventory Management Trading - H/F",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-inventory-management-trading-h-f"
+   "company": "Natixis",
+   "entity": "Natixis Cib France",
+   "first_seen": "2026-10-09T16:10:46Z",
+   "id": "wp:Groupe BPCE:159136",
+   "location": "Stage · Paris, Ile-De-France, France",
+   "posted": "2026-10-09",
+   "title": "Stage – 6 mois – Assistant Sales Commodities Markets F/H",
+   "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-sales-commodities-markets-f-h/"
   },
   {
    "active": true,
@@ -22,6 +22,28 @@
    "posted": "",
    "title": "Stage – ALMT Global Markets Steering Officer – H/F",
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-almt-global-markets-steering-officer-h-f"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-analyste-intragroup-credit-h-f-1",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage – Analyste Intragroup Credit - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-intragroup-credit-h-f-1"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T16:06:28Z",
+   "id": "hl:BNP Paribas:stage-assistant-inventory-management-trading-h-f",
+   "internship_source": true,
+   "location": "Stage · Paris, Île-de-France, France",
+   "posted": "",
+   "title": "Stage - Assistant Inventory Management Trading - H/F",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-inventory-management-trading-h-f"
   },
   {
    "active": true,
@@ -44,17 +66,6 @@
    "posted": "",
    "title": "Stage – Junior Credit Analyst Insurance & Pension - H/F",
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-junior-credit-analyst-insurance-pension-h-f-1"
-  },
-  {
-   "active": true,
-   "company": "BNP Paribas",
-   "first_seen": "2026-10-09T16:06:28Z",
-   "id": "hl:BNP Paribas:stage-analyste-intragroup-credit-h-f-1",
-   "internship_source": true,
-   "location": "Stage · Paris, Île-de-France, France",
-   "posted": "",
-   "title": "Stage – Analyste Intragroup Credit - H/F",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-intragroup-credit-h-f-1"
   },
   {
    "active": true,
@@ -14479,7 +14490,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Amsterdam-SOM-Building/Banking-Off-Cycle-Internship-Programme-2027-Amsterdam_JR-0000124409"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Barclays",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "wd:barclays:/job/Amsterdam-SOM-Building/International-Corporate-Banking-Off-Cycle-Internship-Programme-2027-Amsterdam_JR-0000132400",
@@ -14779,7 +14790,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-52-avenue-Hoche/Banking-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124856"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Barclays",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "wd:barclays:/job/Paris-52-avenue-Hoche/Global-Transaction-Banking-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124634",

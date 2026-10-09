@@ -13802,7 +13802,7 @@
   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Amsterdam-SOM-Building/Banking-Off-Cycle-Internship-Programme-2027-Amsterdam_JR-0000124409"
  },
  "wd:barclays:/job/Amsterdam-SOM-Building/International-Corporate-Banking-Off-Cycle-Internship-Programme-2027-Amsterdam_JR-0000132400": {
-  "active": true,
+  "active": false,
   "company": "Barclays",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:barclays:/job/Amsterdam-SOM-Building/International-Corporate-Banking-Off-Cycle-Internship-Programme-2027-Amsterdam_JR-0000132400",
@@ -14122,7 +14122,7 @@
   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-52-avenue-Hoche/Banking-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124856"
  },
  "wd:barclays:/job/Paris-52-avenue-Hoche/Global-Transaction-Banking-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124634": {
-  "active": true,
+  "active": false,
   "company": "Barclays",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:barclays:/job/Paris-52-avenue-Hoche/Global-Transaction-Banking-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124634",
@@ -20115,5 +20115,16 @@
   "posted": "2026-10-09",
   "title": "Stage – 6 mois – Chargé d’affaires financements aéronautiques et Export F/H",
   "url": "https://recrutement.bpce.fr/job/stage-6-mois-charge-daffaires-financements-aeronautiques-et-export-f-h/"
+ },
+ "wp:Groupe BPCE:159136": {
+  "active": true,
+  "company": "Natixis",
+  "entity": "Natixis Cib France",
+  "first_seen": "2026-10-09T16:10:46Z",
+  "id": "wp:Groupe BPCE:159136",
+  "location": "Stage · Paris, Ile-De-France, France",
+  "posted": "2026-10-09",
+  "title": "Stage – 6 mois – Assistant Sales Commodities Markets F/H",
+  "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-sales-commodities-markets-f-h/"
  }
 }
