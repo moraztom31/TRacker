@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": true,
+  "active": false,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -4969,6 +4969,17 @@
   "posted": "",
   "title": "INTERNSHIP - EQUITY RESEARCH ANALYST AUTOS & UTILITIES",
   "url": "https://keplercheuvreux.teamtailor.com/jobs/8507175-internship-equity-research-analyst-autos-utilities"
+ },
+ "hl:Kepler Cheuvreux:8526757": {
+  "active": true,
+  "company": "Kepler Cheuvreux",
+  "first_seen": "2026-10-09T14:32:27Z",
+  "id": "hl:Kepler Cheuvreux:8526757",
+  "internship_source": false,
+  "location": "Corporate Finance · France - Paris",
+  "posted": "",
+  "title": "INTERNSHIP - MERGERS AND ACQUISITIONS ANALYST - PARIS",
+  "url": "https://keplercheuvreux.teamtailor.com/jobs/8526757-internship-mergers-and-acquisitions-analyst-paris"
  },
  "hl:Morgan Stanley:21584": {
   "active": false,
