@@ -850,7 +850,7 @@
   "url": "https://portal.careers.hsbc.com/careers/job/563774610660995"
  },
  "ef:portal.careers.hsbc.com:563774611824430": {
-  "active": true,
+  "active": false,
   "company": "HSBC",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "ef:portal.careers.hsbc.com:563774611824430",
@@ -15410,6 +15410,16 @@
   "posted": "Offre publiée il y a 7 jours",
   "title": "Intern, Network Sector Coverage",
   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Singapore/Intern--Network-Sector-Coverage_REQ-10122467"
+ },
+ "wd:ing:/job/Singapore/Intern--Sectors---SL-Transaction-Management_REQ-10122855": {
+  "active": true,
+  "company": "ING",
+  "first_seen": "2026-10-09T08:40:40Z",
+  "id": "wd:ing:/job/Singapore/Intern--Sectors---SL-Transaction-Management_REQ-10122855",
+  "location": "Singapore",
+  "posted": "Offre publiée aujourd'hui",
+  "title": "Intern, Sectors & SL Transaction Management",
+  "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Singapore/Intern--Sectors---SL-Transaction-Management_REQ-10122855"
  },
  "wd:ing:/job/Singapore/Intern--Sustainable-Solutions-Group-APAC_REQ-10122371": {
   "active": true,

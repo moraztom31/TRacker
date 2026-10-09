@@ -1,6 +1,16 @@
 {
- "generated_at": "2026-10-09T08:36:24Z",
+ "generated_at": "2026-10-09T08:40:40Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "ING",
+   "first_seen": "2026-10-09T08:40:40Z",
+   "id": "wd:ing:/job/Singapore/Intern--Sectors---SL-Transaction-Management_REQ-10122855",
+   "location": "Singapore",
+   "posted": "Offre publiée aujourd'hui",
+   "title": "Intern, Sectors & SL Transaction Management",
+   "url": "https://ing.wd3.myworkdayjobs.com/ICSGBLCOR/job/Singapore/Intern--Sectors---SL-Transaction-Management_REQ-10122855"
+  },
   {
    "active": true,
    "company": "Rabobank",
@@ -1013,7 +1023,7 @@
    "url": "https://portal.careers.hsbc.com/careers/job/563774610660995"
   },
   {
-   "active": true,
+   "active": false,
    "company": "HSBC",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "ef:portal.careers.hsbc.com:563774611824430",
