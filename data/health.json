@@ -350,8 +350,8 @@
   "seeded": true
  },
  "workday:Raymond James:raymondjames.wd1.myworkdayjobs.com:siteraymondjamescareers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/raymondjamescareers/jobs",
   "seeded": true
  },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com:siteRothschildAndCo_Lateral": {
