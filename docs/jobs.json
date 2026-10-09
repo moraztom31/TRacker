@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T21:52:24Z",
+ "generated_at": "2026-10-09T22:01:14Z",
  "jobs": [
   {
    "active": true,
@@ -1514,7 +1514,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": true,
+   "active": false,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -10851,7 +10851,7 @@
    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/London-England/International-Audit---Audit-Manager--AVP_R-792451"
   },
   {
-   "active": true,
+   "active": false,
    "company": "State Street",
    "first_seen": "2026-10-08T14:08:26Z",
    "id": "wd:statestreet:/job/Munich-Germany/Working-Student---Chief-Administration-Office--m-w-d--_R-795614-1",
