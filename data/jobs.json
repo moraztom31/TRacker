@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -1200,7 +1200,7 @@
   "url": "https://portal.careers.hsbc.com/careers/job/563774612362200"
  },
  "ef:portal.careers.hsbc.com:563774612376261": {
-  "active": true,
+  "active": false,
   "company": "HSBC",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "ef:portal.careers.hsbc.com:563774612376261",
@@ -2846,6 +2846,17 @@
   "posted": "",
   "title": "Credit Risk Regulatory Reporting Trainee",
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/credit-risk-regulatory-reporting-trainee"
+ },
+ "hl:BNP Paribas:data-analyst-intern-h-f-1": {
+  "active": true,
+  "company": "BNP Paribas",
+  "first_seen": "2026-10-09T15:01:19Z",
+  "id": "hl:BNP Paribas:data-analyst-intern-h-f-1",
+  "internship_source": true,
+  "location": "Stage · Puteaux, Île-de-France, France",
+  "posted": "",
+  "title": "Stage - Data Analyst H/F",
+  "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/data-analyst-intern-h-f-1"
  },
  "hl:BNP Paribas:data-protection-trainee-1": {
   "active": true,
@@ -8942,7 +8953,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-praktikantin-im-bereich-international-trade-et-transaction-banking-mwd-reference--2026-115255--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-praktikantin-im-bereich-sustainable-banking-mwd-reference--2026-115648--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-praktikantin-im-bereich-sustainable-banking-mwd-reference--2026-115648--/",
@@ -8975,7 +8986,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-trainee---global-markets-division-reference--2026-116032--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---assistant-graphiste-hf-reference--2026-115963--/": {
-  "active": true,
+  "active": false,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stage---assistant-graphiste-hf-reference--2026-115963--/",
