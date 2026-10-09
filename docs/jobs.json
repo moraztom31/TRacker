@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T17:34:26Z",
+ "generated_at": "2026-10-09T17:36:24Z",
  "jobs": [
   {
    "active": true,
@@ -5875,7 +5875,7 @@
    "url": "https://recrutement.altays-progiciels.com/oddo/fr/offres/werkstudent-mwd-advisory-sales-2888699.html"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Oddo BHF",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:Oddo BHF:2888885",
