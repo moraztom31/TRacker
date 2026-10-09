@@ -480,7 +480,7 @@
   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
  },
  "br:jobs.ubs.com:351508": {
-  "active": false,
+  "active": true,
   "company": "UBS",
   "first_seen": "2026-10-08T23:06:26Z",
   "id": "br:jobs.ubs.com:351508",
@@ -9315,6 +9315,17 @@
   "title": "Analyste Crédit – Financements structurés LBO & TMT H/F",
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-credit--financements-structures-lbo-et-tmt-hf-reference--2026-112179--/"
  },
+ "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-quantitatif-python-hf-reference--2026-116365--/": {
+  "active": true,
+  "company": "Crédit Agricole / Amundi",
+  "first_seen": "2026-10-09T14:52:25Z",
+  "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-quantitatif-python-hf-reference--2026-116365--/",
+  "internship_source": false,
+  "location": "Favori · Mis à jour le 09/10/2026 · Stage · Montrouge - France · Risques / Contrôles permanents",
+  "posted": "",
+  "title": "Analyste Quantitatif Python H/F",
+  "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-quantitatif-python-hf-reference--2026-116365--/"
+ },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-business-analyst-en-intelligence-artificielle-hf-reference--2026-115600--/": {
   "active": true,
   "company": "Crédit Agricole / Amundi",
@@ -9877,7 +9888,7 @@
   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---accompagnement-de-la-transformation-ia-hf-reference--2026-116064--/"
  },
  "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---chargee-des-normes--actifs-et-passifs-durables--hf-reference--2026-116053--/": {
-  "active": false,
+  "active": true,
   "company": "Crédit Agricole / Amundi",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---chargee-des-normes--actifs-et-passifs-durables--hf-reference--2026-116053--/",

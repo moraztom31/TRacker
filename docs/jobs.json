@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-09T14:50:40Z",
+ "generated_at": "2026-10-09T14:52:25Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Crédit Agricole / Amundi",
+   "first_seen": "2026-10-09T14:52:25Z",
+   "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-quantitatif-python-hf-reference--2026-116365--/",
+   "internship_source": false,
+   "location": "Favori · Mis à jour le 09/10/2026 · Stage · Montrouge - France · Risques / Contrôles permanents",
+   "posted": "",
+   "title": "Analyste Quantitatif Python H/F",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-4-analyste-quantitatif-python-hf-reference--2026-116365--/"
+  },
   {
    "active": true,
    "company": "Kepler Cheuvreux",
@@ -1181,7 +1192,7 @@
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5133&PageType=JobDetails&jobid=351502&frmSiteId=5131"
   },
   {
-   "active": false,
+   "active": true,
    "company": "UBS",
    "first_seen": "2026-10-08T23:06:26Z",
    "id": "br:jobs.ubs.com:351508",
@@ -12490,7 +12501,7 @@
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-127-stagiaire-middle-office-au-sein-du-departement-wealth-solutions-duree-12-mois-hf-reference--2026-116279--/"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Crédit Agricole / Amundi",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "hl:https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-122-stage---chargee-des-normes--actifs-et-passifs-durables--hf-reference--2026-116053--/",
