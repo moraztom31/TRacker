@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T20:30:59Z",
+ "generated_at": "2026-10-09T20:34:29Z",
  "jobs": [
   {
    "active": true,
@@ -13608,7 +13608,7 @@
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1984"
   },
   {
-   "active": true,
+   "active": false,
    "company": "Schroders",
    "first_seen": "2026-10-08T14:06:25Z",
    "id": "or:ekbq.fa.em2.oraclecloud.com:2021",
