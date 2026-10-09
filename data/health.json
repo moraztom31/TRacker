@@ -10,8 +10,8 @@
   "seeded": true
  },
  "eightfold:HSBC:portal.careers.hsbc.com": {
-  "fails": 1,
-  "last_error": "HTTPError: 429 Client Error: TOO MANY REQUESTS for url: https://portal.careers.hsbc.com/api/apply/v2/jobs?domain=hsbc.com&query=intern&start=40&num=10&sort_by=relevance",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "greenhouse:AQR:aqr": {
@@ -135,8 +135,8 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/:seed2": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
