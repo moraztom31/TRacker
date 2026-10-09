@@ -1,6 +1,105 @@
 {
- "generated_at": "2026-10-09T12:10:42Z",
+ "generated_at": "2026-10-09T12:16:27Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+   "posted": "",
+   "title": "Aviation Advisory Intern",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/aviation-advisory-intern-26000GLU-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Finance",
+   "posted": "",
+   "title": "Market Performance Analyst",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/market-performance-analyst-26000JGZ-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-financements-structures-midcap-26000JKC-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+   "posted": "",
+   "title": "Analyste Financements Structurés MidCap",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-financements-structures-midcap-26000JKC-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr",
+   "internship_source": false,
+   "location": "Fontenay-Sous-Bois, France · Stage · Gestion des opérations bancaires",
+   "posted": "",
+   "title": "Chargé des opérations en financements structurés",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-des-operations-en-financements-structures-26000LHQ-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000LBB-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Risques",
+   "posted": "",
+   "title": "Analyste risque de crédit",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-risque-de-credit-26000LBB-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Banque de financement et d'investissement",
+   "posted": "",
+   "title": "Origination Debt Capital Markets - Corporates",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/origination-debt-capital-markets-corporates-26000LAF-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Risques",
+   "posted": "",
+   "title": "Analyste Quantitatif Risque de crédit IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-quantitatif-risque-de-credit-irb-retail-26000LEQ-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-probabilite-de-defaut-pd-irb-retail-26000LER-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Risques",
+   "posted": "",
+   "title": "Chargé de modélisation Probabilité de défaut (PD) IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-probabilite-de-defaut-pd-irb-retail-26000LER-fr"
+  },
+  {
+   "active": true,
+   "company": "Société Générale",
+   "first_seen": "2026-10-09T12:16:27Z",
+   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr",
+   "internship_source": false,
+   "location": "La Defense, France · Stage · Risques",
+   "posted": "",
+   "title": "Chargé de modélisation CCF IRB Retail",
+   "url": "https://careers.societegenerale.com/offres-d-emploi/charge-de-modelisation-ccf-irb-retail-26000LDM-fr"
+  },
   {
    "active": true,
    "company": "BNP Paribas",
