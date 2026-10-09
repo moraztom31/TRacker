@@ -220,8 +220,8 @@
   "seeded": true
  },
  "workday:Ardian:ardian.wd103.myworkdayjobs.com:siteArdianCareers": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://ardian.wd103.myworkdayjobs.com/wday/cxs/ardian/ArdianCareers/jobs",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:BBVA:bbva.wd3.myworkdayjobs.com:sitebbva": {
