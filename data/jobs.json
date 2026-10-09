@@ -1209,6 +1209,16 @@
   "title": "Infrastructure Finance and Sustainability Intern",
   "url": "https://portal.careers.hsbc.com/careers/job/563774612422235"
  },
+ "ef:portal.careers.hsbc.com:563774612428195": {
+  "active": true,
+  "company": "HSBC",
+  "first_seen": "2026-10-09T08:16:27Z",
+  "id": "ef:portal.careers.hsbc.com:563774612428195",
+  "location": "Gurugram, Haryana, India",
+  "posted": "1791436657",
+  "title": "Intern(Apprentice-12 Months)",
+  "url": "https://portal.careers.hsbc.com/careers/job/563774612428195"
+ },
  "gh:akunacapital:8018856": {
   "active": true,
   "company": "Akuna Capital",
@@ -6595,7 +6605,7 @@
   "url": "https://careers.societegenerale.com/offres-d-emploi/analyste-coverage-grands-comptes-26000L6U-fr"
  },
  "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr": {
-  "active": false,
+  "active": true,
   "company": "Société Générale",
   "first_seen": "2026-10-05T19:49:40Z",
   "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr",

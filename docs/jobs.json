@@ -1,6 +1,27 @@
 {
- "generated_at": "2026-10-09T08:06:24Z",
+ "generated_at": "2026-10-09T08:16:27Z",
  "jobs": [
+  {
+   "active": true,
+   "company": "HSBC",
+   "first_seen": "2026-10-09T08:16:27Z",
+   "id": "ef:portal.careers.hsbc.com:563774612428195",
+   "location": "Gurugram, Haryana, India",
+   "posted": "1791436657",
+   "title": "Intern(Apprentice-12 Months)",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612428195"
+  },
+  {
+   "active": true,
+   "company": "BNP Paribas",
+   "first_seen": "2026-10-09T08:06:24Z",
+   "id": "hl:BNP Paribas:junior-analyst-international-investment-group",
+   "internship_source": true,
+   "location": "Stage · Boulogne-Billancourt, Île-de-France, France",
+   "posted": "",
+   "title": "Junior Analyst - International Investment Group",
+   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/junior-analyst-international-investment-group"
+  },
   {
    "active": true,
    "company": "BNP Paribas",
@@ -22,17 +43,6 @@
    "posted": "",
    "title": "STAGE - Commercieel Talent voor het kantoor Wilrijk",
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-commercieel-talent-voor-het-kantoor-wilrijk-1"
-  },
-  {
-   "active": true,
-   "company": "BNP Paribas",
-   "first_seen": "2026-10-09T08:06:24Z",
-   "id": "hl:BNP Paribas:junior-analyst-international-investment-group",
-   "internship_source": true,
-   "location": "Stage · Boulogne-Billancourt, Île-de-France, France",
-   "posted": "",
-   "title": "Junior Analyst - International Investment Group",
-   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/junior-analyst-international-investment-group"
   },
   {
    "active": true,
@@ -18263,7 +18273,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8135956002?gh_jid=8135956002"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Société Générale",
    "first_seen": "2026-10-05T19:49:40Z",
    "id": "hl:https://careers.societegenerale.com/offres-d-emploi/analyste-debt-capital-markets-obligations-durables-26000K4A-fr",
