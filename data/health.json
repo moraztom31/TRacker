@@ -245,8 +245,8 @@
   "seeded": true
  },
  "workday:Blackstone:blackstone.wd1.myworkdayjobs.com:siteBlackstone_Campus_Careers": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:CIBC:cibc.wd3.myworkdayjobs.com:siteCampus": {
@@ -255,8 +255,8 @@
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com:siteCarlyle": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com:siteDBWebsite": {
@@ -270,8 +270,8 @@
   "seeded": true
  },
  "workday:Guggenheim:guggenheim.wd1.myworkdayjobs.com:siteguggenheim_careers": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Houlihan Lokey:hl.wd1.myworkdayjobs.com:siteCampus": {
@@ -285,8 +285,8 @@
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com:siteIVZ": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com:siteExternal": {
@@ -325,18 +325,18 @@
   "seeded": true
  },
  "workday:Morgan Stanley:ms.wd5.myworkdayjobs.com:siteExternal": {
-  "fails": 53,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Neuberger Berman:nb.wd1.myworkdayjobs.com:sitenbcareers": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com:sitepimco-careers": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:PJT Partners:pjtpartners.wd1.myworkdayjobs.com:siteStudents": {
@@ -350,8 +350,8 @@
   "seeded": true
  },
  "workday:Raymond James:raymondjames.wd1.myworkdayjobs.com:siteraymondjamescareers": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com:siteRothschildAndCo_Lateral": {
@@ -370,8 +370,8 @@
   "seeded": true
  },
  "workday:State Street:statestreet.wd1.myworkdayjobs.com:siteGlobal": {
-  "fails": 52,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:T. Rowe Price:troweprice.wd5.myworkdayjobs.com:siteTRowePrice": {

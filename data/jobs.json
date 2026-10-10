@@ -16585,8 +16585,18 @@
   "title": "Business Management Summer Internship",
   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/New-York-City-United-States/Business-Management-and-Sales-Summer-Internship_R0123464-1"
  },
+ "wd:ms:/job/Baltimore-Maryland-United-States-of-America/Intern_JR042973-2": {
+  "active": true,
+  "company": "Morgan Stanley",
+  "first_seen": "2026-10-10T07:50:37Z",
+  "id": "wd:ms:/job/Baltimore-Maryland-United-States-of-America/Intern_JR042973-2",
+  "location": "Baltimore, Maryland, United States of America",
+  "posted": "Posted 16 Days Ago",
+  "title": "Intern",
+  "url": "https://ms.wd5.myworkdayjobs.com/External/job/Baltimore-Maryland-United-States-of-America/Intern_JR042973-2"
+ },
  "wd:ms:/job/Pasadena-California-United-States-of-America/Intern---Bilingual-Eglish-Mandarin_JR037650": {
-  "active": false,
+  "active": true,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "wd:ms:/job/Pasadena-California-United-States-of-America/Intern---Bilingual-Eglish-Mandarin_JR037650",
@@ -16596,7 +16606,7 @@
   "url": "https://ms.wd5.myworkdayjobs.com/External/job/Pasadena-California-United-States-of-America/Intern---Bilingual-Eglish-Mandarin_JR037650"
  },
  "wd:ms:/job/Pasadena-California-United-States-of-America/Intern---Bilingual-English-Spanish_JR037647": {
-  "active": false,
+  "active": true,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "wd:ms:/job/Pasadena-California-United-States-of-America/Intern---Bilingual-English-Spanish_JR037647",
@@ -16606,7 +16616,7 @@
   "url": "https://ms.wd5.myworkdayjobs.com/External/job/Pasadena-California-United-States-of-America/Intern---Bilingual-English-Spanish_JR037647"
  },
  "wd:ms:/job/San-Antonio-Texas-United-States-of-America/Intern_JR042272-1": {
-  "active": false,
+  "active": true,
   "company": "Morgan Stanley",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "wd:ms:/job/San-Antonio-Texas-United-States-of-America/Intern_JR042272-1",
@@ -17156,7 +17166,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Munich-DEU/XMLNAME-2027-Summer-Intern---Account-Analyst--Munich---German-Speaking_R106801"
  },
  "wd:pimco:/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--Latin-America_R106625": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--Latin-America_R106625",
@@ -17196,7 +17206,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Strategic-Accounts-Analyst--US--_R106770"
  },
  "wd:pimco:/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Special-Situations--NYC-_R106747": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Special-Situations--NYC-_R106747",
@@ -17256,7 +17266,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Quantitative-Portfolio-Management_R106830"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Alternatives-Business-Management-Analyst_R106739": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Alternatives-Business-Management-Analyst_R106739",
@@ -17276,7 +17286,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Alternatives-Investment-Operations-Intern_R106782"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Business-Development-Support-Analyst--US_R106627": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Business-Development-Support-Analyst--US_R106627",
@@ -17286,7 +17296,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Business-Development-Support-Analyst--US_R106627"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--US_R106624": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--US_R106624",
@@ -17306,7 +17316,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Client-Solutions---Analytics-Analyst--US_R106605"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Finance---Accounting-Analyst_R106623": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Finance---Accounting-Analyst_R106623",
@@ -17356,7 +17366,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---PhD-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106815"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Residential-Mortgages--NPB-_R106748": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Residential-Mortgages--NPB-_R106748",
@@ -17366,7 +17376,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Private-Strategies-Analyst--US--Residential-Mortgages--NPB-_R106748"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Product-Strategy-Analyst--US_R106626": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Product-Strategy-Analyst--US_R106626",
@@ -17386,7 +17396,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Trade-Floor-Operations-Analyst_R106762"
  },
  "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Trade-Support-Analyst_R106744": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Trade-Support-Analyst_R106744",
@@ -17446,7 +17456,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Singapore/XMLNAME-2027-Summer-Internship---Portfolio-Management---Special-Situations-Team--APAC_R106835"
  },
  "wd:pimco:/job/Tokyo-JPN/XMLNAME-2027-Summer-Internship---Account-Analyst--Tokyo_R106523": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Tokyo-JPN/XMLNAME-2027-Summer-Internship---Account-Analyst--Tokyo_R106523",
@@ -17456,7 +17466,7 @@
   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Tokyo-JPN/XMLNAME-2027-Summer-Internship---Account-Analyst--Tokyo_R106523"
  },
  "wd:pimco:/job/Toronto-CAN/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--Toronto_R106606": {
-  "active": false,
+  "active": true,
   "company": "PIMCO",
   "first_seen": "2026-10-08T14:06:25Z",
   "id": "wd:pimco:/job/Toronto-CAN/XMLNAME-2027-Summer-Intern---Client-Management-Account-Analyst--Toronto_R106606",
