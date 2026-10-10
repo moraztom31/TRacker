@@ -19307,7 +19307,7 @@
   "url": "https://recrutement.bpce.fr/job/stage-marches-institutionnels-h-f/"
  },
  "wp:Groupe BPCE:157998": {
-  "active": true,
+  "active": false,
   "company": "Groupe BPCE",
   "entity": "Banque Palatine",
   "first_seen": "2026-10-08T22:30:55Z",
@@ -19318,7 +19318,7 @@
   "url": "https://recrutement.bpce.fr/job/stage-analyste-risques-de-credit-h-f/"
  },
  "wp:Groupe BPCE:158014": {
-  "active": true,
+  "active": false,
   "company": "Groupe BPCE",
   "entity": "Bred Banque Populaire",
   "first_seen": "2026-10-08T22:30:55Z",
