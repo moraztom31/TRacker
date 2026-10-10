@@ -215,7 +215,7 @@
   "seeded": true
  },
  "workday:Apollo:athene.wd5.myworkdayjobs.com:siteApollo_Careers": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs",
   "seeded": true
  },
@@ -225,173 +225,173 @@
   "seeded": true
  },
  "workday:BBVA:bbva.wd3.myworkdayjobs.com:sitebbva": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/bbva/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:BMO:bmo.wd3.myworkdayjobs.com:siteExternal": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://bmo.wd3.myworkdayjobs.com/wday/cxs/bmo/External/jobs",
   "seeded": true
  },
  "workday:Barclays:barclays.wd3.myworkdayjobs.com:siteExternal_Career_Site_Barclays": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs",
   "seeded": true
  },
  "workday:BlackRock:blackrock.wd1.myworkdayjobs.com:siteBlackRock_Professional": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Professional/jobs",
   "seeded": true
  },
  "workday:Blackstone:blackstone.wd1.myworkdayjobs.com:siteBlackstone_Campus_Careers": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Campus_Careers/jobs",
   "seeded": true
  },
  "workday:CIBC:cibc.wd3.myworkdayjobs.com:siteCampus": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://cibc.wd3.myworkdayjobs.com/wday/cxs/cibc/Campus/jobs",
   "seeded": true
  },
  "workday:Carlyle:carlyle.wd1.myworkdayjobs.com:siteCarlyle": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Deutsche Bank:db.wd3.myworkdayjobs.com:siteDBWebsite": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
+  "fails": 2,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='db.wd3.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "workday:Fidelity International:fil.wd3.myworkdayjobs.com:site001": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://fil.wd3.myworkdayjobs.com/wday/cxs/fil/001/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Guggenheim:guggenheim.wd1.myworkdayjobs.com:siteguggenheim_careers": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://guggenheim.wd1.myworkdayjobs.com/wday/cxs/guggenheim/guggenheim_careers/jobs",
   "seeded": true
  },
  "workday:Houlihan Lokey:hl.wd1.myworkdayjobs.com:siteCampus": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs",
   "seeded": true
  },
  "workday:ING:ing.wd3.myworkdayjobs.com:siteICSGBLCOR": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://ing.wd3.myworkdayjobs.com/wday/cxs/ing/ICSGBLCOR/jobs",
   "seeded": true
  },
  "workday:Invesco:invesco.wd1.myworkdayjobs.com:siteIVZ": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
   "seeded": true
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com:siteExternal": {
-  "fails": 2,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
+  "fails": 3,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:LSEG:lseg.wd3.myworkdayjobs.com:siteCareers": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
   "seeded": true
  },
  "workday:Lloyds Banking Group:lbg.wd3.myworkdayjobs.com:sitelbg_careers": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://lbg.wd3.myworkdayjobs.com/wday/cxs/lbg/lbg_careers/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com:siteLombard_Odier_Careers": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:MUFG:mufgub.wd3.myworkdayjobs.com:siteMUFG-Careers": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Macquarie:mq.wd3.myworkdayjobs.com:siteCareersatMQ": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Millennium:mlp.wd5.myworkdayjobs.com:sitemlpcareers": {
-  "fails": 2,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://mlp.wd5.myworkdayjobs.com/wday/cxs/mlp/mlpcareers/jobs",
+  "fails": 3,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Morgan Stanley:ms.wd5.myworkdayjobs.com:siteExternal": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Neuberger Berman:nb.wd1.myworkdayjobs.com:sitenbcareers": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://nb.wd1.myworkdayjobs.com/wday/cxs/nb/nbcareers/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:PIMCO:pimco.wd1.myworkdayjobs.com:sitepimco-careers": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:PJT Partners:pjtpartners.wd1.myworkdayjobs.com:siteStudents": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://pjtpartners.wd1.myworkdayjobs.com/wday/cxs/pjtpartners/Students/jobs",
   "seeded": true
  },
  "workday:Rabobank:rabobank.wd3.myworkdayjobs.com:sitejobs": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Raymond James:raymondjames.wd1.myworkdayjobs.com:siteraymondjamescareers": {
-  "fails": 1,
+  "fails": 2,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/raymondjamescareers/jobs",
   "seeded": true
  },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com:siteRothschildAndCo_Lateral": {
-  "fails": 2,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://rothschildandco.wd3.myworkdayjobs.com/wday/cxs/rothschildandco/RothschildAndCo_Lateral/jobs",
+  "fails": 3,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:S&P Global:spgi.wd5.myworkdayjobs.com:sitespgi_careers": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/spgi_careers/jobs",
   "seeded": true
  },
  "workday:Santander:santandercareers.wd3.myworkdayjobs.com:siteSantanderCareers": {
-  "fails": 2,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='community.workday.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 3,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:State Street:statestreet.wd1.myworkdayjobs.com:siteGlobal": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
-  "seeded": true
- },
- "workday:T. Rowe Price:troweprice.wd5.myworkdayjobs.com:siteTRowePrice": {
   "fails": 2,
   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
+ "workday:T. Rowe Price:troweprice.wd5.myworkdayjobs.com:siteTRowePrice": {
+  "fails": 3,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://troweprice.wd5.myworkdayjobs.com/wday/cxs/troweprice/TRowePrice/jobs",
+  "seeded": true
+ },
  "workday:Vanguard:vanguard.wd5.myworkdayjobs.com:sitevanguard_external": {
-  "fails": 2,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs",
+  "fails": 3,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Wellington Management:wellington.wd5.myworkdayjobs.com:siteExternal": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://wellington.wd5.myworkdayjobs.com/wday/cxs/wellington/External/jobs",
   "seeded": true
  },
  "workday:abrdn:abrdn.wd3.myworkdayjobs.com:siteabrdn": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://abrdn.wd3.myworkdayjobs.com/wday/cxs/abrdn/abrdn/jobs",
+  "fails": 2,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "wp_jobs:Groupe BPCE:": {
