@@ -190,8 +190,8 @@
   "seeded": true
  },
  "oracle_hcm:Goldman Sachs:hdpc.fa.us2.oraclecloud.com:siteCampusHiring": {
-  "fails": 21,
-  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com:siteCX_1001": {
