@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T03:56:24Z",
+ "generated_at": "2026-10-10T04:01:10Z",
  "jobs": [
   {
    "active": true,
@@ -8344,7 +8344,7 @@
    "url": "https://bbva.wd3.myworkdayjobs.com/bbva/job/BBVA-One-Canada-Square-44th-Floor-Canary-Wharf--London-E14-5AA-UK/Business-Administration-Intern---Engineering_JR00116970"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Atlanta-GA-USA/Credit-Analyst-Internship---Atlanta--GA--Summer-2027-_R260025599",
@@ -8404,7 +8404,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Halifax-NS-CAN/Commercial-Banking-Credit-Analyst-Internship---Halifax--Summer-2027--Co-op-Internship----4-months_R260026725"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Indianapolis-IN-USA/Credit-Analyst-Internship---Indianapolis--IN--Summer-2027-_R260025878",
@@ -8534,7 +8534,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/St-Georges-QC-CAN/Personal-Banking-Associate--Winter-2027--Co-op-Internship---Saint-Georges-de-Beauce---4-months_R260026741"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Tampa-FL-USA/Credit-Analyst-Internship---Tampa--FL--Summer-2027-_R260025783",
@@ -8614,7 +8614,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Victoriaville-QC-CAN/Personal-Banking-Associate--Winter-2027--Co-op-Internship---Victoriaville---4-months_R260026738"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Waterloo-ON-CAN/Private-Wealth-Administrative-Assistant--Winter-2027--Co-op-Internship----4-months_R260027648",
