@@ -170,8 +170,8 @@
   "seeded": true
  },
  "jibe:AXA:careers.axa.com": {
-  "fails": 1,
-  "last_error": "HTTPError: 504 Server Error: Gateway Time-out for url: https://careers.axa.com/api/jobs?keywords=internship&limit=100&page=1",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "lever:Apax Partners:apax": {
