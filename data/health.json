@@ -95,8 +95,8 @@
   "seeded": true
  },
  "greenhouse:TPG:tpgcareers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "greenhouse:Tower Research:towerresearchcapital": {
