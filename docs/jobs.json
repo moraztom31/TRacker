@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T07:01:13Z",
+ "generated_at": "2026-10-10T07:20:40Z",
  "jobs": [
   {
    "active": true,
@@ -8414,7 +8414,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Indianapolis-IN-USA/Credit-Analyst-Internship---Indianapolis--IN--Summer-2027-_R260025878"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Los-Angeles-CA-USA/Credit-Analyst-Internship---Los-Angeles-Newport-Beach--CA--Summer-2027-_R260025803",
@@ -8494,7 +8494,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Oakville-ON-CAN/Private-Wealth-Administrative-Assistant---Oakville--Winter-2027--Co-op-Internship----4-months_R260024359-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Phoenix-AZ-USA/Credit-Analyst-Internship---Phoenix--AZ--Summer-2027-_R260025780",
@@ -8504,7 +8504,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Phoenix-AZ-USA/Credit-Analyst-Internship---Phoenix--AZ--Summer-2027-_R260025780"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/San-Francisco-CA-USA/Credit-Analyst-Internship---San-Francisco--CA--Summer-2027-_R260025782",
@@ -8514,7 +8514,7 @@
    "url": "https://bmo.wd3.myworkdayjobs.com/External/job/San-Francisco-CA-USA/Credit-Analyst-Internship---San-Francisco--CA--Summer-2027-_R260025782"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BMO",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "wd:bmo:/job/Seattle-WA-USA/Credit-Analyst-Internship---Seattle--WA--Summer-2027-_R260025784-1",
