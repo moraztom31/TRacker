@@ -190,7 +190,7 @@
   "seeded": true
  },
  "oracle_hcm:Goldman Sachs:hdpc.fa.us2.oraclecloud.com:siteCampusHiring": {
-  "fails": 7,
+  "fails": 8,
   "last_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://hdpc.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLoca",
   "seeded": true
  },
