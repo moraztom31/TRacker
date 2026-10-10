@@ -3617,7 +3617,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/sta-comissions-h-f-1"
  },
  "hl:BNP Paribas:stage-advisory-desk-gestion-de-fortune-h-f-1": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-09T15:08:24Z",
   "id": "hl:BNP Paribas:stage-advisory-desk-gestion-de-fortune-h-f-1",
@@ -3628,7 +3628,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-advisory-desk-gestion-de-fortune-h-f-1"
  },
  "hl:BNP Paribas:stage-almt-global-markets-steering-officer-h-f": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-09T16:06:28Z",
   "id": "hl:BNP Paribas:stage-almt-global-markets-steering-officer-h-f",
@@ -3650,7 +3650,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-coverage-ligne-grands-clients-h-f-1"
  },
  "hl:BNP Paribas:stage-analyste-equity-research-en-immobilier-f-h": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:BNP Paribas:stage-analyste-equity-research-en-immobilier-f-h",
@@ -3716,7 +3716,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-archiviste-h-f"
  },
  "hl:BNP Paribas:stage-assistant-business-development-officer-h-f-1": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:BNP Paribas:stage-assistant-business-development-officer-h-f-1",
@@ -3848,7 +3848,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-product-owner-junior-h-f"
  },
  "hl:BNP Paribas:stage-assistant-recherche-obligations-convertibles-h-f": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-08T22:30:55Z",
   "id": "hl:BNP Paribas:stage-assistant-recherche-obligations-convertibles-h-f",
@@ -4266,7 +4266,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-hq-compliance-project-management-office-brussels-1"
  },
  "hl:BNP Paribas:stage-infrastructure-investment-analyst-h-f-1": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-09T11:06:28Z",
   "id": "hl:BNP Paribas:stage-infrastructure-investment-analyst-h-f-1",
@@ -4332,7 +4332,7 @@
   "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-portfolio-analyst-fmcg-third-party-logistics-fund-f-h"
  },
  "hl:BNP Paribas:stage-quantitative-research-quant-trading-team-h-f": {
-  "active": true,
+  "active": false,
   "company": "BNP Paribas",
   "first_seen": "2026-10-09T16:06:28Z",
   "id": "hl:BNP Paribas:stage-quantitative-research-quant-trading-team-h-f",

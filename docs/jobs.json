@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T00:18:24Z",
+ "generated_at": "2026-10-10T02:01:08Z",
  "jobs": [
   {
    "active": true,
@@ -215,7 +215,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-assistant-sales-commodities-markets-f-h/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T16:06:28Z",
    "id": "hl:BNP Paribas:stage-almt-global-markets-steering-officer-h-f",
@@ -270,7 +270,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-junior-credit-analyst-insurance-pension-h-f-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T16:06:28Z",
    "id": "hl:BNP Paribas:stage-quantitative-research-quant-trading-team-h-f",
@@ -324,7 +324,7 @@
    "url": "https://recrutement.bpce.fr/job/stage-6-mois-charge-daffaires-financements-aeronautiques-et-export-f-h/"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T15:08:24Z",
    "id": "hl:BNP Paribas:stage-advisory-desk-gestion-de-fortune-h-f-1",
@@ -744,7 +744,7 @@
    "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/New-York-City-United-States/Business-Analyst-Summer-Internship_R0123463-2"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-09T11:06:28Z",
    "id": "hl:BNP Paribas:stage-infrastructure-investment-analyst-h-f-1",
@@ -3979,7 +3979,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-analyste-coverage-ligne-grands-clients-h-f-1"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-analyste-equity-research-en-immobilier-f-h",
@@ -4034,7 +4034,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-archiviste-h-f"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-assistant-business-development-officer-h-f-1",
@@ -4144,7 +4144,7 @@
    "url": "https://group.bnpparibas/emploi-carriere/offre-emploi/stage-assistant-product-owner-junior-h-f"
   },
   {
-   "active": true,
+   "active": false,
    "company": "BNP Paribas",
    "first_seen": "2026-10-08T22:30:55Z",
    "id": "hl:BNP Paribas:stage-assistant-recherche-obligations-convertibles-h-f",
