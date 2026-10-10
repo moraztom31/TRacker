@@ -395,8 +395,8 @@
   "seeded": true
  },
  "wp_jobs:Groupe BPCE:": {
-  "fails": 1,
-  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://recrutement.bpce.fr/app/wp-json/wp/v2/job?per_page=100&page=1",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  }
 }
