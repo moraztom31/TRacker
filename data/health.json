@@ -195,7 +195,7 @@
   "seeded": true
  },
  "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com:siteCX_1001": {
-  "fails": 7,
+  "fails": 8,
   "last_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secon",
   "seeded": true
  },
