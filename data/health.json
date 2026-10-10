@@ -195,7 +195,7 @@
   "seeded": true
  },
  "oracle_hcm:JP Morgan:jpmc.fa.oraclecloud.com:siteCX_1001": {
-  "fails": 2,
+  "fails": 3,
   "last_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secon",
   "seeded": true
  },
@@ -320,8 +320,8 @@
   "seeded": true
  },
  "workday:Millennium:mlp.wd5.myworkdayjobs.com:sitemlpcareers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
   "seeded": true
  },
  "workday:Morgan Stanley:ms.wd5.myworkdayjobs.com:siteExternal": {
