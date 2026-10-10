@@ -395,8 +395,8 @@
   "seeded": true
  },
  "wp_jobs:Groupe BPCE:": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='recrutement.bpce.fr', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  }
 }
