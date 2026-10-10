@@ -135,8 +135,8 @@
   "seeded": true
  },
  "html_links:Crédit Agricole / Amundi:https://groupecreditagricole.jobs/fr/nos-offres/:seed2": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=15)",
   "seeded": true
  },
  "html_links:Evercore:obile-0/appcentre-1/brand-6/candidate/jobboard/vacancy/1/adv": {
@@ -215,8 +215,8 @@
   "seeded": true
  },
  "workday:Apollo:athene.wd5.myworkdayjobs.com:siteApollo_Careers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs",
   "seeded": true
  },
  "workday:Ardian:ardian.wd103.myworkdayjobs.com:siteArdianCareers": {
@@ -290,8 +290,8 @@
   "seeded": true
  },
  "workday:Julius Baer:juliusbaer.wd3.myworkdayjobs.com:siteExternal": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://juliusbaer.wd3.myworkdayjobs.com/wday/cxs/juliusbaer/External/jobs",
   "seeded": true
  },
  "workday:LSEG:lseg.wd3.myworkdayjobs.com:siteCareers": {
@@ -305,13 +305,13 @@
   "seeded": true
  },
  "workday:Lombard Odier:lombardodier.wd3.myworkdayjobs.com:siteLombard_Odier_Careers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://lombardodier.wd3.myworkdayjobs.com/wday/cxs/lombardodier/Lombard_Odier_Careers/jobs",
   "seeded": true
  },
  "workday:MUFG:mufgub.wd3.myworkdayjobs.com:siteMUFG-Careers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs",
   "seeded": true
  },
  "workday:Macquarie:mq.wd3.myworkdayjobs.com:siteCareersatMQ": {
@@ -320,13 +320,13 @@
   "seeded": true
  },
  "workday:Millennium:mlp.wd5.myworkdayjobs.com:sitemlpcareers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://mlp.wd5.myworkdayjobs.com/wday/cxs/mlp/mlpcareers/jobs",
   "seeded": true
  },
  "workday:Morgan Stanley:ms.wd5.myworkdayjobs.com:siteExternal": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
   "seeded": true
  },
  "workday:Neuberger Berman:nb.wd1.myworkdayjobs.com:sitenbcareers": {
@@ -345,8 +345,8 @@
   "seeded": true
  },
  "workday:Rabobank:rabobank.wd3.myworkdayjobs.com:sitejobs": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://rabobank.wd3.myworkdayjobs.com/wday/cxs/rabobank/jobs/jobs",
   "seeded": true
  },
  "workday:Raymond James:raymondjames.wd1.myworkdayjobs.com:siteraymondjamescareers": {
@@ -355,18 +355,18 @@
   "seeded": true
  },
  "workday:Rothschild & Co:rothschildandco.wd3.myworkdayjobs.com:siteRothschildAndCo_Lateral": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://rothschildandco.wd3.myworkdayjobs.com/wday/cxs/rothschildandco/RothschildAndCo_Lateral/jobs",
   "seeded": true
  },
  "workday:S&P Global:spgi.wd5.myworkdayjobs.com:sitespgi_careers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/spgi_careers/jobs",
   "seeded": true
  },
  "workday:Santander:santandercareers.wd3.myworkdayjobs.com:siteSantanderCareers": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 502 Server Error: Bad Gateway for url: https://santandercareers.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs",
   "seeded": true
  },
  "workday:State Street:statestreet.wd1.myworkdayjobs.com:siteGlobal": {
@@ -375,18 +375,18 @@
   "seeded": true
  },
  "workday:T. Rowe Price:troweprice.wd5.myworkdayjobs.com:siteTRowePrice": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://troweprice.wd5.myworkdayjobs.com/wday/cxs/troweprice/TRowePrice/jobs",
   "seeded": true
  },
  "workday:Vanguard:vanguard.wd5.myworkdayjobs.com:sitevanguard_external": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs",
   "seeded": true
  },
  "workday:Wellington Management:wellington.wd5.myworkdayjobs.com:siteExternal": {
-  "fails": 0,
-  "last_error": "",
+  "fails": 1,
+  "last_error": "HTTPError: 500 Server Error: Internal Server Error for url: https://wellington.wd5.myworkdayjobs.com/wday/cxs/wellington/External/jobs",
   "seeded": true
  },
  "workday:abrdn:abrdn.wd3.myworkdayjobs.com:siteabrdn": {
