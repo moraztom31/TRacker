@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T00:14:27Z",
+ "generated_at": "2026-10-10T00:18:24Z",
  "jobs": [
   {
    "active": true,
@@ -109,7 +109,7 @@
    "url": "https://hl.wd1.myworkdayjobs.com/Campus/job/New-York-NY-USA/Summer-2027-Research-Intern--Portfolio-Valuation--New-York_R3535"
   },
   {
-   "active": false,
+   "active": true,
    "company": "Neuberger Berman",
    "first_seen": "2026-10-09T18:18:25Z",
    "id": "wd:nb:/job/New-York-NY/MBA-Intern--Stewardship---Sustainability-Summer-2027_R0012713",
