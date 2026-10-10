@@ -220,8 +220,8 @@
   "seeded": true
  },
  "workday:Ardian:ardian.wd103.myworkdayjobs.com:siteArdianCareers": {
-  "fails": 1,
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='ardian.wd103.myworkdayjobs.com', port=443): Read timed out. (read timeout=15)",
+  "fails": 0,
+  "last_error": "",
   "seeded": true
  },
  "workday:BBVA:bbva.wd3.myworkdayjobs.com:sitebbva": {
